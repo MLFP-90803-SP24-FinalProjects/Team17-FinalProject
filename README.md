@@ -33,7 +33,7 @@ For this Lab, you will need to do the following:
 > Modify here: 
 
 **1. List the names of all your teammates:**
-
+Quintessa Guengerich, Yoko Kentilitisca, Hannah Nguyen
 
 **2. Agree as a team, what branching strategy do you plan to use in your final projects? Justify your choices**
 We are going to do GitFlow development because that is what we are used to in previous projects. We prefer having a develop branch and several feature/chore branches.
