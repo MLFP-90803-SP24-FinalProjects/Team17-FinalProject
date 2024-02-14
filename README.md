@@ -36,7 +36,7 @@ For this Lab, you will need to do the following:
 
 
 **2. Agree as a team, what branching strategy do you plan to use in your final projects? Justify your choices**
-
+We are going to do GitFlow development because that is what we are used to in previous projects. We prefer having a develop branch and several feature/chore branches.
 
 **3.Communication: Outline how the team will communicate — including frequency and methods (e.g., email, WhatsApp, team meetings).  What is the maximum expected response time?**
 
