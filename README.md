@@ -39,23 +39,22 @@ Quintessa Guengerich, Yoko Kentilitisca, Hannah Nguyen
 We are going to do GitFlow development because that is what we are used to in previous projects. We prefer having a develop branch and several feature/chore branches.
 
 **3.Communication: Outline how the team will communicate — including frequency and methods (e.g., email, WhatsApp, team meetings).  What is the maximum expected response time?**
-
+Whatsapp and carrier pigeon across the park. Max response time of 2 days, preferred within 4 hrs.
 
 
 **4. Decision-Making: How will decisions be made in this team? How will you stay on track? Do you plan on having meetings or any strategies for working through your final project**
-
+We will discuss primarily in Whatsapp. We will have weekly meetings at Tessa's house.
 
 
 **5. As with any team project there is always the possibility of conflict arising, if it does in the future, how will you resolve differences? List at least two strategies**
-
-
-
+First, we will discuss amongst each other. We are close enough to be able to professionally "call out" each other, and we live nearby. Second, we are available to help each other out if we need to help pick up others' slack.
 
 **6.Commitments: How will you handle different levels of participation and commitment? What process will you follow if someone does not live up to his/her/their responsibilities? (3-5 sentences)**
-
+There is an understanding that everyone is on different levels of their coding experiences. So, by being able to be an open and communicative group, we can all learn from each other and build off of each other's strengths #strengthincollaboration. There is no need to be ashamed when we are all learning, it's best to have weekly check-ups with each other. 
 
 
 **7.Diversity: How will you accommodate different learning and working styles? Talk about your own styles and schedules for working and come to an agreement (3-6 sentences)**
+We think since we all come from different learning, cultural, and social styles, we believe that as a team it makes our need for communication even more important. Everyone has different lives, so we have committed to weekly updates on our project via Whatsapp and when the Sprints are due we will make sure to schedule an in-person meeting with each other the week before to make sure there's enough time to get the project done. We are all flexible and the convenience of us living so close to one another allows us to get the work done efficiently. 
 
 
 
