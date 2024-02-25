@@ -65,12 +65,13 @@ An initial title for your project (e.g. AirBnB Analysis in Pittsburgh).
 
 
 ### Authors
-Right after the title, make sure to include the authors of the project. You should include the following:
-
-* Full names
-* Emails
+Quintessa Guengerich, qguenger@andrew.cmu.edu
+Jewel Kentilitisca, jkentili@andrew.cmu.edu
+Hannah Nguyen, hieuhann@andrew.cmu.edu
 
 ### Brief Description / Context
+This project predicts housing prices based on data of climate indicators. This is relevant because climate change is reshaping U.S. geography, thus, displacing large communities in areas high risk of environmental disasters. 
+
 A brief description/context of the problem you are approaching and problem understanding. Think about answering the following points:
 
 - Why is this topic relevant?
