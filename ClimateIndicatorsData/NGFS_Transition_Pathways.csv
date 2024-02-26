@@ -1,0 +1,580 @@
+Country,ISO2,ISO3,Indicator,Variable,Unit,Model,Scenarios,Source,CTS Code,CTS Name,CTS Full Descriptor,2020,2025,2030,2035,2040,2045,2050
+United States,US,USA,Surface temperature,50th percentile,Degree Celsius,GCAM,Below 2°C,,,,,14.30098,14.50959,14.68799,14.84656,14.97075,15.0531,15.10258
+United States,US,USA,Surface temperature,50th percentile,Degree Celsius,GCAM,Current Policies,,,,,14.25865,14.41171,14.56907,14.71987,14.89008,15.07052,15.2561
+United States,US,USA,Surface temperature,50th percentile,Degree Celsius,GCAM,Delayed transition,,,,,14.30006,14.49378,14.66363,14.86521,15.02773,15.1355,15.18173
+United States,US,USA,Surface temperature,50th percentile,Degree Celsius,GCAM,Fragmented World,,,,,14.30674,14.50757,14.66762,14.84899,14.99117,15.13774,15.28068
+United States,US,USA,Surface temperature,50th percentile,Degree Celsius,GCAM,Low Demand,,,,,14.29984,14.48788,14.66049,14.8091,14.9153,14.97333,14.94472
+United States,US,USA,Surface temperature,50th percentile,Degree Celsius,GCAM,Nationally Determined Contributions (NDCs),,,,,14.30713,14.51215,14.67374,14.85319,15.00088,15.15172,15.31905
+United States,US,USA,Surface temperature,50th percentile,Degree Celsius,GCAM,Net Zero 2050,,,,,14.30125,14.51521,14.69536,14.83829,14.92529,14.96265,14.92245
+United States,US,USA,Surface temperature,50th percentile,Degree Celsius,MESSAGEix-GLOBIOM,Below 2°C,,,,,14.28229,14.49717,14.69939,14.85171,14.96265,15.04193,15.0839
+United States,US,USA,Surface temperature,50th percentile,Degree Celsius,MESSAGEix-GLOBIOM,Current Policies,,,,,14.28846,14.50677,14.66403,14.84369,14.99594,15.14313,15.30206
+United States,US,USA,Surface temperature,50th percentile,Degree Celsius,MESSAGEix-GLOBIOM,Delayed transition,,,,,14.2821,14.49304,14.65981,14.87089,15.02026,15.11169,15.16472
+United States,US,USA,Surface temperature,50th percentile,Degree Celsius,MESSAGEix-GLOBIOM,Fragmented World,,,,,14.28861,14.506,14.66454,14.87184,15.02048,15.12577,15.23875
+United States,US,USA,Surface temperature,50th percentile,Degree Celsius,MESSAGEix-GLOBIOM,Low Demand,,,,,14.28231,14.49865,14.73438,14.85284,14.90005,14.91414,14.90113
+United States,US,USA,Surface temperature,50th percentile,Degree Celsius,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),,,,,14.2888,14.50843,14.66543,14.84386,14.97759,15.09554,15.21879
+United States,US,USA,Surface temperature,50th percentile,Degree Celsius,MESSAGEix-GLOBIOM,Net Zero 2050,,,,,14.28231,14.49804,14.71358,14.82151,14.87017,14.88348,14.86544
+United States,US,USA,Surface temperature,50th percentile,Degree Celsius,REMIND-MAgPIE,Below 2°C,,,,,14.28731505,14.49254558,14.65608886,14.8123269,14.9092827,14.97049826,14.98937622
+United States,US,USA,Surface temperature,50th percentile,Degree Celsius,REMIND-MAgPIE,Current Policies,,,,,14.28731505,14.50167579,14.64990572,14.83122654,14.97839969,15.13309673,15.30876282
+United States,US,USA,Surface temperature,50th percentile,Degree Celsius,REMIND-MAgPIE,Delayed transition,,,,,14.28731505,14.50167579,14.64990572,14.82264431,14.96968894,15.04488409,15.04326261
+United States,US,USA,Surface temperature,50th percentile,Degree Celsius,REMIND-MAgPIE,Fragmented World,,,,,14.28731505,14.50167579,14.64990572,14.82792214,14.97038466,15.09441008,15.20999144
+United States,US,USA,Surface temperature,50th percentile,Degree Celsius,REMIND-MAgPIE,Low Demand,,,,,14.28731505,14.50126328,14.66140698,14.74982081,14.75019504,14.70719574,14.64267973
+United States,US,USA,Surface temperature,50th percentile,Degree Celsius,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),,,,,14.28731505,14.50119043,14.65007372,14.82530916,14.93349026,15.03037913,15.12759906
+United States,US,USA,Surface temperature,50th percentile,Degree Celsius,REMIND-MAgPIE,Net Zero 2050,,,,,14.28731505,14.49595581,14.65628559,14.76676291,14.79175004,14.78633469,14.76939075
+United States,US,USA,Surface temperature,5th percentile,Degree Celsius,GCAM,Below 2°C,,,,,14.16697,14.30082,14.43134,14.53136,14.60024,14.65104,14.67982
+United States,US,USA,Surface temperature,5th percentile,Degree Celsius,GCAM,Current Policies,,,,,14.16656,14.29694,14.41773,14.54516,14.67744,14.80294,14.93198
+United States,US,USA,Surface temperature,5th percentile,Degree Celsius,GCAM,Delayed transition,,,,,14.16661,14.29418,14.42059,14.55959,14.65477,14.71949,14.74628
+United States,US,USA,Surface temperature,5th percentile,Degree Celsius,GCAM,Fragmented World,,,,,14.16669,14.29629,14.41828,14.54606,14.65657,14.76139,14.84759
+United States,US,USA,Surface temperature,5th percentile,Degree Celsius,GCAM,Low Demand,,,,,14.1664,14.29352,14.41272,14.51102,14.56021,14.58079,14.55382
+United States,US,USA,Surface temperature,5th percentile,Degree Celsius,GCAM,Nationally Determined Contributions (NDCs),,,,,14.16692,14.29926,14.42415,14.54574,14.65989,14.77539,14.88049
+United States,US,USA,Surface temperature,5th percentile,Degree Celsius,GCAM,Net Zero 2050,,,,,14.16706,14.30545,14.43194,14.51246,14.54721,14.56645,14.52637
+United States,US,USA,Surface temperature,5th percentile,Degree Celsius,MESSAGEix-GLOBIOM,Below 2°C,,,,,14.15877,14.31132,14.44552,14.5438,14.60817,14.64184,14.65799
+United States,US,USA,Surface temperature,5th percentile,Degree Celsius,MESSAGEix-GLOBIOM,Current Policies,,,,,14.15849,14.30889,14.42216,14.55194,14.67809,14.78079,14.87578
+United States,US,USA,Surface temperature,5th percentile,Degree Celsius,MESSAGEix-GLOBIOM,Delayed transition,,,,,14.1585,14.30578,14.42246,14.57619,14.66418,14.70492,14.72092
+United States,US,USA,Surface temperature,5th percentile,Degree Celsius,MESSAGEix-GLOBIOM,Fragmented World,,,,,14.15864,14.30876,14.42222,14.56771,14.67393,14.74869,14.79589
+United States,US,USA,Surface temperature,5th percentile,Degree Celsius,MESSAGEix-GLOBIOM,Low Demand,,,,,14.15878,14.31025,14.44553,14.50185,14.51618,14.50421,14.47551
+United States,US,USA,Surface temperature,5th percentile,Degree Celsius,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),,,,,14.15887,14.31079,14.42104,14.54687,14.64857,14.72628,14.79095
+United States,US,USA,Surface temperature,5th percentile,Degree Celsius,MESSAGEix-GLOBIOM,Net Zero 2050,,,,,14.15878,14.31289,14.44945,14.51269,14.52887,14.50754,14.48697
+United States,US,USA,Surface temperature,5th percentile,Degree Celsius,REMIND-MAgPIE,Below 2°C,,,,,14.15537429,14.30151435,14.4213131,14.52410674,14.57208753,14.58300215,14.58670669
+United States,US,USA,Surface temperature,5th percentile,Degree Celsius,REMIND-MAgPIE,Current Policies,,,,,14.15537429,14.30088952,14.41434749,14.53912365,14.65226428,14.75161091,14.84691556
+United States,US,USA,Surface temperature,5th percentile,Degree Celsius,REMIND-MAgPIE,Delayed transition,,,,,14.15537429,14.30088952,14.41434749,14.53727136,14.61537135,14.64156307,14.61497359
+United States,US,USA,Surface temperature,5th percentile,Degree Celsius,REMIND-MAgPIE,Fragmented World,,,,,14.15537429,14.30088952,14.41434749,14.5360934,14.63455562,14.7100955,14.76401133
+United States,US,USA,Surface temperature,5th percentile,Degree Celsius,REMIND-MAgPIE,Low Demand,,,,,14.15537429,14.30678976,14.41405633,14.46643033,14.42585868,14.36548445,14.29801619
+United States,US,USA,Surface temperature,5th percentile,Degree Celsius,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),,,,,14.15537429,14.2992196,14.41199661,14.52273626,14.59928308,14.65825659,14.69332885
+United States,US,USA,Surface temperature,5th percentile,Degree Celsius,REMIND-MAgPIE,Net Zero 2050,,,,,14.15537429,14.30167515,14.415704,14.47992806,14.46884606,14.43079108,14.39813834
+United States,US,USA,Surface temperature,95th percentile,Degree Celsius,GCAM,Below 2°C,,,,,14.44586,14.73436,15.03211,15.30117,15.49515,15.65093,15.80568
+United States,US,USA,Surface temperature,95th percentile,Degree Celsius,GCAM,Current Policies,,,,,14.40999,14.65907,14.89479,15.13091,15.39304,15.63268,15.90243
+United States,US,USA,Surface temperature,95th percentile,Degree Celsius,GCAM,Delayed transition,,,,,14.44506,14.71589,14.97773,15.30218,15.5417,15.72872,15.8861
+United States,US,USA,Surface temperature,95th percentile,Degree Celsius,GCAM,Fragmented World,,,,,14.41023,14.65891,14.89503,15.14376,15.39845,15.60067,15.8185
+United States,US,USA,Surface temperature,95th percentile,Degree Celsius,GCAM,Low Demand,,,,,14.44482,14.70959,14.9868,15.24368,15.4249,15.55799,15.5987
+United States,US,USA,Surface temperature,95th percentile,Degree Celsius,GCAM,Nationally Determined Contributions (NDCs),,,,,14.4105,14.66557,14.90782,15.15335,15.40779,15.61696,15.85599
+United States,US,USA,Surface temperature,95th percentile,Degree Celsius,GCAM,Net Zero 2050,,,,,14.44613,14.74153,15.04952,15.30443,15.46791,15.57615,15.58271
+United States,US,USA,Surface temperature,95th percentile,Degree Celsius,MESSAGEix-GLOBIOM,Below 2°C,,,,,14.42343,14.73057,15.04795,15.30979,15.4896,15.63151,15.78893
+United States,US,USA,Surface temperature,95th percentile,Degree Celsius,MESSAGEix-GLOBIOM,Current Policies,,,,,14.38958,14.66564,14.88082,15.12478,15.39723,15.61484,15.86437
+United States,US,USA,Surface temperature,95th percentile,Degree Celsius,MESSAGEix-GLOBIOM,Delayed transition,,,,,14.42322,14.72249,14.96288,15.304,15.55007,15.70774,15.86767
+United States,US,USA,Surface temperature,95th percentile,Degree Celsius,MESSAGEix-GLOBIOM,Fragmented World,,,,,14.38968,14.6651,14.88163,15.17109,15.44235,15.62803,15.81414
+United States,US,USA,Surface temperature,95th percentile,Degree Celsius,MESSAGEix-GLOBIOM,Low Demand,,,,,14.42346,14.73308,15.10443,15.34369,15.46604,15.53738,15.59583
+United States,US,USA,Surface temperature,95th percentile,Degree Celsius,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),,,,,14.38988,14.66986,14.89025,15.12965,15.38843,15.57193,15.77849
+United States,US,USA,Surface temperature,95th percentile,Degree Celsius,MESSAGEix-GLOBIOM,Net Zero 2050,,,,,14.42346,14.7321,15.06906,15.2871,15.38104,15.44755,15.50929
+United States,US,USA,Surface temperature,95th percentile,Degree Celsius,REMIND-MAgPIE,Below 2°C,,,,,14.38384878,14.71844895,14.95769007,15.22442467,15.41095024,15.54247366,15.66818838
+United States,US,USA,Surface temperature,95th percentile,Degree Celsius,REMIND-MAgPIE,Current Policies,,,,,14.38384878,14.65711609,14.85436458,15.11246683,15.3670468,15.59975233,15.87128766
+United States,US,USA,Surface temperature,95th percentile,Degree Celsius,REMIND-MAgPIE,Delayed transition,,,,,14.38384878,14.65711609,14.85436458,15.22069673,15.46057216,15.60925411,15.72641172
+United States,US,USA,Surface temperature,95th percentile,Degree Celsius,REMIND-MAgPIE,Fragmented World,,,,,14.38384878,14.65711609,14.85436458,15.10864603,15.36502707,15.57088199,15.77804429
+United States,US,USA,Surface temperature,95th percentile,Degree Celsius,REMIND-MAgPIE,Low Demand,,,,,14.38384878,14.71479528,14.96880756,15.16414867,15.25635438,15.26639194,15.24123508
+United States,US,USA,Surface temperature,95th percentile,Degree Celsius,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),,,,,14.38384878,14.65424159,14.85833533,15.10757559,15.34509587,15.5044212,15.68508153
+United States,US,USA,Surface temperature,95th percentile,Degree Celsius,REMIND-MAgPIE,Net Zero 2050,,,,,14.38384878,14.72249343,14.96639288,15.19363559,15.2896675,15.32541922,15.37665093
+United States,US,USA,Emissions and CCS,Bioenergy with CCS,Mt CO2/yr,GCAM,Below 2°C,,,,,4.4466,4.548,265.9401,549.8825,790.4015,990.8093,1146.6024
+United States,US,USA,Emissions and CCS,Bioenergy with CCS,Mt CO2/yr,GCAM,Current Policies,,,,,4.4559,4.5602,23.1908,76.679,85.6563,99.3093,132.3072
+United States,US,USA,Emissions and CCS,Bioenergy with CCS,Mt CO2/yr,GCAM,Delayed transition,,,,,4.4576,4.5622,23.1991,334.4981,829.6886,1172.5764,1434.7835
+United States,US,USA,Emissions and CCS,Bioenergy with CCS,Mt CO2/yr,GCAM,Fragmented World,,,,,4.4533,4.5569,23.1731,234.5054,588.8426,1006.9314,1390.0705
+United States,US,USA,Emissions and CCS,Bioenergy with CCS,Mt CO2/yr,GCAM,Low Demand,,,,,4.4408,4.3218,74.5604,420.0648,722.7998,889.0157,1409.5663
+United States,US,USA,Emissions and CCS,Bioenergy with CCS,Mt CO2/yr,GCAM,Nationally Determined Contributions (NDCs),,,,,4.4544,4.5446,409.9014,500.0697,571.8713,649.2231,771.2977
+United States,US,USA,Emissions and CCS,Bioenergy with CCS,Mt CO2/yr,GCAM,Net Zero 2050,,,,,4.4435,4.6073,455.5144,776.6102,982.3082,1011.2428,1352.8958
+United States,US,USA,Emissions and CCS,Bioenergy with CCS,Mt CO2/yr,MESSAGEix-GLOBIOM,Below 2°C,,,,,0.0,0.0,3.8994,10.5891,14.8116,33.1546,54.1206
+United States,US,USA,Emissions and CCS,Bioenergy with CCS,Mt CO2/yr,MESSAGEix-GLOBIOM,Delayed transition,,,,,0.0,0.0,0.0,3.8693,3.808,14.4574,22.3322
+United States,US,USA,Emissions and CCS,Bioenergy with CCS,Mt CO2/yr,MESSAGEix-GLOBIOM,Fragmented World,,,,,0.0,0.0,0.0,3.8077,10.1992,20.858,39.9103
+United States,US,USA,Emissions and CCS,Bioenergy with CCS,Mt CO2/yr,MESSAGEix-GLOBIOM,Low Demand,,,,,0.0,0.0,3.8665,10.2289,21.2783,40.6762,72.2966
+United States,US,USA,Emissions and CCS,Bioenergy with CCS,Mt CO2/yr,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),,,,,0.0,0.0,0.0,3.8948,9.5754,17.6205,19.4641
+United States,US,USA,Emissions and CCS,Bioenergy with CCS,Mt CO2/yr,MESSAGEix-GLOBIOM,Net Zero 2050,,,,,0.0,0.0,3.8665,10.1377,15.4607,26.0828,42.3391
+United States,US,USA,Emissions and CCS,Bioenergy with CCS,Mt CO2/yr,REMIND-MAgPIE,Below 2°C,,,,,2.2551,28.0988,90.3667,174.3459,269.6474,349.0624,395.7317
+United States,US,USA,Emissions and CCS,Bioenergy with CCS,Mt CO2/yr,REMIND-MAgPIE,Current Policies,,,,,2.2551,21.0603,41.4732,42.3444,42.0721,41.3639,39.2259
+United States,US,USA,Emissions and CCS,Bioenergy with CCS,Mt CO2/yr,REMIND-MAgPIE,Delayed transition,,,,,2.2551,21.0603,41.4732,56.144,234.218,557.1358,705.7153
+United States,US,USA,Emissions and CCS,Bioenergy with CCS,Mt CO2/yr,REMIND-MAgPIE,Fragmented World,,,,,2.2551,21.0603,41.4732,49.3613,87.8406,106.7281,105.0791
+United States,US,USA,Emissions and CCS,Bioenergy with CCS,Mt CO2/yr,REMIND-MAgPIE,Low Demand,,,,,2.2551,28.0989,143.9179,303.629,461.5619,550.073,615.0875
+United States,US,USA,Emissions and CCS,Bioenergy with CCS,Mt CO2/yr,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),,,,,2.2551,28.0989,136.5534,289.2583,450.7993,527.8435,548.4697
+United States,US,USA,Emissions and CCS,Bioenergy with CCS,Mt CO2/yr,REMIND-MAgPIE,Net Zero 2050,,,,,2.2551,28.0991,231.6033,519.6871,724.7055,748.8147,735.9288
+United States,US,USA,Primary energy,Biomass,EJ/yr,GCAM,Below 2°C,,,,,5.5536,5.52,8.3202,10.9535,13.2544,15.4185,16.8826
+United States,US,USA,Primary energy,Biomass,EJ/yr,GCAM,Current Policies,,,,,5.566,5.5823,6.3431,7.017,7.9081,9.6242,11.6424
+United States,US,USA,Primary energy,Biomass,EJ/yr,GCAM,Delayed transition,,,,,5.5661,5.5813,6.3373,9.0155,14.0104,17.6303,19.7288
+United States,US,USA,Primary energy,Biomass,EJ/yr,GCAM,Fragmented World,,,,,5.5621,5.5765,6.3338,8.366,11.9778,17.1681,21.262
+United States,US,USA,Primary energy,Biomass,EJ/yr,GCAM,Low Demand,,,,,5.5457,5.3178,5.6237,8.5992,11.5796,12.9583,19.3527
+United States,US,USA,Primary energy,Biomass,EJ/yr,GCAM,Nationally Determined Contributions (NDCs),,,,,5.5638,5.5118,10.2381,11.5286,12.9416,15.2082,17.689
+United States,US,USA,Primary energy,Biomass,EJ/yr,GCAM,Net Zero 2050,,,,,5.549,5.591,10.064,13.1403,14.8677,14.2038,18.372
+United States,US,USA,Primary energy,Biomass,EJ/yr,MESSAGEix-GLOBIOM,Below 2°C,,,,,6.4109,6.4227,7.4478,6.539,6.3799,5.6888,4.9719
+United States,US,USA,Primary energy,Biomass,EJ/yr,MESSAGEix-GLOBIOM,Current Policies,,,,,6.4376,6.5199,7.7067,6.6532,6.7323,5.6861,5.1577
+United States,US,USA,Primary energy,Biomass,EJ/yr,MESSAGEix-GLOBIOM,Delayed transition,,,,,6.4388,6.522,7.7126,6.6268,6.4139,5.7622,5.3581
+United States,US,USA,Primary energy,Biomass,EJ/yr,MESSAGEix-GLOBIOM,Fragmented World,,,,,5.3209,5.5608,6.8161,5.8851,5.4402,5.1668,4.8503
+United States,US,USA,Primary energy,Biomass,EJ/yr,MESSAGEix-GLOBIOM,Low Demand,,,,,6.4363,6.4443,7.8482,7.0135,7.0912,6.4477,5.2099
+United States,US,USA,Primary energy,Biomass,EJ/yr,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),,,,,6.4152,6.4257,7.7663,7.2638,6.9048,6.0897,5.1004
+United States,US,USA,Primary energy,Biomass,EJ/yr,MESSAGEix-GLOBIOM,Net Zero 2050,,,,,6.4078,6.4205,7.1446,6.3528,6.9983,6.66,5.9494
+United States,US,USA,Primary energy,Biomass,EJ/yr,REMIND-MAgPIE,Below 2°C,,,,,5.3715,7.1487,7.9169,8.083,8.4019,8.9322,9.8538
+United States,US,USA,Primary energy,Biomass,EJ/yr,REMIND-MAgPIE,Current Policies,,,,,5.3715,7.0377,6.6051,6.0945,5.8643,6.1948,6.101
+United States,US,USA,Primary energy,Biomass,EJ/yr,REMIND-MAgPIE,Delayed transition,,,,,5.3715,7.0377,6.6051,6.3777,8.3315,12.1475,15.4823
+United States,US,USA,Primary energy,Biomass,EJ/yr,REMIND-MAgPIE,Fragmented World,,,,,5.3715,7.0377,6.6051,6.4847,7.9372,9.3507,10.8333
+United States,US,USA,Primary energy,Biomass,EJ/yr,REMIND-MAgPIE,Low Demand,,,,,5.3715,6.969,8.7826,10.4991,12.1285,13.0172,13.6145
+United States,US,USA,Primary energy,Biomass,EJ/yr,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),,,,,5.3715,7.366,9.0841,10.4359,11.9197,13.2881,14.5395
+United States,US,USA,Primary energy,Biomass,EJ/yr,REMIND-MAgPIE,Net Zero 2050,,,,,5.3715,7.6041,9.5819,12.8815,15.5685,16.1,15.9517
+United States,US,USA,Primary energy,Coal,EJ/yr,GCAM,Below 2°C,,,,,8.9306,7.3502,1.7676,1.2851,0.8424,0.6741,0.619
+United States,US,USA,Primary energy,Coal,EJ/yr,GCAM,Current Policies,,,,,8.935,8.056,4.6873,5.5982,4.9481,3.9472,2.9573
+United States,US,USA,Primary energy,Coal,EJ/yr,GCAM,Delayed transition,,,,,8.9349,8.0545,4.6854,1.8827,0.7811,0.6076,0.5062
+United States,US,USA,Primary energy,Coal,EJ/yr,GCAM,Fragmented World,,,,,8.9332,8.0532,4.6842,2.7958,1.2473,0.7586,0.6439
+United States,US,USA,Primary energy,Coal,EJ/yr,GCAM,Low Demand,,,,,8.929,8.706,2.5215,1.1326,0.688,0.5654,0.4896
+United States,US,USA,Primary energy,Coal,EJ/yr,GCAM,Nationally Determined Contributions (NDCs),,,,,8.9345,7.6668,1.5267,0.9909,0.7331,0.6383,0.6258
+United States,US,USA,Primary energy,Coal,EJ/yr,GCAM,Net Zero 2050,,,,,8.9304,5.689,1.1878,0.8645,0.6481,0.522,0.432
+United States,US,USA,Primary energy,Coal,EJ/yr,MESSAGEix-GLOBIOM,Below 2°C,,,,,13.0761,6.8287,2.5888,1.5937,0.6552,0.4073,0.2621
+United States,US,USA,Primary energy,Coal,EJ/yr,MESSAGEix-GLOBIOM,Current Policies,,,,,13.083,13.863,13.1975,10.9499,6.2783,6.7002,6.8774
+United States,US,USA,Primary energy,Coal,EJ/yr,MESSAGEix-GLOBIOM,Delayed transition,,,,,13.0871,13.8697,13.2062,2.145,1.1135,0.7131,0.6326
+United States,US,USA,Primary energy,Coal,EJ/yr,MESSAGEix-GLOBIOM,Fragmented World,,,,,13.4738,14.222,13.465,6.3101,2.0987,0.7785,0.3458
+United States,US,USA,Primary energy,Coal,EJ/yr,MESSAGEix-GLOBIOM,Low Demand,,,,,13.0978,6.8406,2.6708,1.6764,1.2684,1.6963,1.9285
+United States,US,USA,Primary energy,Coal,EJ/yr,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),,,,,13.079,6.8283,4.6269,2.0579,1.3405,0.9871,0.7226
+United States,US,USA,Primary energy,Coal,EJ/yr,MESSAGEix-GLOBIOM,Net Zero 2050,,,,,13.075,6.8283,2.6355,1.6667,0.9473,1.6851,1.0167
+United States,US,USA,Primary energy,Coal,EJ/yr,REMIND-MAgPIE,Below 2°C,,,,,8.3332,3.7453,0.6255,0.4726,0.3168,0.2188,0.203
+United States,US,USA,Primary energy,Coal,EJ/yr,REMIND-MAgPIE,Current Policies,,,,,8.3332,3.9089,3.5107,3.0096,1.6066,1.5137,2.2344
+United States,US,USA,Primary energy,Coal,EJ/yr,REMIND-MAgPIE,Delayed transition,,,,,8.3332,3.9089,3.5107,2.4785,0.2786,0.1743,0.1354
+United States,US,USA,Primary energy,Coal,EJ/yr,REMIND-MAgPIE,Fragmented World,,,,,8.3332,3.9089,3.5107,2.6492,0.4413,0.2633,0.251
+United States,US,USA,Primary energy,Coal,EJ/yr,REMIND-MAgPIE,Low Demand,,,,,8.3332,3.1344,0.3527,0.2454,0.1908,0.1411,0.101
+United States,US,USA,Primary energy,Coal,EJ/yr,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),,,,,8.3332,3.4904,0.4826,0.335,0.2728,0.2334,0.2144
+United States,US,USA,Primary energy,Coal,EJ/yr,REMIND-MAgPIE,Net Zero 2050,,,,,8.3332,3.1991,0.4606,0.293,0.2281,0.174,0.1321
+United States,US,USA,Final energy,Electricity,EJ/yr,GCAM,Below 2°C,,,,,14.3719,16.853,19.0909,21.4417,24.0662,26.6038,29.7498
+United States,US,USA,Final energy,Electricity,EJ/yr,GCAM,Current Policies,,,,,14.3691,16.9237,18.7571,20.5753,21.9702,23.041,24.1858
+United States,US,USA,Final energy,Electricity,EJ/yr,GCAM,Delayed transition,,,,,14.369,16.9236,18.757,20.918,23.7068,26.8278,32.2426
+United States,US,USA,Final energy,Electricity,EJ/yr,GCAM,Fragmented World,,,,,14.3701,16.9256,18.7604,20.7116,22.9931,25.0725,27.61
+United States,US,USA,Final energy,Electricity,EJ/yr,GCAM,Low Demand,,,,,14.3735,15.5074,15.4032,17.6657,20.2628,23.719,26.6354
+United States,US,USA,Final energy,Electricity,EJ/yr,GCAM,Nationally Determined Contributions (NDCs),,,,,14.3698,16.8888,19.3599,20.8742,22.5665,23.8555,25.1605
+United States,US,USA,Final energy,Electricity,EJ/yr,GCAM,Net Zero 2050,,,,,14.3739,16.7525,19.5629,22.3579,26.2647,30.9291,34.0061
+United States,US,USA,Final energy,Electricity,EJ/yr,MESSAGEix-GLOBIOM,Below 2°C,,,,,13.9163,15.1956,15.6897,16.5026,18.0186,20.0612,22.5681
+United States,US,USA,Final energy,Electricity,EJ/yr,MESSAGEix-GLOBIOM,Current Policies,,,,,13.8738,14.7397,15.3969,16.1189,16.7507,17.4971,18.2641
+United States,US,USA,Final energy,Electricity,EJ/yr,MESSAGEix-GLOBIOM,Delayed transition,,,,,13.8601,14.7198,15.3696,16.3771,17.5617,19.3645,21.8436
+United States,US,USA,Final energy,Electricity,EJ/yr,MESSAGEix-GLOBIOM,Fragmented World,,,,,13.8806,14.7474,15.4088,16.2442,17.0991,18.2822,20.2172
+United States,US,USA,Final energy,Electricity,EJ/yr,MESSAGEix-GLOBIOM,Low Demand,,,,,13.9602,15.2634,13.9875,14.2189,14.253,14.7809,15.8457
+United States,US,USA,Final energy,Electricity,EJ/yr,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),,,,,13.8846,15.1471,15.5932,17.1319,17.9269,19.6059,21.3146
+United States,US,USA,Final energy,Electricity,EJ/yr,MESSAGEix-GLOBIOM,Net Zero 2050,,,,,13.9629,15.2696,16.8738,19.0881,21.2598,23.7055,26.7256
+United States,US,USA,Final energy,Electricity,EJ/yr,REMIND-MAgPIE,Below 2°C,,,,,14.1446,14.5258,16.2193,18.268,20.4741,21.2288,21.9379
+United States,US,USA,Final energy,Electricity,EJ/yr,REMIND-MAgPIE,Current Policies,,,,,14.1446,14.4421,16.3091,17.7715,18.5484,18.7556,19.048
+United States,US,USA,Final energy,Electricity,EJ/yr,REMIND-MAgPIE,Delayed transition,,,,,14.1446,14.4421,16.3091,18.1736,20.0893,21.9434,22.4933
+United States,US,USA,Final energy,Electricity,EJ/yr,REMIND-MAgPIE,Fragmented World,,,,,14.1446,14.4421,16.3091,18.1398,19.0982,20.2442,20.3499
+United States,US,USA,Final energy,Electricity,EJ/yr,REMIND-MAgPIE,Low Demand,,,,,14.1446,13.8755,13.9987,15.8782,16.9496,17.4677,17.381
+United States,US,USA,Final energy,Electricity,EJ/yr,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),,,,,14.1446,14.5288,15.6384,18.3839,20.0711,21.2989,21.2046
+United States,US,USA,Final energy,Electricity,EJ/yr,REMIND-MAgPIE,Net Zero 2050,,,,,14.1446,14.3896,16.185,18.9651,22.1323,23.2875,22.8556
+United States,US,USA,Emissions and CCS,Energy and industrial processes CO2 emissions,Mt CO2/yr,GCAM,Below 2°C,,,,,4314.4803,4078.7255,2856.1938,2171.5233,1507.1584,878.1579,257.5395
+United States,US,USA,Emissions and CCS,Energy and industrial processes CO2 emissions,Mt CO2/yr,GCAM,Current Policies,,,,,4316.0404,4186.2618,3628.8892,3531.6374,3378.9037,3206.4826,3002.0196
+United States,US,USA,Emissions and CCS,Energy and industrial processes CO2 emissions,Mt CO2/yr,GCAM,Delayed transition,,,,,4317.502,4187.85,3630.5117,2619.26,1465.6762,412.6328,-630.5209
+United States,US,USA,Emissions and CCS,Energy and industrial processes CO2 emissions,Mt CO2/yr,GCAM,Fragmented World,,,,,4318.2483,4188.5108,3631.089,2911.2593,2035.138,1170.4769,322.2509
+United States,US,USA,Emissions and CCS,Energy and industrial processes CO2 emissions,Mt CO2/yr,GCAM,Low Demand,,,,,4316.4041,4035.8528,2867.9572,1937.3579,1038.1072,207.8348,-714.264
+United States,US,USA,Emissions and CCS,Energy and industrial processes CO2 emissions,Mt CO2/yr,GCAM,Nationally Determined Contributions (NDCs),,,,,4317.0031,4177.95,2749.1471,2521.3402,2268.7196,2022.3045,1754.0637
+United States,US,USA,Emissions and CCS,Energy and industrial processes CO2 emissions,Mt CO2/yr,GCAM,Net Zero 2050,,,,,4317.3627,3877.2609,2401.8993,1496.7456,618.6549,-109.5503,-783.1911
+United States,US,USA,Emissions and CCS,Energy and industrial processes CO2 emissions,Mt CO2/yr,MESSAGEix-GLOBIOM,Below 2°C,,,,,5008.8914,4564.1646,3688.4571,3455.3058,3132.3263,2640.1156,1988.2656
+United States,US,USA,Emissions and CCS,Energy and industrial processes CO2 emissions,Mt CO2/yr,MESSAGEix-GLOBIOM,Current Policies,,,,,5003.3108,5369.6615,5123.6662,5199.2446,4666.6021,4761.5906,4956.7395
+United States,US,USA,Emissions and CCS,Energy and industrial processes CO2 emissions,Mt CO2/yr,MESSAGEix-GLOBIOM,Delayed transition,,,,,5003.8589,5370.7399,5124.7804,4095.3709,3590.3305,2990.7327,2370.9809
+United States,US,USA,Emissions and CCS,Energy and industrial processes CO2 emissions,Mt CO2/yr,MESSAGEix-GLOBIOM,Fragmented World,,,,,5113.7621,5467.1793,5201.056,4622.6503,3988.944,3383.1065,2841.9586
+United States,US,USA,Emissions and CCS,Energy and industrial processes CO2 emissions,Mt CO2/yr,MESSAGEix-GLOBIOM,Low Demand,,,,,4898.3943,4435.5446,2710.1359,2027.8499,1477.0352,1137.391,749.8325
+United States,US,USA,Emissions and CCS,Energy and industrial processes CO2 emissions,Mt CO2/yr,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),,,,,4993.3319,4546.4296,3990.1438,3851.2972,3561.1671,3257.4335,3131.0112
+United States,US,USA,Emissions and CCS,Energy and industrial processes CO2 emissions,Mt CO2/yr,MESSAGEix-GLOBIOM,Net Zero 2050,,,,,5005.6834,4560.5472,2679.1461,1824.3404,1341.313,875.7405,539.5169
+United States,US,USA,Emissions and CCS,Energy and industrial processes CO2 emissions,Mt CO2/yr,REMIND-MAgPIE,Below 2°C,,,,,4939.237,4138.7084,3189.4466,2132.8668,1232.5464,586.1259,295.2028
+United States,US,USA,Emissions and CCS,Energy and industrial processes CO2 emissions,Mt CO2/yr,REMIND-MAgPIE,Current Policies,,,,,4939.237,4187.6843,3766.6184,3215.0667,2629.7051,2228.1297,2038.7631
+United States,US,USA,Emissions and CCS,Energy and industrial processes CO2 emissions,Mt CO2/yr,REMIND-MAgPIE,Delayed transition,,,,,4939.237,4187.6843,3766.6184,2976.6383,1107.4658,63.4175,-136.5405
+United States,US,USA,Emissions and CCS,Energy and industrial processes CO2 emissions,Mt CO2/yr,REMIND-MAgPIE,Fragmented World,,,,,4939.237,4187.6843,3766.6184,3059.112,1744.5555,1010.5364,688.5746
+United States,US,USA,Emissions and CCS,Energy and industrial processes CO2 emissions,Mt CO2/yr,REMIND-MAgPIE,Low Demand,,,,,4939.237,3878.6365,2130.6164,1027.9455,198.9176,-127.1723,-338.4317
+United States,US,USA,Emissions and CCS,Energy and industrial processes CO2 emissions,Mt CO2/yr,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),,,,,4939.237,4063.5427,2837.1762,1740.2216,866.3059,416.0092,204.8123
+United States,US,USA,Emissions and CCS,Energy and industrial processes CO2 emissions,Mt CO2/yr,REMIND-MAgPIE,Net Zero 2050,,,,,4939.237,3977.5244,2299.6997,893.6206,29.4967,-228.2855,-343.5179
+United States,US,USA,Emissions and CCS,Fossil energy CCS,Mt CO2/yr,GCAM,Below 2°C,,,,,0.2694,6.4883,42.0712,106.8101,167.5552,219.7016,284.8712
+United States,US,USA,Emissions and CCS,Fossil energy CCS,Mt CO2/yr,GCAM,Current Policies,,,,,0.2699,5.7257,27.788,65.5189,100.3224,121.3514,134.3998
+United States,US,USA,Emissions and CCS,Fossil energy CCS,Mt CO2/yr,GCAM,Delayed transition,,,,,0.2701,5.7309,27.8128,80.7038,148.3703,227.2064,314.2502
+United States,US,USA,Emissions and CCS,Fossil energy CCS,Mt CO2/yr,GCAM,Fragmented World,,,,,0.2703,5.734,27.8283,74.9409,131.9725,176.6417,220.1177
+United States,US,USA,Emissions and CCS,Fossil energy CCS,Mt CO2/yr,GCAM,Low Demand,,,,,0.27,5.7792,37.394,102.5378,172.0391,261.976,313.5536
+United States,US,USA,Emissions and CCS,Fossil energy CCS,Mt CO2/yr,GCAM,Nationally Determined Contributions (NDCs),,,,,0.2701,5.5669,35.1069,79.2176,120.8857,147.0973,164.3274
+United States,US,USA,Emissions and CCS,Fossil energy CCS,Mt CO2/yr,GCAM,Net Zero 2050,,,,,0.2702,7.3789,50.0434,138.6229,229.6942,333.8832,350.258
+United States,US,USA,Emissions and CCS,Fossil energy CCS,Mt CO2/yr,MESSAGEix-GLOBIOM,Below 2°C,,,,,0.0,0.0,8.8872,24.5588,57.6635,121.0864,211.1686
+United States,US,USA,Emissions and CCS,Fossil energy CCS,Mt CO2/yr,MESSAGEix-GLOBIOM,Current Policies,,,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+United States,US,USA,Emissions and CCS,Fossil energy CCS,Mt CO2/yr,MESSAGEix-GLOBIOM,Delayed transition,,,,,0.0,0.0,0.0,36.6152,88.3295,153.3638,253.4087
+United States,US,USA,Emissions and CCS,Fossil energy CCS,Mt CO2/yr,MESSAGEix-GLOBIOM,Fragmented World,,,,,0.0,0.0,0.0,8.7667,31.8815,87.213,155.5007
+United States,US,USA,Emissions and CCS,Fossil energy CCS,Mt CO2/yr,MESSAGEix-GLOBIOM,Low Demand,,,,,0.0,0.0,79.6439,138.2393,199.8341,318.3687,429.3317
+United States,US,USA,Emissions and CCS,Fossil energy CCS,Mt CO2/yr,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),,,,,0.0,0.0,0.0,8.8513,22.4014,54.0625,88.004
+United States,US,USA,Emissions and CCS,Fossil energy CCS,Mt CO2/yr,MESSAGEix-GLOBIOM,Net Zero 2050,,,,,0.0,0.0,122.7464,156.6616,129.0372,226.0468,182.768
+United States,US,USA,Emissions and CCS,Fossil energy CCS,Mt CO2/yr,REMIND-MAgPIE,Below 2°C,,,,,0.0,0.0012,4.9595,122.8648,189.2924,167.7889,90.9824
+United States,US,USA,Emissions and CCS,Fossil energy CCS,Mt CO2/yr,REMIND-MAgPIE,Current Policies,,,,,0.0,0.001,0.0017,0.0017,0.0017,0.0017,0.6567
+United States,US,USA,Emissions and CCS,Fossil energy CCS,Mt CO2/yr,REMIND-MAgPIE,Delayed transition,,,,,0.0,0.001,0.0017,0.0016,57.0863,44.4642,5.4063
+United States,US,USA,Emissions and CCS,Fossil energy CCS,Mt CO2/yr,REMIND-MAgPIE,Fragmented World,,,,,0.0,0.001,0.0017,0.0017,0.0017,0.0011,0.0007
+United States,US,USA,Emissions and CCS,Fossil energy CCS,Mt CO2/yr,REMIND-MAgPIE,Low Demand,,,,,0.0,0.0011,88.612,81.7605,27.5507,7.2438,2.7656
+United States,US,USA,Emissions and CCS,Fossil energy CCS,Mt CO2/yr,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),,,,,0.0,0.0011,10.336,104.0732,153.2842,121.9875,48.7711
+United States,US,USA,Emissions and CCS,Fossil energy CCS,Mt CO2/yr,REMIND-MAgPIE,Net Zero 2050,,,,,0.0,0.0009,175.0517,207.5447,97.1522,28.3981,5.8932
+United States,US,USA,Primary energy,Gas,EJ/yr,GCAM,Below 2°C,,,,,25.6033,24.7933,22.1326,20.254,17.2228,13.8422,11.6628
+United States,US,USA,Primary energy,Gas,EJ/yr,GCAM,Current Policies,,,,,25.6345,25.3832,25.3072,26.1875,27.9211,29.7945,31.3879
+United States,US,USA,Primary energy,Gas,EJ/yr,GCAM,Delayed transition,,,,,25.6569,25.4043,25.3252,22.0366,16.6899,11.1198,9.15
+United States,US,USA,Primary energy,Gas,EJ/yr,GCAM,Fragmented World,,,,,25.6715,25.419,25.3422,23.4198,20.4669,17.1423,13.5243
+United States,US,USA,Primary energy,Gas,EJ/yr,GCAM,Low Demand,,,,,25.6567,23.4068,20.8606,17.4749,12.3868,8.9429,8.6172
+United States,US,USA,Primary energy,Gas,EJ/yr,GCAM,Nationally Determined Contributions (NDCs),,,,,25.6534,25.8305,22.9686,24.5566,25.0184,25.3041,25.5503
+United States,US,USA,Primary energy,Gas,EJ/yr,GCAM,Net Zero 2050,,,,,25.6688,24.3104,19.3771,15.4334,10.9366,9.3706,8.5857
+United States,US,USA,Primary energy,Gas,EJ/yr,MESSAGEix-GLOBIOM,Below 2°C,,,,,23.4576,22.9818,22.7942,26.2582,26.933,26.019,21.9273
+United States,US,USA,Primary energy,Gas,EJ/yr,MESSAGEix-GLOBIOM,Current Policies,,,,,23.3339,21.2997,22.478,25.3232,27.3939,30.7129,33.2936
+United States,US,USA,Primary energy,Gas,EJ/yr,MESSAGEix-GLOBIOM,Delayed transition,,,,,23.3323,21.2964,22.4733,26.5178,27.497,26.9036,23.7986
+United States,US,USA,Primary energy,Gas,EJ/yr,MESSAGEix-GLOBIOM,Fragmented World,,,,,25.3758,22.6521,23.4625,25.2241,27.5021,28.3519,26.9274
+United States,US,USA,Primary energy,Gas,EJ/yr,MESSAGEix-GLOBIOM,Low Demand,,,,,21.5715,20.904,15.3108,11.3342,8.3321,9.2342,7.9233
+United States,US,USA,Primary energy,Gas,EJ/yr,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),,,,,23.2918,22.8071,22.7741,25.7952,27.06,29.1213,31.922
+United States,US,USA,Primary energy,Gas,EJ/yr,MESSAGEix-GLOBIOM,Net Zero 2050,,,,,23.4463,22.9747,17.2049,12.4269,10.091,7.5693,5.2541
+United States,US,USA,Primary energy,Gas,EJ/yr,REMIND-MAgPIE,Below 2°C,,,,,31.4659,29.6929,25.1922,17.2771,11.2445,6.0723,4.2294
+United States,US,USA,Primary energy,Gas,EJ/yr,REMIND-MAgPIE,Current Policies,,,,,31.4659,30.3165,28.7087,25.0947,21.0656,16.5172,13.5511
+United States,US,USA,Primary energy,Gas,EJ/yr,REMIND-MAgPIE,Delayed transition,,,,,31.4659,30.3165,28.7087,23.0825,8.4722,1.2101,0.9684
+United States,US,USA,Primary energy,Gas,EJ/yr,REMIND-MAgPIE,Fragmented World,,,,,31.4659,30.3165,28.7087,24.1449,12.1369,4.8962,2.9863
+United States,US,USA,Primary energy,Gas,EJ/yr,REMIND-MAgPIE,Low Demand,,,,,31.4659,27.8259,15.2674,7.4249,2.3537,1.6391,1.0268
+United States,US,USA,Primary energy,Gas,EJ/yr,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),,,,,31.4659,29.3962,21.5569,14.2047,8.0,5.0147,3.8267
+United States,US,USA,Primary energy,Gas,EJ/yr,REMIND-MAgPIE,Net Zero 2050,,,,,31.4659,28.4904,17.3108,7.3287,2.7542,1.7622,0.9886
+United States,US,USA,Final energy,Gases,EJ/yr,GCAM,Below 2°C,,,,,13.339,13.5884,12.6658,11.3787,9.893,8.2585,6.732
+United States,US,USA,Final energy,Gases,EJ/yr,GCAM,Current Policies,,,,,13.3519,13.8456,13.8925,14.1238,14.8234,15.2324,14.9836
+United States,US,USA,Final energy,Gases,EJ/yr,GCAM,Delayed transition,,,,,13.3516,13.8453,13.8923,12.0328,9.4163,6.7945,4.818
+United States,US,USA,Final energy,Gases,EJ/yr,GCAM,Fragmented World,,,,,13.3475,13.8404,13.8879,12.7162,11.0909,9.3584,7.7275
+United States,US,USA,Final energy,Gases,EJ/yr,GCAM,Low Demand,,,,,13.3254,12.8464,11.5027,9.6741,7.4416,5.3351,4.4691
+United States,US,USA,Final energy,Gases,EJ/yr,GCAM,Nationally Determined Contributions (NDCs),,,,,13.3503,13.9759,12.9483,13.3119,13.3374,13.3584,13.082
+United States,US,USA,Final energy,Gases,EJ/yr,GCAM,Net Zero 2050,,,,,13.3339,13.3181,11.7588,9.4448,6.809,4.7441,3.8293
+United States,US,USA,Final energy,Gases,EJ/yr,MESSAGEix-GLOBIOM,Below 2°C,,,,,12.7717,9.8387,8.9927,9.8872,9.2957,8.6398,7.5434
+United States,US,USA,Final energy,Gases,EJ/yr,MESSAGEix-GLOBIOM,Current Policies,,,,,12.7552,10.1812,8.9634,9.9289,10.9586,12.5816,13.2998
+United States,US,USA,Final energy,Gases,EJ/yr,MESSAGEix-GLOBIOM,Delayed transition,,,,,12.7374,10.1496,8.9182,9.926,10.3487,10.9615,10.4306
+United States,US,USA,Final energy,Gases,EJ/yr,MESSAGEix-GLOBIOM,Fragmented World,,,,,12.7172,10.1201,8.884,9.2413,9.1135,9.7065,10.4683
+United States,US,USA,Final energy,Gases,EJ/yr,MESSAGEix-GLOBIOM,Low Demand,,,,,12.3941,9.3339,6.1596,4.7404,4.0615,3.7665,1.9264
+United States,US,USA,Final energy,Gases,EJ/yr,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),,,,,12.7503,9.8138,9.255,8.84,8.6789,8.2715,7.9066
+United States,US,USA,Final energy,Gases,EJ/yr,MESSAGEix-GLOBIOM,Net Zero 2050,,,,,12.8096,9.9121,9.4818,9.3039,8.8407,7.3237,5.6482
+United States,US,USA,Final energy,Gases,EJ/yr,REMIND-MAgPIE,Below 2°C,,,,,14.0973,13.124,11.9674,10.2781,7.6294,5.6021,4.1695
+United States,US,USA,Final energy,Gases,EJ/yr,REMIND-MAgPIE,Current Policies,,,,,14.0973,13.1901,12.8736,11.9765,10.7752,9.6583,8.7074
+United States,US,USA,Final energy,Gases,EJ/yr,REMIND-MAgPIE,Delayed transition,,,,,14.0973,13.1901,12.8736,11.508,4.7868,1.8068,1.6533
+United States,US,USA,Final energy,Gases,EJ/yr,REMIND-MAgPIE,Fragmented World,,,,,14.0973,13.1901,12.8736,11.5993,6.85,3.9115,2.773
+United States,US,USA,Final energy,Gases,EJ/yr,REMIND-MAgPIE,Low Demand,,,,,14.0973,12.4026,7.8434,5.0846,2.753,2.2131,1.7363
+United States,US,USA,Final energy,Gases,EJ/yr,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),,,,,14.0973,13.0148,11.2216,8.7768,6.3875,4.819,3.9193
+United States,US,USA,Final energy,Gases,EJ/yr,REMIND-MAgPIE,Net Zero 2050,,,,,14.0973,12.8454,9.5046,6.1335,3.1058,2.3395,1.724
+United States,US,USA,Primary energy,Geothermal,EJ/yr,GCAM,Below 2°C,,,,,0.2655,0.4607,0.7167,0.7979,0.7938,0.7914,0.7888
+United States,US,USA,Primary energy,Geothermal,EJ/yr,GCAM,Current Policies,,,,,0.2655,0.442,0.6123,0.7042,0.8005,0.8,0.7984
+United States,US,USA,Primary energy,Geothermal,EJ/yr,GCAM,Delayed transition,,,,,0.2655,0.442,0.6125,0.8008,0.7972,0.7942,0.7887
+United States,US,USA,Primary energy,Geothermal,EJ/yr,GCAM,Fragmented World,,,,,0.2655,0.4421,0.6125,0.802,0.7994,0.798,0.7952
+United States,US,USA,Primary energy,Geothermal,EJ/yr,GCAM,Low Demand,,,,,0.2655,0.3709,0.526,0.7753,0.7943,0.7905,0.7878
+United States,US,USA,Primary energy,Geothermal,EJ/yr,GCAM,Nationally Determined Contributions (NDCs),,,,,0.2655,0.4415,0.6925,0.7712,0.7968,0.7956,0.794
+United States,US,USA,Primary energy,Geothermal,EJ/yr,GCAM,Net Zero 2050,,,,,0.2655,0.499,0.7883,0.7949,0.7895,0.7862,0.7845
+United States,US,USA,Primary energy,Geothermal,EJ/yr,MESSAGEix-GLOBIOM,Below 2°C,,,,,0.1015,0.1168,0.2171,0.3178,0.4218,0.6624,0.9906
+United States,US,USA,Primary energy,Geothermal,EJ/yr,MESSAGEix-GLOBIOM,Current Policies,,,,,0.1014,0.0783,0.0605,0.0467,0.0361,0.0301,0.0301
+United States,US,USA,Primary energy,Geothermal,EJ/yr,MESSAGEix-GLOBIOM,Delayed transition,,,,,0.1015,0.0784,0.0605,0.1671,0.311,0.5058,0.7704
+United States,US,USA,Primary energy,Geothermal,EJ/yr,MESSAGEix-GLOBIOM,Fragmented World,,,,,0.1003,0.0776,0.0601,0.1418,0.2325,0.4039,0.6392
+United States,US,USA,Primary energy,Geothermal,EJ/yr,MESSAGEix-GLOBIOM,Low Demand,,,,,0.1018,0.1167,0.2488,0.4198,0.651,0.9649,1.1445
+United States,US,USA,Primary energy,Geothermal,EJ/yr,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),,,,,0.1015,0.1167,0.0901,0.1753,0.2702,0.3775,0.4956
+United States,US,USA,Primary energy,Geothermal,EJ/yr,MESSAGEix-GLOBIOM,Net Zero 2050,,,,,0.1015,0.1167,0.249,0.4302,0.679,1.0205,1.4572
+United States,US,USA,Primary energy,Geothermal,EJ/yr,REMIND-MAgPIE,Below 2°C,,,,,0.1716,0.1768,0.1807,0.1974,0.2461,0.3393,0.5301
+United States,US,USA,Primary energy,Geothermal,EJ/yr,REMIND-MAgPIE,Current Policies,,,,,0.1716,0.1768,0.18,0.1897,0.2186,0.2627,0.3373
+United States,US,USA,Primary energy,Geothermal,EJ/yr,REMIND-MAgPIE,Delayed transition,,,,,0.1716,0.1768,0.18,0.2037,0.2799,0.4265,0.7035
+United States,US,USA,Primary energy,Geothermal,EJ/yr,REMIND-MAgPIE,Fragmented World,,,,,0.1716,0.1768,0.18,0.2004,0.2622,0.3814,0.6153
+United States,US,USA,Primary energy,Geothermal,EJ/yr,REMIND-MAgPIE,Low Demand,,,,,0.1716,0.1768,0.18,0.1919,0.2295,0.2992,0.4464
+United States,US,USA,Primary energy,Geothermal,EJ/yr,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),,,,,0.1716,0.1768,0.18,0.195,0.2394,0.3233,0.4941
+United States,US,USA,Primary energy,Geothermal,EJ/yr,REMIND-MAgPIE,Net Zero 2050,,,,,0.1716,0.1874,0.2196,0.28,0.3846,0.5473,0.8378
+United States,US,USA,Final energy,Heat,EJ/yr,MESSAGEix-GLOBIOM,Below 2°C,,,,,0.3649,0.3948,0.6264,0.8367,0.9628,1.2,1.5182
+United States,US,USA,Final energy,Heat,EJ/yr,MESSAGEix-GLOBIOM,Current Policies,,,,,0.364,0.3397,0.2844,0.3005,0.1534,0.1534,0.1372
+United States,US,USA,Final energy,Heat,EJ/yr,MESSAGEix-GLOBIOM,Delayed transition,,,,,0.3646,0.3403,0.2843,0.419,0.5945,0.8265,1.1149
+United States,US,USA,Final energy,Heat,EJ/yr,MESSAGEix-GLOBIOM,Fragmented World,,,,,0.365,0.341,0.2852,0.4174,0.5911,0.7872,0.822
+United States,US,USA,Final energy,Heat,EJ/yr,MESSAGEix-GLOBIOM,Low Demand,,,,,0.3636,0.3934,0.5399,0.6633,0.7243,0.7173,0.7555
+United States,US,USA,Final energy,Heat,EJ/yr,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),,,,,0.3642,0.3935,0.381,0.5144,0.6668,0.7564,0.7488
+United States,US,USA,Final energy,Heat,EJ/yr,MESSAGEix-GLOBIOM,Net Zero 2050,,,,,0.364,0.3943,0.6964,0.5538,0.2887,0.203,0.2743
+United States,US,USA,Final energy,Heat,EJ/yr,REMIND-MAgPIE,Below 2°C,,,,,0.3724,0.533,0.5262,0.4938,0.4778,0.5062,0.5564
+United States,US,USA,Final energy,Heat,EJ/yr,REMIND-MAgPIE,Current Policies,,,,,0.3724,0.5493,0.5386,0.5444,0.6066,0.663,0.6766
+United States,US,USA,Final energy,Heat,EJ/yr,REMIND-MAgPIE,Delayed transition,,,,,0.3724,0.5493,0.5386,0.4875,0.4955,0.5466,0.6556
+United States,US,USA,Final energy,Heat,EJ/yr,REMIND-MAgPIE,Fragmented World,,,,,0.3724,0.5493,0.5386,0.5063,0.4992,0.5186,0.5984
+United States,US,USA,Final energy,Heat,EJ/yr,REMIND-MAgPIE,Low Demand,,,,,0.3724,0.516,0.7261,0.7736,0.7723,0.7749,0.7899
+United States,US,USA,Final energy,Heat,EJ/yr,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),,,,,0.3724,0.5366,0.5627,0.5304,0.5361,0.5543,0.5885
+United States,US,USA,Final energy,Heat,EJ/yr,REMIND-MAgPIE,Net Zero 2050,,,,,0.3724,0.5123,0.4884,0.5071,0.5811,0.6593,0.7475
+United States,US,USA,Primary energy,Hydro,EJ/yr,GCAM,Below 2°C,,,,,0.9434,0.9484,0.9516,0.9547,0.9581,0.9633,0.9694
+United States,US,USA,Primary energy,Hydro,EJ/yr,GCAM,Current Policies,,,,,0.9433,0.9473,0.9531,0.9591,0.9663,0.9739,0.9812
+United States,US,USA,Primary energy,Hydro,EJ/yr,GCAM,Delayed transition,,,,,0.9433,0.9473,0.9533,0.958,0.962,0.9666,0.9691
+United States,US,USA,Primary energy,Hydro,EJ/yr,GCAM,Fragmented World,,,,,0.9434,0.9474,0.9533,0.9597,0.965,0.9716,0.9775
+United States,US,USA,Primary energy,Hydro,EJ/yr,GCAM,Low Demand,,,,,0.9433,0.9497,0.9553,0.9568,0.9586,0.9623,0.9681
+United States,US,USA,Primary energy,Hydro,EJ/yr,GCAM,Nationally Determined Contributions (NDCs),,,,,0.9433,0.9474,0.9503,0.9561,0.9619,0.9686,0.9759
+United States,US,USA,Primary energy,Hydro,EJ/yr,GCAM,Net Zero 2050,,,,,0.9434,0.9485,0.9496,0.951,0.953,0.9574,0.9642
+United States,US,USA,Primary energy,Hydro,EJ/yr,MESSAGEix-GLOBIOM,Below 2°C,,,,,1.099,1.0989,1.4315,1.4839,1.5364,1.5812,1.6261
+United States,US,USA,Primary energy,Hydro,EJ/yr,MESSAGEix-GLOBIOM,Current Policies,,,,,1.0988,1.0987,1.0986,1.0985,1.0983,1.0982,1.0981
+United States,US,USA,Primary energy,Hydro,EJ/yr,MESSAGEix-GLOBIOM,Delayed transition,,,,,1.0988,1.0987,1.0986,1.3084,1.2469,1.2295,1.246
+United States,US,USA,Primary energy,Hydro,EJ/yr,MESSAGEix-GLOBIOM,Fragmented World,,,,,1.0854,1.0886,1.0913,0.936,0.9633,1.0779,1.1762
+United States,US,USA,Primary energy,Hydro,EJ/yr,MESSAGEix-GLOBIOM,Low Demand,,,,,1.0987,1.0985,1.4309,1.3266,1.2862,1.3115,1.2952
+United States,US,USA,Primary energy,Hydro,EJ/yr,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),,,,,1.0989,1.0988,1.0987,1.4837,1.5361,1.5809,1.6258
+United States,US,USA,Primary energy,Hydro,EJ/yr,MESSAGEix-GLOBIOM,Net Zero 2050,,,,,1.0989,1.0988,1.4314,1.365,1.368,1.41,1.4872
+United States,US,USA,Primary energy,Hydro,EJ/yr,REMIND-MAgPIE,Below 2°C,,,,,1.2972,1.3845,1.3977,1.3871,1.3581,1.3159,1.2598
+United States,US,USA,Primary energy,Hydro,EJ/yr,REMIND-MAgPIE,Current Policies,,,,,1.2972,1.379,1.3865,1.3713,1.3426,1.3047,1.2521
+United States,US,USA,Primary energy,Hydro,EJ/yr,REMIND-MAgPIE,Delayed transition,,,,,1.2972,1.379,1.3865,1.3724,1.3445,1.3047,1.2468
+United States,US,USA,Primary energy,Hydro,EJ/yr,REMIND-MAgPIE,Fragmented World,,,,,1.2972,1.379,1.3865,1.3724,1.3452,1.3077,1.2544
+United States,US,USA,Primary energy,Hydro,EJ/yr,REMIND-MAgPIE,Low Demand,,,,,1.2972,1.3856,1.4122,1.4171,1.3969,1.3574,1.3091
+United States,US,USA,Primary energy,Hydro,EJ/yr,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),,,,,1.2972,1.3925,1.4163,1.4155,1.3897,1.346,1.2942
+United States,US,USA,Primary energy,Hydro,EJ/yr,REMIND-MAgPIE,Net Zero 2050,,,,,1.2972,1.4019,1.4383,1.4472,1.4225,1.3765,1.3221
+United States,US,USA,Final energy,Hydrogen,EJ/yr,GCAM,Below 2°C,,,,,0.0,0.0591,0.3504,1.6536,2.568,3.5415,4.795
+United States,US,USA,Final energy,Hydrogen,EJ/yr,GCAM,Current Policies,,,,,0.0,0.0573,0.3317,0.8366,1.0777,1.3486,1.719
+United States,US,USA,Final energy,Hydrogen,EJ/yr,GCAM,Delayed transition,,,,,0.0,0.0573,0.3317,1.5433,3.3009,5.0648,7.583
+United States,US,USA,Final energy,Hydrogen,EJ/yr,GCAM,Fragmented World,,,,,0.0,0.0573,0.3317,1.3028,2.5136,4.0111,5.2305
+United States,US,USA,Final energy,Hydrogen,EJ/yr,GCAM,Low Demand,,,,,0.0,0.0537,0.2914,1.6361,2.7985,4.4388,7.3707
+United States,US,USA,Final energy,Hydrogen,EJ/yr,GCAM,Nationally Determined Contributions (NDCs),,,,,0.0,0.0571,0.3339,1.0143,1.4628,1.8699,2.3464
+United States,US,USA,Final energy,Hydrogen,EJ/yr,GCAM,Net Zero 2050,,,,,0.0,0.0601,0.3702,2.0937,3.4805,6.269,8.3151
+United States,US,USA,Final energy,Hydrogen,EJ/yr,MESSAGEix-GLOBIOM,Below 2°C,,,,,0.0,0.0754,0.0744,0.1465,0.1472,0.1434,0.1402
+United States,US,USA,Final energy,Hydrogen,EJ/yr,MESSAGEix-GLOBIOM,Current Policies,,,,,0.0,0.0761,0.0766,0.1617,0.25,0.3032,0.3048
+United States,US,USA,Final energy,Hydrogen,EJ/yr,MESSAGEix-GLOBIOM,Delayed transition,,,,,0.0,0.0758,0.0762,0.1829,0.2674,0.2647,0.2623
+United States,US,USA,Final energy,Hydrogen,EJ/yr,MESSAGEix-GLOBIOM,Fragmented World,,,,,0.0,0.076,0.0765,0.1387,0.135,0.1329,0.1299
+United States,US,USA,Final energy,Hydrogen,EJ/yr,MESSAGEix-GLOBIOM,Low Demand,,,,,0.0,0.0761,0.4539,1.0147,1.9821,3.1571,4.0558
+United States,US,USA,Final energy,Hydrogen,EJ/yr,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),,,,,0.0,0.0751,0.1109,0.1096,0.1074,0.1046,0.1015
+United States,US,USA,Final energy,Hydrogen,EJ/yr,MESSAGEix-GLOBIOM,Net Zero 2050,,,,,0.0,0.0763,0.1769,0.2373,0.2536,0.3888,0.7398
+United States,US,USA,Final energy,Hydrogen,EJ/yr,REMIND-MAgPIE,Below 2°C,,,,,0.1113,0.4676,0.8398,1.1628,1.5576,2.2056,2.4032
+United States,US,USA,Final energy,Hydrogen,EJ/yr,REMIND-MAgPIE,Current Policies,,,,,0.1113,0.4949,0.8492,1.127,1.3048,1.4318,1.6989
+United States,US,USA,Final energy,Hydrogen,EJ/yr,REMIND-MAgPIE,Delayed transition,,,,,0.1113,0.4949,0.8492,1.0168,1.7242,3.0529,3.0344
+United States,US,USA,Final energy,Hydrogen,EJ/yr,REMIND-MAgPIE,Fragmented World,,,,,0.1113,0.4949,0.8492,1.1262,1.4741,1.6836,2.3705
+United States,US,USA,Final energy,Hydrogen,EJ/yr,REMIND-MAgPIE,Low Demand,,,,,0.1113,0.362,0.5438,0.9277,1.3017,1.2816,1.248
+United States,US,USA,Final energy,Hydrogen,EJ/yr,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),,,,,0.1113,0.4656,0.8741,1.3808,2.1256,2.2768,2.4379
+United States,US,USA,Final energy,Hydrogen,EJ/yr,REMIND-MAgPIE,Net Zero 2050,,,,,0.1113,0.4343,0.8889,1.9135,2.7023,2.6777,2.8951
+United States,US,USA,Emissions and CCS,Industrial processes CCS,Mt CO2/yr,GCAM,Below 2°C,,,,,0.0,0.4513,2.5217,16.1784,26.2375,31.7352,34.6096
+United States,US,USA,Emissions and CCS,Industrial processes CCS,Mt CO2/yr,GCAM,Current Policies,,,,,0.0,0.3427,1.4736,7.879,11.5508,13.2354,14.3622
+United States,US,USA,Emissions and CCS,Industrial processes CCS,Mt CO2/yr,GCAM,Delayed transition,,,,,0.0,0.3427,1.4735,12.2575,23.2946,29.9945,33.888
+United States,US,USA,Emissions and CCS,Industrial processes CCS,Mt CO2/yr,GCAM,Fragmented World,,,,,0.0,0.3426,1.4733,11.0695,20.3867,27.4035,32.4258
+United States,US,USA,Emissions and CCS,Industrial processes CCS,Mt CO2/yr,GCAM,Low Demand,,,,,0.0,0.3909,2.2015,13.3201,23.9118,28.2394,32.2636
+United States,US,USA,Emissions and CCS,Industrial processes CCS,Mt CO2/yr,GCAM,Nationally Determined Contributions (NDCs),,,,,0.0,0.3306,1.6446,10.7582,16.9731,20.4023,22.5114
+United States,US,USA,Emissions and CCS,Industrial processes CCS,Mt CO2/yr,GCAM,Net Zero 2050,,,,,0.0,0.5256,3.0105,19.3844,29.4712,33.3628,37.0425
+United States,US,USA,Emissions and CCS,Industrial processes CCS,Mt CO2/yr,MESSAGEix-GLOBIOM,Below 2°C,,,,,0.0,0.0,0.0,15.9153,15.7181,15.5486,15.3102
+United States,US,USA,Emissions and CCS,Industrial processes CCS,Mt CO2/yr,MESSAGEix-GLOBIOM,Delayed transition,,,,,0.0,0.0,0.0,3.1745,22.2538,21.9728,21.7272
+United States,US,USA,Emissions and CCS,Industrial processes CCS,Mt CO2/yr,MESSAGEix-GLOBIOM,Fragmented World,,,,,0.0,0.0,0.0,0.0,0.0,0.0,11.46
+United States,US,USA,Emissions and CCS,Industrial processes CCS,Mt CO2/yr,MESSAGEix-GLOBIOM,Low Demand,,,,,0.0,0.0,51.5233,51.1415,23.986,29.0179,52.5355
+United States,US,USA,Emissions and CCS,Industrial processes CCS,Mt CO2/yr,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),,,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+United States,US,USA,Emissions and CCS,Industrial processes CCS,Mt CO2/yr,MESSAGEix-GLOBIOM,Net Zero 2050,,,,,0.0,0.0,86.9651,78.2936,79.0213,75.7051,75.1831
+United States,US,USA,Emissions and CCS,Industrial processes CCS,Mt CO2/yr,REMIND-MAgPIE,Below 2°C,,,,,0.0,0.0,0.0,3.4053,6.9275,10.6195,13.1822
+United States,US,USA,Emissions and CCS,Industrial processes CCS,Mt CO2/yr,REMIND-MAgPIE,Current Policies,,,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+United States,US,USA,Emissions and CCS,Industrial processes CCS,Mt CO2/yr,REMIND-MAgPIE,Delayed transition,,,,,0.0,0.0,0.0,0.0,3.1484,6.1149,8.4889
+United States,US,USA,Emissions and CCS,Industrial processes CCS,Mt CO2/yr,REMIND-MAgPIE,Fragmented World,,,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+United States,US,USA,Emissions and CCS,Industrial processes CCS,Mt CO2/yr,REMIND-MAgPIE,Low Demand,,,,,0.0,0.0,2.7477,5.3595,7.8428,10.4368,13.5003
+United States,US,USA,Emissions and CCS,Industrial processes CCS,Mt CO2/yr,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),,,,,0.0,0.0,0.0,3.331,6.8471,9.5169,11.4311
+United States,US,USA,Emissions and CCS,Industrial processes CCS,Mt CO2/yr,REMIND-MAgPIE,Net Zero 2050,,,,,0.0,0.0,3.0725,6.2932,9.3293,11.8524,14.4459
+United States,US,USA,Final energy,Liquids,EJ/yr,GCAM,Below 2°C,,,,,28.4589,27.7038,23.7006,20.5598,17.7193,15.0887,11.3136
+United States,US,USA,Final energy,Liquids,EJ/yr,GCAM,Current Policies,,,,,28.4485,27.8242,24.8518,22.6161,21.0904,20.5636,19.9938
+United States,US,USA,Final energy,Liquids,EJ/yr,GCAM,Delayed transition,,,,,28.4477,27.8234,24.8498,21.379,17.8582,13.0939,5.4669
+United States,US,USA,Final energy,Liquids,EJ/yr,GCAM,Fragmented World,,,,,28.4505,27.825,24.8492,21.8565,19.2114,17.1465,14.1116
+United States,US,USA,Final energy,Liquids,EJ/yr,GCAM,Low Demand,,,,,28.4557,26.4864,21.5762,18.1098,14.4526,8.8842,4.9633
+United States,US,USA,Final energy,Liquids,EJ/yr,GCAM,Nationally Determined Contributions (NDCs),,,,,28.4489,27.8976,23.9158,21.928,20.1307,19.3371,18.6047
+United States,US,USA,Final energy,Liquids,EJ/yr,GCAM,Net Zero 2050,,,,,28.4613,27.4513,22.7561,18.5308,13.3693,6.3442,3.3033
+United States,US,USA,Final energy,Liquids,EJ/yr,MESSAGEix-GLOBIOM,Below 2°C,,,,,33.1823,34.3451,33.3506,30.5398,27.1059,22.5968,17.4303
+United States,US,USA,Final energy,Liquids,EJ/yr,MESSAGEix-GLOBIOM,Current Policies,,,,,33.2566,39.0582,38.324,41.7191,40.5932,39.2973,37.844
+United States,US,USA,Final energy,Liquids,EJ/yr,MESSAGEix-GLOBIOM,Delayed transition,,,,,33.2638,39.0816,38.3465,38.1724,33.8568,27.5688,21.3894
+United States,US,USA,Final energy,Liquids,EJ/yr,MESSAGEix-GLOBIOM,Fragmented World,,,,,33.2336,39.0004,38.2313,39.3903,34.5734,28.2652,21.6344
+United States,US,USA,Final energy,Liquids,EJ/yr,MESSAGEix-GLOBIOM,Low Demand,,,,,33.0604,34.1328,28.9291,24.5118,19.3045,15.1945,11.6504
+United States,US,USA,Final energy,Liquids,EJ/yr,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),,,,,33.2038,34.3926,32.3432,34.6809,30.6749,25.8246,21.2383
+United States,US,USA,Final energy,Liquids,EJ/yr,MESSAGEix-GLOBIOM,Net Zero 2050,,,,,33.121,34.2524,28.4601,22.5509,17.9217,14.8614,12.0814
+United States,US,USA,Final energy,Liquids,EJ/yr,REMIND-MAgPIE,Below 2°C,,,,,31.4338,30.1954,26.7185,21.2794,16.3682,12.9688,11.1806
+United States,US,USA,Final energy,Liquids,EJ/yr,REMIND-MAgPIE,Current Policies,,,,,31.4338,29.9798,26.6454,22.6697,19.6772,17.8561,16.6268
+United States,US,USA,Final energy,Liquids,EJ/yr,REMIND-MAgPIE,Delayed transition,,,,,31.4338,29.9798,26.6454,21.8108,14.5018,11.0153,11.3761
+United States,US,USA,Final energy,Liquids,EJ/yr,REMIND-MAgPIE,Fragmented World,,,,,31.4338,29.9798,26.6454,22.1313,17.8157,14.7557,12.7948
+United States,US,USA,Final energy,Liquids,EJ/yr,REMIND-MAgPIE,Low Demand,,,,,31.4338,28.828,21.741,15.3109,9.9329,7.7915,6.7501
+United States,US,USA,Final energy,Liquids,EJ/yr,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),,,,,31.4338,29.6982,25.6763,20.1375,16.4132,14.0836,12.9332
+United States,US,USA,Final energy,Liquids,EJ/yr,REMIND-MAgPIE,Net Zero 2050,,,,,31.4338,29.624,25.1535,18.6537,12.6011,10.2742,9.4724
+United States,US,USA,Emissions and CCS,LULUCF CO2 emissions,Mt CO2/yr,GCAM,Below 2°C,,,,,-1429.8636,-1477.5461,-1525.2285,-1519.4401,-1513.6518,-1454.3927,-1395.1336
+United States,US,USA,Emissions and CCS,LULUCF CO2 emissions,Mt CO2/yr,GCAM,Current Policies,,,,,-1429.8636,-1511.3601,-1592.8567,-1594.147,-1595.4374,-1596.7278,-1598.0182
+United States,US,USA,Emissions and CCS,LULUCF CO2 emissions,Mt CO2/yr,GCAM,Delayed transition,,,,,-1429.8636,-1457.8894,-1485.9151,-1492.7051,-1499.4951,-1452.8144,-1406.1336
+United States,US,USA,Emissions and CCS,LULUCF CO2 emissions,Mt CO2/yr,GCAM,Fragmented World,,,,,-1429.8636,-1484.6248,-1539.3859,-1554.2863,-1569.1867,-1557.3517,-1545.5167
+United States,US,USA,Emissions and CCS,LULUCF CO2 emissions,Mt CO2/yr,GCAM,Low Demand,,,,,-1429.8636,-1478.2127,-1526.5618,-1441.234,-1355.9062,-1270.5784,-1185.2506
+United States,US,USA,Emissions and CCS,LULUCF CO2 emissions,Mt CO2/yr,GCAM,Nationally Determined Contributions (NDCs),,,,,-1429.8636,-1480.3968,-1530.9299,-1527.9923,-1525.0547,-1495.3817,-1465.7087
+United States,US,USA,Emissions and CCS,LULUCF CO2 emissions,Mt CO2/yr,GCAM,Net Zero 2050,,,,,-1429.8636,-1481.1294,-1532.3951,-1449.984,-1367.5729,-1285.1617,-1202.7506
+United States,US,USA,Emissions and CCS,LULUCF CO2 emissions,Mt CO2/yr,MESSAGEix-GLOBIOM,Below 2°C,,,,,-1429.8636,-1526.1693,-1625.0854,-1635.5542,-1648.2749,-1606.3675,-1564.0647
+United States,US,USA,Emissions and CCS,LULUCF CO2 emissions,Mt CO2/yr,MESSAGEix-GLOBIOM,Current Policies,,,,,-1429.8636,-1579.0293,-1711.3021,-1745.6863,-1779.232,-1811.7267,-1843.6533
+United States,US,USA,Emissions and CCS,LULUCF CO2 emissions,Mt CO2/yr,MESSAGEix-GLOBIOM,Delayed transition,,,,,-1429.8636,-1525.5586,-1604.3606,-1617.1906,-1632.2649,-1592.1658,-1551.6726
+United States,US,USA,Emissions and CCS,LULUCF CO2 emissions,Mt CO2/yr,MESSAGEix-GLOBIOM,Fragmented World,,,,,-830.736,-953.1663,-1058.7037,-1098.4042,-1140.0311,-1153.3336,-1166.2758
+United States,US,USA,Emissions and CCS,LULUCF CO2 emissions,Mt CO2/yr,MESSAGEix-GLOBIOM,Low Demand,,,,,-1429.8636,-1526.1693,-1630.0634,-1563.733,-1498.5684,-1430.987,-1362.373
+United States,US,USA,Emissions and CCS,LULUCF CO2 emissions,Mt CO2/yr,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),,,,,-1429.8636,-1552.9047,-1675.7736,-1711.8863,-1745.7596,-1754.9352,-1765.3324
+United States,US,USA,Emissions and CCS,LULUCF CO2 emissions,Mt CO2/yr,MESSAGEix-GLOBIOM,Net Zero 2050,,,,,-1429.8636,-1526.1693,-1630.6239,-1567.9001,-1507.8461,-1447.2986,-1387.1272
+United States,US,USA,Emissions and CCS,LULUCF CO2 emissions,Mt CO2/yr,REMIND-MAgPIE,Below 2°C,,,,,-847.2217,-826.6308,-815.8428,-818.8014,-818.2379,-817.9901,-878.3554
+United States,US,USA,Emissions and CCS,LULUCF CO2 emissions,Mt CO2/yr,REMIND-MAgPIE,Current Policies,,,,,-847.2217,-828.7541,-814.2161,-812.495,-811.2772,-811.9075,-816.9246
+United States,US,USA,Emissions and CCS,LULUCF CO2 emissions,Mt CO2/yr,REMIND-MAgPIE,Delayed transition,,,,,-847.2217,-828.7541,-814.2161,-857.7519,-884.951,-939.9192,-1109.7708
+United States,US,USA,Emissions and CCS,LULUCF CO2 emissions,Mt CO2/yr,REMIND-MAgPIE,Fragmented World,,,,,-847.2217,-828.7541,-814.2161,-831.2138,-840.9594,-906.8603,-1014.4583
+United States,US,USA,Emissions and CCS,LULUCF CO2 emissions,Mt CO2/yr,REMIND-MAgPIE,Low Demand,,,,,-847.2217,-846.4897,-841.3201,-843.5505,-840.5369,-853.6719,-864.0418
+United States,US,USA,Emissions and CCS,LULUCF CO2 emissions,Mt CO2/yr,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),,,,,-847.2217,-831.8108,-814.7742,-814.595,-813.6782,-879.8194,-982.9474
+United States,US,USA,Emissions and CCS,LULUCF CO2 emissions,Mt CO2/yr,REMIND-MAgPIE,Net Zero 2050,,,,,-847.2217,-841.435,-822.5633,-840.8671,-906.553,-1016.2807,-1102.8492
+United States,US,USA,Primary energy,Nuclear,EJ/yr,GCAM,Below 2°C,,,,,2.8561,2.7168,2.5495,2.3267,2.0284,1.7151,1.4655
+United States,US,USA,Primary energy,Nuclear,EJ/yr,GCAM,Current Policies,,,,,2.8558,2.7128,2.5372,2.2883,1.9547,1.5854,1.2275
+United States,US,USA,Primary energy,Nuclear,EJ/yr,GCAM,Delayed transition,,,,,2.8558,2.713,2.5376,2.3072,2.0278,1.7698,1.7075
+United States,US,USA,Primary energy,Nuclear,EJ/yr,GCAM,Fragmented World,,,,,2.856,2.7132,2.5377,2.3027,2.0022,1.6754,1.3574
+United States,US,USA,Primary energy,Nuclear,EJ/yr,GCAM,Low Demand,,,,,2.856,2.7193,2.5426,2.3038,2.0164,1.819,1.6628
+United States,US,USA,Primary energy,Nuclear,EJ/yr,GCAM,Nationally Determined Contributions (NDCs),,,,,2.8558,2.713,2.5386,2.2991,1.978,1.6161,1.2606
+United States,US,USA,Primary energy,Nuclear,EJ/yr,GCAM,Net Zero 2050,,,,,2.8561,2.7179,2.5621,2.3835,2.1742,2.1937,2.0535
+United States,US,USA,Primary energy,Nuclear,EJ/yr,MESSAGEix-GLOBIOM,Below 2°C,,,,,2.836,2.9447,3.227,2.9351,3.1635,3.3592,3.7719
+United States,US,USA,Primary energy,Nuclear,EJ/yr,MESSAGEix-GLOBIOM,Current Policies,,,,,2.828,2.8432,2.7343,2.0637,1.6869,0.9725,0.0821
+United States,US,USA,Primary energy,Nuclear,EJ/yr,MESSAGEix-GLOBIOM,Delayed transition,,,,,2.8246,2.8389,2.7296,2.4736,2.5218,2.463,2.5133
+United States,US,USA,Primary energy,Nuclear,EJ/yr,MESSAGEix-GLOBIOM,Fragmented World,,,,,3.0104,2.9959,2.8612,2.5144,2.5328,2.4388,2.4681
+United States,US,USA,Primary energy,Nuclear,EJ/yr,MESSAGEix-GLOBIOM,Low Demand,,,,,2.8393,2.9514,3.226,2.9924,3.218,3.2818,3.5709
+United States,US,USA,Primary energy,Nuclear,EJ/yr,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),,,,,2.83,2.9385,2.8826,2.1499,1.7207,1.0017,0.0895
+United States,US,USA,Primary energy,Nuclear,EJ/yr,MESSAGEix-GLOBIOM,Net Zero 2050,,,,,2.8388,2.9482,3.344,3.1406,3.507,3.7401,4.2126
+United States,US,USA,Primary energy,Nuclear,EJ/yr,REMIND-MAgPIE,Below 2°C,,,,,2.6627,2.3228,1.911,1.4441,0.9847,0.5916,0.329
+United States,US,USA,Primary energy,Nuclear,EJ/yr,REMIND-MAgPIE,Current Policies,,,,,2.6627,2.3197,1.9039,1.4372,0.9778,0.5848,0.3223
+United States,US,USA,Primary energy,Nuclear,EJ/yr,REMIND-MAgPIE,Delayed transition,,,,,2.6627,2.3197,1.9039,1.4372,0.9778,0.5848,0.3223
+United States,US,USA,Primary energy,Nuclear,EJ/yr,REMIND-MAgPIE,Fragmented World,,,,,2.6627,2.3197,1.9039,1.4372,0.9778,0.5848,0.3223
+United States,US,USA,Primary energy,Nuclear,EJ/yr,REMIND-MAgPIE,Low Demand,,,,,2.6627,2.3261,1.9247,1.4648,1.0052,0.6119,0.3491
+United States,US,USA,Primary energy,Nuclear,EJ/yr,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),,,,,2.6627,2.3344,1.9364,1.4756,1.0159,0.6225,0.3594
+United States,US,USA,Primary energy,Nuclear,EJ/yr,REMIND-MAgPIE,Net Zero 2050,,,,,2.6627,2.3451,1.9624,1.5145,1.0563,0.6625,0.3988
+United States,US,USA,Primary energy,Oil,EJ/yr,GCAM,Below 2°C,,,,,34.5079,33.9616,30.1219,27.2353,24.6664,21.845,18.0925
+United States,US,USA,Primary energy,Oil,EJ/yr,GCAM,Current Policies,,,,,34.5011,34.0939,31.3391,29.3728,27.3917,25.4107,23.5235
+United States,US,USA,Primary energy,Oil,EJ/yr,GCAM,Delayed transition,,,,,34.5056,34.1005,31.3465,28.1234,24.8311,19.9973,12.3017
+United States,US,USA,Primary energy,Oil,EJ/yr,GCAM,Fragmented World,,,,,34.508,34.102,31.3465,28.6277,26.0749,23.3509,20.3302
+United States,US,USA,Primary energy,Oil,EJ/yr,GCAM,Low Demand,,,,,34.4963,32.6062,27.7998,24.5858,21.1443,15.6227,11.4982
+United States,US,USA,Primary energy,Oil,EJ/yr,GCAM,Nationally Determined Contributions (NDCs),,,,,34.5013,34.1739,30.3623,28.6535,26.6312,24.4535,22.6019
+United States,US,USA,Primary energy,Oil,EJ/yr,GCAM,Net Zero 2050,,,,,34.4994,33.7027,29.1183,25.1346,20.1796,13.1488,9.95
+United States,US,USA,Primary energy,Oil,EJ/yr,MESSAGEix-GLOBIOM,Below 2°C,,,,,31.8374,33.262,29.1213,25.0734,21.9437,18.0845,13.3015
+United States,US,USA,Primary energy,Oil,EJ/yr,MESSAGEix-GLOBIOM,Current Policies,,,,,31.8499,37.9068,34.3224,36.6245,34.0927,33.2963,32.6902
+United States,US,USA,Primary energy,Oil,EJ/yr,MESSAGEix-GLOBIOM,Delayed transition,,,,,31.8541,37.9164,34.3311,33.1174,27.9018,22.6149,17.2397
+United States,US,USA,Primary energy,Oil,EJ/yr,MESSAGEix-GLOBIOM,Fragmented World,,,,,32.329,38.4226,34.8726,35.6056,30.9469,25.3346,19.7447
+United States,US,USA,Primary energy,Oil,EJ/yr,MESSAGEix-GLOBIOM,Low Demand,,,,,31.8269,33.2144,23.1863,19.137,15.1164,11.9311,8.8352
+United States,US,USA,Primary energy,Oil,EJ/yr,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),,,,,31.7516,33.1648,28.3041,29.5727,25.8652,21.8675,17.9054
+United States,US,USA,Primary energy,Oil,EJ/yr,MESSAGEix-GLOBIOM,Net Zero 2050,,,,,31.8006,33.2137,22.4523,16.2165,12.2292,9.2703,6.5748
+United States,US,USA,Primary energy,Oil,EJ/yr,REMIND-MAgPIE,Below 2°C,,,,,33.1447,31.0334,27.0372,21.1565,15.7708,11.8144,8.421
+United States,US,USA,Primary energy,Oil,EJ/yr,REMIND-MAgPIE,Current Policies,,,,,33.1447,30.887,27.3379,23.1215,19.9132,17.5972,16.2066
+United States,US,USA,Primary energy,Oil,EJ/yr,REMIND-MAgPIE,Delayed transition,,,,,33.1447,30.887,27.3379,22.1059,13.746,9.0571,6.4716
+United States,US,USA,Primary energy,Oil,EJ/yr,REMIND-MAgPIE,Fragmented World,,,,,33.1447,30.887,27.3379,22.396,17.0022,12.1454,7.6754
+United States,US,USA,Primary energy,Oil,EJ/yr,REMIND-MAgPIE,Low Demand,,,,,33.1447,29.6521,21.4467,14.2771,8.0715,5.1412,3.4707
+United States,US,USA,Primary energy,Oil,EJ/yr,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),,,,,33.1447,30.4755,25.6633,19.4602,15.0777,10.986,7.4585
+United States,US,USA,Primary energy,Oil,EJ/yr,REMIND-MAgPIE,Net Zero 2050,,,,,33.1447,30.3013,25.0316,17.735,10.2773,6.2899,4.2349
+United States,US,USA,Carbon price,Price: Carbon,US$2010/t CO2,GCAM,Below 2°C,,,,,0.0,5.5726,65.8985,108.1784,179.8504,286.259,430.8449
+United States,US,USA,Carbon price,Price: Carbon,US$2010/t CO2,GCAM,Current Policies,,,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+United States,US,USA,Carbon price,Price: Carbon,US$2010/t CO2,GCAM,Delayed transition,,,,,0.0,0.0,0.0,66.9461,180.1464,420.7081,1001.6008
+United States,US,USA,Carbon price,Price: Carbon,US$2010/t CO2,GCAM,Fragmented World,,,,,0.0,0.0,0.0,41.1657,104.9227,176.3553,285.9199
+United States,US,USA,Carbon price,Price: Carbon,US$2010/t CO2,GCAM,Low Demand,,,,,0.0,0.0,28.7811,115.038,262.4386,613.9602,860.2173
+United States,US,USA,Carbon price,Price: Carbon,US$2010/t CO2,GCAM,Nationally Determined Contributions (NDCs),,,,,0.0,0.0,66.7361,38.8575,52.3584,61.4224,61.393
+United States,US,USA,Carbon price,Price: Carbon,US$2010/t CO2,GCAM,Net Zero 2050,,,,,0.0,23.7112,127.2816,236.9049,444.5992,893.9491,1226.9224
+United States,US,USA,Carbon price,Price: Carbon,US$2010/t CO2,MESSAGEix-GLOBIOM,Below 2°C,,,,,0.0,40.6196,40.8777,55.24,73.3987,93.0186,114.4087
+United States,US,USA,Carbon price,Price: Carbon,US$2010/t CO2,MESSAGEix-GLOBIOM,Current Policies,,,,,0.0,6.6808,0.0,2.1579,4.3159,6.4738,8.6317
+United States,US,USA,Carbon price,Price: Carbon,US$2010/t CO2,MESSAGEix-GLOBIOM,Delayed transition,,,,,0.0,6.6808,0.0,73.5759,98.7255,121.2569,153.3007
+United States,US,USA,Carbon price,Price: Carbon,US$2010/t CO2,MESSAGEix-GLOBIOM,Fragmented World,,,,,0.0,6.6808,0.0,24.1383,28.255,88.4077,144.5402
+United States,US,USA,Carbon price,Price: Carbon,US$2010/t CO2,MESSAGEix-GLOBIOM,Low Demand,,,,,0.0,40.6196,218.509,272.2201,328.4492,464.6575,554.2148
+United States,US,USA,Carbon price,Price: Carbon,US$2010/t CO2,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),,,,,0.0,40.6196,49.9805,54.3862,58.7919,63.1976,67.6033
+United States,US,USA,Carbon price,Price: Carbon,US$2010/t CO2,MESSAGEix-GLOBIOM,Net Zero 2050,,,,,0.0,40.6196,698.056,665.5103,824.7132,1025.4415,1275.2833
+United States,US,USA,Carbon price,Price: Carbon,US$2010/t CO2,REMIND-MAgPIE,Below 2°C,,,,,22.1545,49.1525,65.5347,81.9214,98.3065,114.6907,131.0753
+United States,US,USA,Carbon price,Price: Carbon,US$2010/t CO2,REMIND-MAgPIE,Current Policies,,,,,22.1545,21.1383,20.1697,19.2521,18.3913,17.5926,16.8617
+United States,US,USA,Carbon price,Price: Carbon,US$2010/t CO2,REMIND-MAgPIE,Delayed transition,,,,,22.1545,21.1383,20.1697,197.6003,314.2221,430.8536,547.4941
+United States,US,USA,Carbon price,Price: Carbon,US$2010/t CO2,REMIND-MAgPIE,Fragmented World,,,,,22.1545,21.1383,20.1697,116.7365,187.4924,258.4235,332.5354
+United States,US,USA,Carbon price,Price: Carbon,US$2010/t CO2,REMIND-MAgPIE,Low Demand,,,,,22.1545,116.9004,155.8564,194.8275,233.7932,272.7558,311.7146
+United States,US,USA,Carbon price,Price: Carbon,US$2010/t CO2,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),,,,,22.1545,82.1515,142.1536,144.7602,146.916,148.5446,149.5457
+United States,US,USA,Carbon price,Price: Carbon,US$2010/t CO2,REMIND-MAgPIE,Net Zero 2050,,,,,22.1545,197.4194,263.2086,329.0122,394.8258,460.6352,526.4279
+United States,US,USA,Energy prices,Price: Coal,US$2010/GJ,GCAM,Below 2°C,,,,,1.5245,1.7871,1.791,1.8801,1.9275,2.0369,2.2219
+United States,US,USA,Energy prices,Price: Coal,US$2010/GJ,GCAM,Current Policies,,,,,1.5245,1.6088,1.6642,1.6844,1.6742,1.6648,1.6444
+United States,US,USA,Energy prices,Price: Coal,US$2010/GJ,GCAM,Delayed transition,,,,,1.5245,1.6088,1.6642,1.869,1.9472,2.2198,2.9127
+United States,US,USA,Energy prices,Price: Coal,US$2010/GJ,GCAM,Fragmented World,,,,,1.5245,1.6088,1.6642,1.8414,1.8121,1.8894,1.996
+United States,US,USA,Energy prices,Price: Coal,US$2010/GJ,GCAM,Low Demand,,,,,1.5245,1.8258,1.7119,1.8118,2.0312,2.4757,2.7886
+United States,US,USA,Energy prices,Price: Coal,US$2010/GJ,GCAM,Nationally Determined Contributions (NDCs),,,,,1.5245,1.5552,1.4989,1.6158,1.6007,1.5892,1.5639
+United States,US,USA,Energy prices,Price: Coal,US$2010/GJ,GCAM,Net Zero 2050,,,,,1.5245,1.7216,1.8081,2.0583,2.2894,2.8534,3.2693
+United States,US,USA,Energy prices,Price: Coal,US$2010/GJ,MESSAGEix-GLOBIOM,Below 2°C,,,,,2.4399,2.2303,1.9239,0.6192,0.3098,2.564,2.8116
+United States,US,USA,Energy prices,Price: Coal,US$2010/GJ,MESSAGEix-GLOBIOM,Current Policies,,,,,2.4399,2.6446,2.5597,2.5588,2.6313,2.6127,2.6955
+United States,US,USA,Energy prices,Price: Coal,US$2010/GJ,MESSAGEix-GLOBIOM,Delayed transition,,,,,2.4399,2.6446,2.5597,-0.2319,0.6367,1.0358,3.4154
+United States,US,USA,Energy prices,Price: Coal,US$2010/GJ,MESSAGEix-GLOBIOM,Fragmented World,,,,,2.4399,2.6446,2.5597,2.6768,2.0129,0.7438,1.1782
+United States,US,USA,Energy prices,Price: Coal,US$2010/GJ,MESSAGEix-GLOBIOM,Low Demand,,,,,2.4399,2.2303,-10.6768,-5.354,3.6064,4.5979,5.8564
+United States,US,USA,Energy prices,Price: Coal,US$2010/GJ,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),,,,,2.4399,2.2303,1.5405,0.0726,0.7821,1.6804,1.796
+United States,US,USA,Energy prices,Price: Coal,US$2010/GJ,MESSAGEix-GLOBIOM,Net Zero 2050,,,,,2.4399,2.2303,-22.0642,-7.1972,6.1932,7.0406,9.2358
+United States,US,USA,Energy prices,Price: Coal,US$2010/GJ,REMIND-MAgPIE,Below 2°C,,,,,2.0344,2.161,1.7827,1.6152,1.4186,1.4234,1.4937
+United States,US,USA,Energy prices,Price: Coal,US$2010/GJ,REMIND-MAgPIE,Current Policies,,,,,2.0344,2.2228,2.2627,2.307,2.3841,2.4996,2.7928
+United States,US,USA,Energy prices,Price: Coal,US$2010/GJ,REMIND-MAgPIE,Delayed transition,,,,,2.0344,2.2228,2.2627,2.2998,1.8855,1.4268,1.4782
+United States,US,USA,Energy prices,Price: Coal,US$2010/GJ,REMIND-MAgPIE,Fragmented World,,,,,2.0344,2.2228,2.2627,2.2464,2.1067,2.0358,2.4772
+United States,US,USA,Energy prices,Price: Coal,US$2010/GJ,REMIND-MAgPIE,Low Demand,,,,,2.0344,2.3285,1.6288,1.2207,1.2602,1.1936,1.557
+United States,US,USA,Energy prices,Price: Coal,US$2010/GJ,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),,,,,2.0344,2.1324,2.088,2.0799,1.9486,1.8346,1.9253
+United States,US,USA,Energy prices,Price: Coal,US$2010/GJ,REMIND-MAgPIE,Net Zero 2050,,,,,2.0344,2.6167,1.7773,1.444,1.3735,1.4422,1.7394
+United States,US,USA,Energy prices,Price: Gas,US$2010/GJ,GCAM,Below 2°C,,,,,5.8328,6.3932,5.9085,5.9322,6.0399,6.0738,6.2125
+United States,US,USA,Energy prices,Price: Gas,US$2010/GJ,GCAM,Current Policies,,,,,5.8328,6.1443,5.8571,5.7755,5.8475,5.9285,6.0359
+United States,US,USA,Energy prices,Price: Gas,US$2010/GJ,GCAM,Delayed transition,,,,,5.8328,6.1442,5.8571,6.0233,6.0055,6.1952,6.8955
+United States,US,USA,Energy prices,Price: Gas,US$2010/GJ,GCAM,Fragmented World,,,,,5.8328,6.1443,5.8571,5.9432,5.9016,5.8798,5.8945
+United States,US,USA,Energy prices,Price: Gas,US$2010/GJ,GCAM,Low Demand,,,,,5.8328,6.2668,5.5817,5.4863,5.761,6.3816,6.6094
+United States,US,USA,Energy prices,Price: Gas,US$2010/GJ,GCAM,Nationally Determined Contributions (NDCs),,,,,5.8328,6.1648,4.9796,5.7184,5.7398,5.7653,5.8252
+United States,US,USA,Energy prices,Price: Gas,US$2010/GJ,GCAM,Net Zero 2050,,,,,5.8328,6.4027,5.7843,5.7838,6.2776,6.9785,7.3406
+United States,US,USA,Energy prices,Price: Gas,US$2010/GJ,MESSAGEix-GLOBIOM,Below 2°C,,,,,3.6045,4.1003,4.5384,4.6368,4.9682,5.1093,5.6074
+United States,US,USA,Energy prices,Price: Gas,US$2010/GJ,MESSAGEix-GLOBIOM,Current Policies,,,,,3.6045,3.7021,4.2959,4.48,4.631,4.8534,5.0925
+United States,US,USA,Energy prices,Price: Gas,US$2010/GJ,MESSAGEix-GLOBIOM,Delayed transition,,,,,3.6045,3.7021,4.2959,4.717,4.989,5.2315,5.8547
+United States,US,USA,Energy prices,Price: Gas,US$2010/GJ,MESSAGEix-GLOBIOM,Fragmented World,,,,,3.6045,3.7021,4.2959,4.7014,4.7167,5.2339,5.725
+United States,US,USA,Energy prices,Price: Gas,US$2010/GJ,MESSAGEix-GLOBIOM,Low Demand,,,,,3.6045,4.1003,1.7803,-0.0919,3.5256,7.0002,6.1596
+United States,US,USA,Energy prices,Price: Gas,US$2010/GJ,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),,,,,3.6045,4.1003,4.5501,4.7311,4.8822,5.1182,5.3503
+United States,US,USA,Energy prices,Price: Gas,US$2010/GJ,MESSAGEix-GLOBIOM,Net Zero 2050,,,,,3.6045,4.1003,13.1716,-11.7966,9.2449,7.7661,8.3611
+United States,US,USA,Energy prices,Price: Gas,US$2010/GJ,REMIND-MAgPIE,Below 2°C,,,,,3.9711,4.5987,4.4679,5.2041,5.1447,4.8653,4.9049
+United States,US,USA,Energy prices,Price: Gas,US$2010/GJ,REMIND-MAgPIE,Current Policies,,,,,3.9711,4.6647,4.6303,5.0297,5.2841,5.5602,5.7592
+United States,US,USA,Energy prices,Price: Gas,US$2010/GJ,REMIND-MAgPIE,Delayed transition,,,,,3.9711,4.6647,4.6303,5.7319,5.3499,4.7767,4.1935
+United States,US,USA,Energy prices,Price: Gas,US$2010/GJ,REMIND-MAgPIE,Fragmented World,,,,,3.9711,4.6647,4.6303,4.854,5.2447,5.5672,5.6393
+United States,US,USA,Energy prices,Price: Gas,US$2010/GJ,REMIND-MAgPIE,Low Demand,,,,,3.9711,4.6568,4.3352,5.2357,4.7106,4.1262,4.1033
+United States,US,USA,Energy prices,Price: Gas,US$2010/GJ,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),,,,,3.9711,4.541,4.3304,4.7696,5.0737,5.4085,5.3735
+United States,US,USA,Energy prices,Price: Gas,US$2010/GJ,REMIND-MAgPIE,Net Zero 2050,,,,,3.9711,5.1474,5.5306,5.9206,5.9116,4.9651,4.4127
+United States,US,USA,Energy prices,Price: Oil,US$2010/GJ,GCAM,Below 2°C,,,,,15.5687,16.0477,16.385,16.41,16.1754,15.627,14.4189
+United States,US,USA,Energy prices,Price: Oil,US$2010/GJ,GCAM,Current Policies,,,,,15.5687,15.7649,16.013,16.1394,16.1723,16.0801,15.5723
+United States,US,USA,Energy prices,Price: Oil,US$2010/GJ,GCAM,Delayed transition,,,,,15.5687,15.7649,16.0131,16.4237,16.1372,14.9139,13.6029
+United States,US,USA,Energy prices,Price: Oil,US$2010/GJ,GCAM,Fragmented World,,,,,15.5687,15.7649,16.013,16.1789,16.0212,15.5498,14.3843
+United States,US,USA,Energy prices,Price: Oil,US$2010/GJ,GCAM,Low Demand,,,,,15.5687,15.7607,15.4347,15.1367,14.7839,14.267,13.3889
+United States,US,USA,Energy prices,Price: Oil,US$2010/GJ,GCAM,Nationally Determined Contributions (NDCs),,,,,15.5687,15.7736,15.7968,15.9684,16.0186,15.9103,15.4521
+United States,US,USA,Energy prices,Price: Oil,US$2010/GJ,GCAM,Net Zero 2050,,,,,15.5687,16.067,16.4476,16.3058,15.71,15.1064,14.5671
+United States,US,USA,Energy prices,Price: Oil,US$2010/GJ,MESSAGEix-GLOBIOM,Below 2°C,,,,,2.5589,3.8325,3.4669,4.159,4.226,4.8885,5.1067
+United States,US,USA,Energy prices,Price: Oil,US$2010/GJ,MESSAGEix-GLOBIOM,Current Policies,,,,,2.5589,3.7471,3.9926,4.6026,4.6044,5.3304,5.385
+United States,US,USA,Energy prices,Price: Oil,US$2010/GJ,MESSAGEix-GLOBIOM,Delayed transition,,,,,2.5589,3.7471,3.9926,4.6639,4.2107,5.1287,6.1551
+United States,US,USA,Energy prices,Price: Oil,US$2010/GJ,MESSAGEix-GLOBIOM,Fragmented World,,,,,2.5589,3.7471,3.9926,4.934,4.2899,5.458,6.1765
+United States,US,USA,Energy prices,Price: Oil,US$2010/GJ,MESSAGEix-GLOBIOM,Low Demand,,,,,2.5589,3.8325,1.4219,3.6432,3.8865,8.9198,2.4159
+United States,US,USA,Energy prices,Price: Oil,US$2010/GJ,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),,,,,2.5589,3.8325,3.9208,4.3825,4.2749,5.0653,5.395
+United States,US,USA,Energy prices,Price: Oil,US$2010/GJ,MESSAGEix-GLOBIOM,Net Zero 2050,,,,,2.5589,3.8325,2.5837,5.1853,9.5309,3.0133,5.3346
+United States,US,USA,Energy prices,Price: Oil,US$2010/GJ,REMIND-MAgPIE,Below 2°C,,,,,11.1918,12.3944,13.1936,13.1533,14.3813,15.7881,17.0372
+United States,US,USA,Energy prices,Price: Oil,US$2010/GJ,REMIND-MAgPIE,Current Policies,,,,,11.1918,12.923,13.7395,14.0862,15.7503,17.553,19.4513
+United States,US,USA,Energy prices,Price: Oil,US$2010/GJ,REMIND-MAgPIE,Delayed transition,,,,,11.1918,12.923,13.7395,13.6337,14.3796,15.898,17.1657
+United States,US,USA,Energy prices,Price: Oil,US$2010/GJ,REMIND-MAgPIE,Fragmented World,,,,,11.1918,12.923,13.7395,13.8446,15.3055,17.0406,18.6781
+United States,US,USA,Energy prices,Price: Oil,US$2010/GJ,REMIND-MAgPIE,Low Demand,,,,,11.1918,11.7366,11.065,11.3465,12.1038,12.9514,13.7653
+United States,US,USA,Energy prices,Price: Oil,US$2010/GJ,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),,,,,11.1918,12.8033,13.4785,13.705,15.3123,17.1199,18.7941
+United States,US,USA,Energy prices,Price: Oil,US$2010/GJ,REMIND-MAgPIE,Net Zero 2050,,,,,11.1918,12.1243,12.6335,12.2863,12.9663,13.827,14.5051
+United States,US,USA,Primary energy,Solar,EJ/yr,GCAM,Below 2°C,,,,,0.8169,2.1234,3.732,4.971,6.5151,8.4538,11.0221
+United States,US,USA,Primary energy,Solar,EJ/yr,GCAM,Current Policies,,,,,0.8169,2.0361,3.2491,3.9447,4.6447,5.4409,6.3567
+United States,US,USA,Primary energy,Solar,EJ/yr,GCAM,Delayed transition,,,,,0.8168,2.036,3.249,4.7156,6.5404,9.0778,13.2524
+United States,US,USA,Primary energy,Solar,EJ/yr,GCAM,Fragmented World,,,,,0.8168,2.0362,3.2493,4.4534,5.8963,7.4783,9.6265
+United States,US,USA,Primary energy,Solar,EJ/yr,GCAM,Low Demand,,,,,0.8171,1.5919,2.5773,3.9176,5.6546,8.2274,10.5315
+United States,US,USA,Primary energy,Solar,EJ/yr,GCAM,Nationally Determined Contributions (NDCs),,,,,0.8169,2.0317,3.657,4.3267,5.1788,6.1562,7.2753
+United States,US,USA,Primary energy,Solar,EJ/yr,GCAM,Net Zero 2050,,,,,0.8171,2.2914,4.065,5.7138,8.0813,11.6117,14.3679
+United States,US,USA,Primary energy,Solar,EJ/yr,MESSAGEix-GLOBIOM,Below 2°C,,,,,1.1544,1.7969,3.8095,5.6034,6.7089,8.2267,10.0041
+United States,US,USA,Primary energy,Solar,EJ/yr,MESSAGEix-GLOBIOM,Current Policies,,,,,1.1506,1.6829,2.1858,3.7887,6.5008,6.6905,7.4212
+United States,US,USA,Primary energy,Solar,EJ/yr,MESSAGEix-GLOBIOM,Delayed transition,,,,,1.1483,1.6785,2.1789,5.0932,6.7497,8.4288,10.6726
+United States,US,USA,Primary energy,Solar,EJ/yr,MESSAGEix-GLOBIOM,Fragmented World,,,,,0.603,0.9662,1.4031,3.4942,5.0706,6.484,8.4804
+United States,US,USA,Primary energy,Solar,EJ/yr,MESSAGEix-GLOBIOM,Low Demand,,,,,1.1568,1.8031,4.2312,6.9241,7.8215,7.4785,7.6849
+United States,US,USA,Primary energy,Solar,EJ/yr,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),,,,,1.1517,1.7928,3.4042,5.5833,6.7955,7.1208,8.5019
+United States,US,USA,Primary energy,Solar,EJ/yr,MESSAGEix-GLOBIOM,Net Zero 2050,,,,,1.1567,1.8007,4.4735,9.1795,11.2126,11.9575,13.0992
+United States,US,USA,Primary energy,Solar,EJ/yr,REMIND-MAgPIE,Below 2°C,,,,,1.5043,4.2209,9.7,14.8442,17.0228,17.2759,16.7937
+United States,US,USA,Primary energy,Solar,EJ/yr,REMIND-MAgPIE,Current Policies,,,,,1.5043,4.0934,7.2481,10.1711,12.016,12.4619,12.1194
+United States,US,USA,Primary energy,Solar,EJ/yr,REMIND-MAgPIE,Delayed transition,,,,,1.5043,4.0934,7.2481,11.4904,16.9187,18.8286,18.4373
+United States,US,USA,Primary energy,Solar,EJ/yr,REMIND-MAgPIE,Fragmented World,,,,,1.5043,4.0934,7.2481,10.8368,14.973,17.2697,17.8133
+United States,US,USA,Primary energy,Solar,EJ/yr,REMIND-MAgPIE,Low Demand,,,,,1.5043,4.2046,9.3824,13.1433,13.5917,12.1995,10.6412
+United States,US,USA,Primary energy,Solar,EJ/yr,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),,,,,1.5043,4.2163,10.1224,14.7195,16.7693,17.348,17.1595
+United States,US,USA,Primary energy,Solar,EJ/yr,REMIND-MAgPIE,Net Zero 2050,,,,,1.5043,4.2209,11.4635,16.8531,18.524,18.2383,17.0989
+United States,US,USA,Final energy,Solids,EJ/yr,GCAM,Below 2°C,,,,,3.1985,3.0428,2.9216,2.5759,2.1551,1.7942,1.4673
+United States,US,USA,Final energy,Solids,EJ/yr,GCAM,Current Policies,,,,,3.2205,3.1307,3.3251,3.4887,3.5841,3.5414,3.4558
+United States,US,USA,Final energy,Solids,EJ/yr,GCAM,Delayed transition,,,,,3.2205,3.1307,3.3251,2.9485,2.4356,1.9409,0.9368
+United States,US,USA,Final energy,Solids,EJ/yr,GCAM,Fragmented World,,,,,3.2142,3.123,3.3163,3.1942,2.9076,2.5557,2.1397
+United States,US,USA,Final energy,Solids,EJ/yr,GCAM,Low Demand,,,,,3.18,3.0098,2.86,2.3126,1.7434,1.2681,0.8706
+United States,US,USA,Final energy,Solids,EJ/yr,GCAM,Nationally Determined Contributions (NDCs),,,,,3.2174,3.1047,2.9398,2.9566,2.9803,2.8949,2.7705
+United States,US,USA,Final energy,Solids,EJ/yr,GCAM,Net Zero 2050,,,,,3.1873,3.0085,2.6555,2.0971,1.4824,0.8805,0.5641
+United States,US,USA,Final energy,Solids,EJ/yr,MESSAGEix-GLOBIOM,Below 2°C,,,,,0.9647,1.2936,1.068,0.8373,0.2573,0.0926,0.2461
+United States,US,USA,Final energy,Solids,EJ/yr,MESSAGEix-GLOBIOM,Current Policies,,,,,1.0175,1.1044,1.2479,1.2986,1.0469,1.0785,1.2263
+United States,US,USA,Final energy,Solids,EJ/yr,MESSAGEix-GLOBIOM,Delayed transition,,,,,1.0142,1.0997,1.2439,0.8408,0.6629,0.4827,0.6217
+United States,US,USA,Final energy,Solids,EJ/yr,MESSAGEix-GLOBIOM,Fragmented World,,,,,0.9799,1.0754,1.2135,0.9824,0.4108,0.344,0.0783
+United States,US,USA,Final energy,Solids,EJ/yr,MESSAGEix-GLOBIOM,Low Demand,,,,,1.0273,1.3543,1.2718,1.1464,0.9513,0.8889,0.8995
+United States,US,USA,Final energy,Solids,EJ/yr,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),,,,,0.9986,1.3232,1.5168,1.7943,0.9286,0.8906,0.847
+United States,US,USA,Final energy,Solids,EJ/yr,MESSAGEix-GLOBIOM,Net Zero 2050,,,,,0.9717,1.3014,1.6312,1.0983,0.9904,0.8953,0.4131
+United States,US,USA,Final energy,Solids,EJ/yr,REMIND-MAgPIE,Below 2°C,,,,,2.7275,2.9577,2.8034,2.314,1.8255,1.4219,1.1833
+United States,US,USA,Final energy,Solids,EJ/yr,REMIND-MAgPIE,Current Policies,,,,,2.7275,2.9612,2.8157,2.589,2.385,2.3727,2.8339
+United States,US,USA,Final energy,Solids,EJ/yr,REMIND-MAgPIE,Delayed transition,,,,,2.7275,2.9612,2.8157,2.4003,1.5704,1.208,0.9551
+United States,US,USA,Final energy,Solids,EJ/yr,REMIND-MAgPIE,Fragmented World,,,,,2.7275,2.9612,2.8157,2.4666,1.7298,1.2934,1.0646
+United States,US,USA,Final energy,Solids,EJ/yr,REMIND-MAgPIE,Low Demand,,,,,2.7275,2.6785,2.2744,1.8349,1.4195,1.071,0.8247
+United States,US,USA,Final energy,Solids,EJ/yr,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),,,,,2.7275,2.9552,2.832,2.3491,1.9211,1.5711,1.3213
+United States,US,USA,Final energy,Solids,EJ/yr,REMIND-MAgPIE,Net Zero 2050,,,,,2.7275,2.9054,2.5783,2.0757,1.6467,1.2867,1.0245
+United States,US,USA,Emissions and CCS,Total non-CO2 emissions,Mt CO2-equiv/yr,GCAM,Below 2°C,,,,,1136.0722,1008.6952,897.0364,913.7419,909.9161,870.7643,822.4454
+United States,US,USA,Emissions and CCS,Total non-CO2 emissions,Mt CO2-equiv/yr,GCAM,Current Policies,,,,,1136.0721,1115.392,1075.961,1115.292,1169.1437,1205.8238,1238.6834
+United States,US,USA,Emissions and CCS,Total non-CO2 emissions,Mt CO2-equiv/yr,GCAM,Delayed transition,,,,,1136.0814,1115.4057,1075.9703,909.6995,886.0078,761.6861,628.4882
+United States,US,USA,Emissions and CCS,Total non-CO2 emissions,Mt CO2-equiv/yr,GCAM,Fragmented World,,,,,1136.0721,1115.3921,1075.9607,890.1077,861.0303,816.7974,758.6914
+United States,US,USA,Emissions and CCS,Total non-CO2 emissions,Mt CO2-equiv/yr,GCAM,Low Demand,,,,,1136.0721,1000.1792,886.6988,877.9735,837.3175,727.922,711.1909
+United States,US,USA,Emissions and CCS,Total non-CO2 emissions,Mt CO2-equiv/yr,GCAM,Nationally Determined Contributions (NDCs),,,,,1136.0721,1124.5735,1006.5227,1048.5045,1093.5828,1115.4878,1147.1282
+United States,US,USA,Emissions and CCS,Total non-CO2 emissions,Mt CO2-equiv/yr,GCAM,Net Zero 2050,,,,,1136.0721,975.626,885.7142,869.9216,803.1348,708.5611,691.6369
+United States,US,USA,Emissions and CCS,Total non-CO2 emissions,Mt CO2-equiv/yr,MESSAGEix-GLOBIOM,Below 2°C,,,,,1152.2059,900.9538,861.5012,754.1454,734.2805,645.9896,557.3916
+United States,US,USA,Emissions and CCS,Total non-CO2 emissions,Mt CO2-equiv/yr,MESSAGEix-GLOBIOM,Current Policies,,,,,1152.2059,1120.5702,1006.4624,928.6061,1058.5616,1087.1951,998.7487
+United States,US,USA,Emissions and CCS,Total non-CO2 emissions,Mt CO2-equiv/yr,MESSAGEix-GLOBIOM,Delayed transition,,,,,1152.2059,1120.5702,1006.4624,852.4675,888.3643,843.6251,717.3791
+United States,US,USA,Emissions and CCS,Total non-CO2 emissions,Mt CO2-equiv/yr,MESSAGEix-GLOBIOM,Fragmented World,,,,,1274.5733,1222.5429,1088.0405,925.2487,945.4246,888.0222,731.4627
+United States,US,USA,Emissions and CCS,Total non-CO2 emissions,Mt CO2-equiv/yr,MESSAGEix-GLOBIOM,Low Demand,,,,,1152.2059,900.9538,801.5769,685.6248,646.0017,574.9223,498.0817
+United States,US,USA,Emissions and CCS,Total non-CO2 emissions,Mt CO2-equiv/yr,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),,,,,1152.2059,900.9538,743.6254,781.5625,770.9425,697.7959,624.5383
+United States,US,USA,Emissions and CCS,Total non-CO2 emissions,Mt CO2-equiv/yr,MESSAGEix-GLOBIOM,Net Zero 2050,,,,,1152.2059,900.9538,817.5202,675.9729,634.7829,551.0233,470.0733
+United States,US,USA,Emissions and CCS,Total non-CO2 emissions,Mt CO2-equiv/yr,REMIND-MAgPIE,Below 2°C,,,,,1422.0104,1363.1495,1316.6694,1192.2334,1219.617,1267.4069,1289.739
+United States,US,USA,Emissions and CCS,Total non-CO2 emissions,Mt CO2-equiv/yr,REMIND-MAgPIE,Current Policies,,,,,1422.0104,1495.8774,1555.9358,1610.5797,1664.5479,1736.8735,1815.9756
+United States,US,USA,Emissions and CCS,Total non-CO2 emissions,Mt CO2-equiv/yr,REMIND-MAgPIE,Delayed transition,,,,,1422.0104,1495.8774,1555.9358,1295.1737,1170.5738,1181.4496,1212.0533
+United States,US,USA,Emissions and CCS,Total non-CO2 emissions,Mt CO2-equiv/yr,REMIND-MAgPIE,Fragmented World,,,,,1422.0104,1495.8774,1555.9358,1458.4419,1425.2021,1434.704,1471.3171
+United States,US,USA,Emissions and CCS,Total non-CO2 emissions,Mt CO2-equiv/yr,REMIND-MAgPIE,Low Demand,,,,,1422.0104,1275.6585,1128.1691,1025.9814,1014.0918,1030.5121,1049.2601
+United States,US,USA,Emissions and CCS,Total non-CO2 emissions,Mt CO2-equiv/yr,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),,,,,1422.0104,1328.9092,1273.4492,1311.9073,1344.5841,1415.5841,1484.5681
+United States,US,USA,Emissions and CCS,Total non-CO2 emissions,Mt CO2-equiv/yr,REMIND-MAgPIE,Net Zero 2050,,,,,1422.0104,1320.4158,1226.0509,1150.7923,1165.657,1210.8625,1251.6817
+United States,US,USA,Primary energy,Wind,EJ/yr,GCAM,Below 2°C,,,,,3.109,5.379,8.3439,10.4106,12.8448,15.1464,17.1849
+United States,US,USA,Primary energy,Wind,EJ/yr,GCAM,Current Policies,,,,,3.1089,5.2105,7.2205,8.225,9.2484,10.0264,10.3786
+United States,US,USA,Primary energy,Wind,EJ/yr,GCAM,Delayed transition,,,,,3.1084,5.2099,7.2199,9.7977,12.8102,15.8715,19.2897
+United States,US,USA,Primary energy,Wind,EJ/yr,GCAM,Fragmented World,,,,,3.1088,5.2105,7.221,9.2571,11.6316,13.5504,15.2244
+United States,US,USA,Primary energy,Wind,EJ/yr,GCAM,Low Demand,,,,,3.1095,4.3609,5.9263,8.2761,11.0872,14.1537,15.6572
+United States,US,USA,Primary energy,Wind,EJ/yr,GCAM,Nationally Determined Contributions (NDCs),,,,,3.109,5.2045,8.165,9.0393,10.2884,11.2843,11.8334
+United States,US,USA,Primary energy,Wind,EJ/yr,GCAM,Net Zero 2050,,,,,3.1096,5.7237,9.1413,11.9425,15.5291,19.4816,20.8874
+United States,US,USA,Primary energy,Wind,EJ/yr,MESSAGEix-GLOBIOM,Below 2°C,,,,,0.977,2.3624,2.5396,2.6896,2.932,3.6666,6.2043
+United States,US,USA,Primary energy,Wind,EJ/yr,MESSAGEix-GLOBIOM,Current Policies,,,,,0.9737,1.0137,1.0027,2.2159,2.6784,2.7644,2.8578
+United States,US,USA,Primary energy,Wind,EJ/yr,MESSAGEix-GLOBIOM,Delayed transition,,,,,0.9719,1.0111,0.9996,2.9976,3.299,4.4866,6.1202
+United States,US,USA,Primary energy,Wind,EJ/yr,MESSAGEix-GLOBIOM,Fragmented World,,,,,1.1318,1.1484,1.1123,2.6769,2.6418,3.4196,5.0113
+United States,US,USA,Primary energy,Wind,EJ/yr,MESSAGEix-GLOBIOM,Low Demand,,,,,0.9789,2.3703,2.4585,3.9185,4.1395,4.4616,5.0749
+United States,US,USA,Primary energy,Wind,EJ/yr,MESSAGEix-GLOBIOM,Nationally Determined Contributions (NDCs),,,,,0.9746,2.357,2.5134,2.7636,2.9132,3.4869,3.6008
+United States,US,USA,Primary energy,Wind,EJ/yr,MESSAGEix-GLOBIOM,Net Zero 2050,,,,,0.9789,2.3671,6.9694,8.6008,8.1909,9.1593,10.434
+United States,US,USA,Primary energy,Wind,EJ/yr,REMIND-MAgPIE,Below 2°C,,,,,1.9958,3.8095,5.9289,7.894,9.2278,10.2029,10.6965
+United States,US,USA,Primary energy,Wind,EJ/yr,REMIND-MAgPIE,Current Policies,,,,,1.9958,3.5177,4.788,5.8616,6.5994,7.1852,7.4726
+United States,US,USA,Primary energy,Wind,EJ/yr,REMIND-MAgPIE,Delayed transition,,,,,1.9958,3.5177,4.788,6.4057,8.3712,9.9993,10.8823
+United States,US,USA,Primary energy,Wind,EJ/yr,REMIND-MAgPIE,Fragmented World,,,,,1.9958,3.5177,4.788,6.3146,8.2433,10.1575,11.4474
+United States,US,USA,Primary energy,Wind,EJ/yr,REMIND-MAgPIE,Low Demand,,,,,1.9958,3.5354,5.4234,6.9009,7.4241,7.3419,6.8802
+United States,US,USA,Primary energy,Wind,EJ/yr,REMIND-MAgPIE,Nationally Determined Contributions (NDCs),,,,,1.9958,3.9921,6.4833,8.5622,9.9376,10.8901,11.3621
+United States,US,USA,Primary energy,Wind,EJ/yr,REMIND-MAgPIE,Net Zero 2050,,,,,1.9958,4.2708,7.4904,10.194,11.5125,12.1022,12.009
