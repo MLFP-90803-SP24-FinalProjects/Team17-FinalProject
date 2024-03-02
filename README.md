@@ -71,13 +71,13 @@ Hannah Nguyen, hieuhann@andrew.cmu.edu
 ### Brief Description / Context
 This project predicts housing prices based on data of climate indicators. This is relevant because climate change is reshaping U.S. geography, thus, displacing large communities in areas that experience a variety of extreme climate events and even higher risk of environmental disasters. 
 
-**- Why is this topic relevant?**
+**- Why is this topic relevant?**<br>
 Prevalent effects of climate change are influencing the decision on individual's real estate investments. Rising global temperature have a domino effect, causing other climate change events like extreme weather and higher sea levels. This could range from higher temperatures to danageraout, destructive storms with wind damage or higher risks of flooding. As temperatures rise and costs go up, it makes sense that people may be relocating to cooler areas to decrease energy costs and to distance themselves from areas prone to heightened air pollution levels and risks of heat-related illnesses and mortality.
   
-**Who does this topic affect? Where does it happen? When did it happen?**
+**- Who does this topic affect? Where does it happen? When did it happen?**<br>
 In areas of rising temeratures, more people are using electricity for air-condition or other cooling methods, putting strain on the electrical grid, raising the prices for these utilities. This is even more densely populated areas, "urban heat island", where increases energy costs (e.g., for air conditioning), air pollution levels, and heat-related illness and mortality.
 
-**What are your motivations for addressing this topic?**
+**- What are your motivations for addressing this topic?**<br>
 With friends and family living in these high-risk areas, we are motivated to pursue this topic. We are also interested in exploring the intersectionality between housing and environmental policies and proposing holistic interpretations to a complex problem.
 
 ### Variable Description
