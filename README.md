@@ -61,7 +61,7 @@ We think since we all come from different learning, cultural, and social styles,
 
 
 ### Title
-An initial title for your project (e.g. AirBnB Analysis in Pittsburgh).
+Climate-Driven Housing Price Prediction: Navigating Environmental Displacement in the U.S.
 
 
 ### Authors
@@ -70,14 +70,9 @@ Jewel Kentilitisca, jkentili@andrew.cmu.edu
 Hannah Nguyen, hieuhann@andrew.cmu.edu
 
 ### Brief Description / Context
-This project predicts housing prices based on data of climate indicators. This is relevant because climate change is reshaping U.S. geography, thus, displacing large communities in areas high risk of environmental disasters. 
+This project predicts housing prices based on data of climate indicators. This is relevant because climate change is reshaping U.S. geography, thus, displacing large communities in areas high risk of environmental disasters. For example, a study published in October 2023 coined the term "climate gentrification" to describe how rising sea levels will force many Floridans to relocate, calling policy makers to start deriving affordable housing incentives and support for displaced residents (Seeteram et al. 10-13). With friends and family living in these high-risk areas, we are motivated to pursue this topic. We are also interested in exploring the intersectionality between housing and environmental policies and proposing holistic interpretations to a complex problem.
 
-A brief description/context of the problem you are approaching and problem understanding. Think about answering the following points:
-
-- Why is this topic relevant?
-- Who does this topic affect? Where does it happen? When did it happen?
-- What are your motivations for addressing this topic?
-
+Seeteram, Nadia A, et al. "Modes of Climate Mobility under Sea-Level Rise." *Environmental Research Letters*, vol. 18, no. 11, 2023, 114015. DOI: [10.1088/1748-9326/acfe22](https://iopscience.iop.org/article/10.1088/1748-9326/acfe22#erlacfe22s5)
 
 ### Variable Description
 A brief description of the dataset/s you chose (e.g., number of variables, year, etc). 
