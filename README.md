@@ -33,29 +33,66 @@ For this Lab, you will need to do the following:
 > Modify here: 
 
 **1. List the names of all your teammates:**
-
+Quintessa Guengerich, Yoko Kentilitisca, Hannah Nguyen
 
 **2. Agree as a team, what branching strategy do you plan to use in your final projects? Justify your choices**
-
+We are going to do GitFlow development because that is what we are used to in previous projects. We prefer having a develop branch and several feature/chore branches.
 
 **3.Communication: Outline how the team will communicate — including frequency and methods (e.g., email, WhatsApp, team meetings).  What is the maximum expected response time?**
-
+Whatsapp and carrier pigeon across the park. Max response time of 2 days, preferred within 4 hrs.
 
 
 **4. Decision-Making: How will decisions be made in this team? How will you stay on track? Do you plan on having meetings or any strategies for working through your final project**
-
+We will discuss primarily in Whatsapp. We will have weekly meetings at Tessa's house.
 
 
 **5. As with any team project there is always the possibility of conflict arising, if it does in the future, how will you resolve differences? List at least two strategies**
-
-
-
+First, we will discuss amongst each other. We are close enough to be able to professionally "call out" each other, and we live nearby. Second, we are available to help each other out if we need to help pick up others' slack.
 
 **6.Commitments: How will you handle different levels of participation and commitment? What process will you follow if someone does not live up to his/her/their responsibilities? (3-5 sentences)**
-
+There is an understanding that everyone is on different levels of their coding experiences. So, by being able to be an open and communicative group, we can all learn from each other and build off of each other's strengths #strengthincollaboration. There is no need to be ashamed when we are all learning, it's best to have weekly check-ups with each other. 
 
 
 **7.Diversity: How will you accommodate different learning and working styles? Talk about your own styles and schedules for working and come to an agreement (3-6 sentences)**
+We think since we all come from different learning, cultural, and social styles, we believe that as a team it makes our need for communication even more important. Everyone has different lives, so we have committed to weekly updates on our project via Whatsapp and when the Sprints are due we will make sure to schedule an in-person meeting with each other the week before to make sure there's enough time to get the project done. We are all flexible and the convenience of us living so close to one another allows us to get the work done efficiently. 
+
+
+## Sprint 3
+
+
+### Title
+An initial title for your project (e.g. AirBnB Analysis in Pittsburgh).
+
+
+### Authors
+Right after the title, make sure to include the authors of the project. You should include the following:
+
+* Full names
+* Emails
+
+### Brief Description / Context
+A brief description/context of the problem you are approaching and problem understanding. Think about answering the following points:
+
+- Why is this topic relevant?
+- Who does this topic affect? Where does it happen? When did it happen?
+- What are your motivations for addressing this topic?
+
+
+### Variable Description
+A brief description of the dataset/s you chose (e.g., number of variables, year, etc). 
+
+- Include an exact link to the dataset (we should be able to download your data directly from this link)
+- DO NOT  include the dataset in your repo! Please put it in your .gitignore, that way you can use the dataset in your local repos but it will not be reflected into your GitHub.
+- Describe the format your data comes in
+- Describe any relevant metadata
+- List the variables (at a high level)
+
+
+### Questions to Answer
+Include 3-5 questions to ask your dataset. These questions are not meant to be technical but about the topic (and dataset/s) you choose. Keep in mind that you will provide answers to these questions by building models. After each question, include a description of the target variable you plan to use (if you are using supervised learning) and the type of task you think this question will require (classification, prediction, etc).
 
 
 
+### Running the Project
+
+In this section, you can include instructions on how to run your project. Think of them as steps. Include which notebook to run first and what each notebook contains. 
