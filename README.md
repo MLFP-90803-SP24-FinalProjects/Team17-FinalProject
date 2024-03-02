@@ -61,8 +61,7 @@ We think since we all come from different learning, cultural, and social styles,
 
 
 ### Title
-An initial title for your project (e.g. AirBnB Analysis in Pittsburgh).
-
+Climate-Driven Housing Price Prediction: Navigating Environmental Displacement in the U.S.
 
 ### Authors
 Quintessa Guengerich, qguenger@andrew.cmu.edu
@@ -70,13 +69,18 @@ Jewel Kentilitisca, jkentili@andrew.cmu.edu
 Hannah Nguyen, hieuhann@andrew.cmu.edu
 
 ### Brief Description / Context
-This project predicts housing prices based on data of climate indicators. This is relevant because climate change is reshaping U.S. geography, thus, displacing large communities in areas high risk of environmental disasters. 
+This project predicts housing prices based on data of climate indicators. This is relevant because climate change is reshaping U.S. geography, thus, displacing large communities in areas that experience a variety of extreme climate events and even higher risk of environmental disasters. 
 
 A brief description/context of the problem you are approaching and problem understanding. Think about answering the following points:
 
 - Why is this topic relevant?
+  Increasing and prevalent effects of climate change are influencing the decision on individual's real estate investments. Rising global temperature have a domino effect, causing other climate change events like extreme weather and higher sea levels. This could range from higher temperatures to danageraout, destructive storms with wind damage or higher risks of flooding.  
+  
 - Who does this topic affect? Where does it happen? When did it happen?
+In areas of rising temeratures, more people are using electricity for air-condition or other cooling methods, putting strain on the electrical grid, raising the prices for these utilities. This is even more densely populated areas, "urban heat island", where increases energy costs (e.g., for air conditioning), air pollution levels, and heat-related illness and mortality.
+
 - What are your motivations for addressing this topic?
+As temperatures rise and costs go up, it makes sense that people may be relocating to cooler areas to decrease energy costs and to distance themselves from areas prone to heightened air pollution levels and risks of heat-related illnesses and mortality. 
 
 
 ### Variable Description
@@ -92,6 +96,19 @@ A brief description of the dataset/s you chose (e.g., number of variables, yea
 ### Questions to Answer
 Include 3-5 questions to ask your dataset. These questions are not meant to be technical but about the topic (and dataset/s) you choose. Keep in mind that you will provide answers to these questions by building models. After each question, include a description of the target variable you plan to use (if you are using supervised learning) and the type of task you think this question will require (classification, prediction, etc).
 
+How does the frequency and severity of extreme weather events correlate with real estate investment patterns in different regions?
+- Target variable: Real estate investment volume and value in specific regions in the United States. 
+- Task: Regression analysis to predict investment patterns based on historical weather data (feel free to change)
+
+
+What is the relationship between rising temperatures and changes in property prices in urban heat island areas?
+
+- Target variable: Property prices or property value indices in urban heat island areas in the United States?
+- Task: Correlation analysis to determine the impact of rising temperatures on property prices (feel free to change)
+
+How do changes in temperature and precipitation levels correlate with changes in housing market characteristics, such as listing pricing trends, market duration, and inventory levels?
+- Target variable: Housing market indicators (listing prices, how long houses are on the market, inventory levels).
+- Task: Time-series analysis to examine the impact of weather patterns on housing market dynamics.
 
 
 ### Running the Project
