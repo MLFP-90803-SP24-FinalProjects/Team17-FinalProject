@@ -100,7 +100,7 @@ We have three main datasets, listed below.
 - Climate Data:
   + Link: https://drive.google.com/file/d/174KqWkZTk-vSsGW5gtADxE8OU7L0v8g9/view?usp=drive_link
   + Note: We scraped this data from this [website](https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/mapping/110/tavg/202301/1/value). 
-  + High-level description: Monthly average temperatures by counties in the U.S. from 2000 to 2023 obtained from the NOAA.
+  + High-level description: Monthly average temperatures by counties in the U.S. from 2000 to 2023 obtained from the National Oceanic and Atmospheric Administration.
   + Format: csv files
   + Variables: Each csv file contains county information (id, name, state) and average temperatures for a specific month. All files were combined and read into a dataframe of monthly temperature in the cleaning notebook.
 
