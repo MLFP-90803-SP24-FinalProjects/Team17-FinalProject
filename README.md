@@ -81,32 +81,29 @@ In areas of rising temeratures, more people are using electricity for air-condit
 With friends and family living in these high-risk areas, we are motivated to pursue this topic. We are also interested in exploring the intersectionality between housing and environmental policies and proposing holistic interpretations to a complex problem.
 
 ### Variable Description
-A brief description of the dataset/s you chose (e.g., number of variables, year, etc). 
+We have three main datasets, listed below.
 
-- Mortgage rates data: https://www.fhfa.gov/DataTools/Downloads/Documents/Historical-Summary-Tables/Table26-2019-by-Month.xls
-	- Include an exact link to the dataset (we should be able to download your data directly from this link)
-	- DO NOT  include the dataset in your repo! Please put it in your .gitignore, that way you can use the dataset in your local repos but it will not be reflected into your GitHub.
-	- Describe the format your data comes in
-	- Describe any relevant metadata
-	- List the variables (at a high level)
+- Mortgage rates from 1990 to 2019: 
+  + Link: https://www.fhfa.gov/DataTools/Downloads/Documents/Historical-Summary-Tables/Table26-2019-by-Month.xls
+  + High-level description: Fixed-rates for conventional single family mortgages obtained from the Federal Housing Finance Agency
+  + Format: Excel (.xls) file.
+  + Variables: year from 1990 to 2019, month from 1 to 12, contract interest rate (we dropped this column in the cleaning notebook as it is not relevant to our analysis), intial fees and charges, effective rates, term to maturity, loan amount, purchase price, loan-to-price ratio, share of total market.
 
-- Housing Data: https://files.zillowstatic.com/research/public_csvs/zhvi/County_zhvi_uc_sfrcondo_tier_0.67_1.0_sm_sa_month.csv?t=1709428647
-                https://files.zillowstatic.com/research/public_csvs/zhvi/County_zhvi_uc_sfrcondo_tier_0.0_0.33_sm_sa_month.csv?t=1709428647
-Note: We downloaded several different types of data, but I have it commented out of the jupyter notebook because we are ultimtely NOT going to use it after exploring it.
-	- Include an exact link to the dataset (we should be able to download your data directly from this link)
-	- DO NOT  include the dataset in your repo! Please put it in your .gitignore, that way you can use the dataset in your local repos but it will not be reflected into your GitHub.
-	- Describe the format your data comes in
-	- Describe any relevant metadata
-	- List the variables (at a high level)
-- Climate Data: https://drive.google.com/file/d/174KqWkZTk-vSsGW5gtADxE8OU7L0v8g9/view?usp=drive_link
-Note: We scraped this data from this website (https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/mapping/110/tavg/202301/1/value).
-The code for scraping the data is in the climate_data_gathering branch if you would like to run it. It takes about 15 minutes to run.
-	- Include an exact link to the dataset (we should be able to download your data directly from this link)
-	- DO NOT  include the dataset in your repo! Please put it in your .gitignore, that way you can use the dataset in your local repos but it will not be reflected into your GitHub.
-	- Describe the format your data comes in
-	- Describe any relevant metadata
-	- List the variables (at a high level)
+- Housing Data:
+  + Links:
+    1. https://files.zillowstatic.com/research/public_csvs/zhvi/County_zhvi_uc_sfrcondo_tier_0.67_1.0_sm_sa_month.csv?t=1709428647
+    2. https://files.zillowstatic.com/research/public_csvs/zhvi/County_zhvi_uc_sfrcondo_tier_0.0_0.33_sm_sa_month.csv?t=1709428647
+  + Note: We downloaded several different types of data but have commented out some of them in our cleaning notebooks because we are ultimately NOT going to use them after exploring it.
+  + High-level description: Monthly average home values from 2000 to 2023 by counties in the U.S.
+  + Format: csv files
+  + Variables: County information (name, state, id, size ranking, metro, FIPS) and average home values by date (last day of every month from 2000 to 2023).  
 
+- Climate Data:
+  + Link: https://drive.google.com/file/d/174KqWkZTk-vSsGW5gtADxE8OU7L0v8g9/view?usp=drive_link
+  + Note: We scraped this data from this [website](https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/mapping/110/tavg/202301/1/value). The code for scraping the data is in the climate_data_gathering branch if you would like to run it. It takes about 15 minutes to run.
+  + High-level description: Monthly average temperatures by counties in the U.S. from 2000 to 2023.
+  + Format: csv files
+  + Variables: Each csv file contains county information (id, name, state) and average temperatures for a specific month. All files were combined and read into a dataframe of monthly temperature in the cleaning notebook.
 
 ### Questions to Answer
 
@@ -125,4 +122,4 @@ The code for scraping the data is in the climate_data_gathering branch if you wo
 
 ### Running the Project
 
-In this section, you can include instructions on how to run your project. Think of them as steps. Include which notebook to run first and what each notebook contains. 
+
