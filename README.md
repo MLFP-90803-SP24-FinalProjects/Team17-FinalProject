@@ -92,6 +92,7 @@ A brief description of the dataset/s you chose (e.g., number of variables, yea
 
 - Housing Data: https://files.zillowstatic.com/research/public_csvs/zhvi/County_zhvi_uc_sfrcondo_tier_0.67_1.0_sm_sa_month.csv?t=1709428647
                 https://files.zillowstatic.com/research/public_csvs/zhvi/County_zhvi_uc_sfrcondo_tier_0.0_0.33_sm_sa_month.csv?t=1709428647
+Note: We downloaded several different types of data, but I have it commented out of the jupyter notebook because we are ultimtely NOT going to use it after exploring it.
 	- Include an exact link to the dataset (we should be able to download your data directly from this link)
 	- DO NOT  include the dataset in your repo! Please put it in your .gitignore, that way you can use the dataset in your local repos but it will not be reflected into your GitHub.
 	- Describe the format your data comes in
