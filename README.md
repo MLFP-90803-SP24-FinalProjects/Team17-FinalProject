@@ -83,11 +83,18 @@ With friends and family living in these high-risk areas, we are motivated to pur
 ### Variable Description
 A brief description of the dataset/s you chose (e.g., number of variables, year, etc). 
 
+- Mortgage rates data: https://www.fhfa.gov/DataTools/Downloads/Documents/Historical-Summary-Tables/Table26-2019-by-Month.xls
 - Include an exact link to the dataset (we should be able to download your data directly from this link)
 - DO NOT  include the dataset in your repo! Please put it in your .gitignore, that way you can use the dataset in your local repos but it will not be reflected into your GitHub.
 - Describe the format your data comes in
 - Describe any relevant metadata
 - List the variables (at a high level)
+
+- Housing Data: https://files.zillowstatic.com/research/public_csvs/zhvi/County_zhvi_uc_sfrcondo_tier_0.67_1.0_sm_sa_month.csv?t=1709428647
+                https://files.zillowstatic.com/research/public_csvs/zhvi/County_zhvi_uc_sfrcondo_tier_0.0_0.33_sm_sa_month.csv?t=1709428647
+- Climate Data: https://drive.google.com/file/d/174KqWkZTk-vSsGW5gtADxE8OU7L0v8g9/view?usp=drive_link
+Note: We scraped this data from this website (https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/mapping/110/tavg/202301/1/value).
+The code for scraping the data is in the climate_data_gathering branch if you would like to run it. It takes about 15 minutes to run.
 
 
 ### Questions to Answer
