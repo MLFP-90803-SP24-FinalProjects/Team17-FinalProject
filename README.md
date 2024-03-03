@@ -127,7 +127,7 @@ We have three main datasets, listed below.
 - For mortgage rates, use this [link](https://www.fhfa.gov/DataTools/Downloads/Documents/Historical-Summary-Tables/Table26-2019-by-Month.xls) to instantly download the .xls file we used.
 - For housing data:
   + Use this [link](https://files.zillowstatic.com/research/public_csvs/zhvi/County_zhvi_uc_sfrcondo_tier_0.67_1.0_sm_sa_month.csv?t=1709428647) to download the first csv. **Please rename the downloaded file as "top_tier.csv".**
-  + Use this [link](https://files.zillowstatic.com/research/public_csvs/zhvi/County_zhvi_uc_sfrcondo_tier_0.0_0.33_sm_sa_month.csv?t=1709428647) to download the second csv. **Please rename the downloaded file as "bottome_tier.csv".**
+  + Use this [link](https://files.zillowstatic.com/research/public_csvs/zhvi/County_zhvi_uc_sfrcondo_tier_0.0_0.33_sm_sa_month.csv?t=1709428647) to download the second csv. **Please rename the downloaded file as "bottom_tier.csv".**
 - For climate data: You can either download the scraped dataset on our google drive [here](https://drive.google.com/file/d/174KqWkZTk-vSsGW5gtADxE8OU7L0v8g9/view?usp=drive_link) or run all cells in "Climate_Gathering.ipynb" (takes 15 minutes). 
 
 2. Cleaning the Data: <br>
