@@ -91,17 +91,16 @@ We have three main datasets, listed below.
 
 - Housing Data:
   + Links:
-    1. https://files.zillowstatic.com/research/public_csvs/zhvi/County_zhvi_uc_sfrcondo_tier_0.67_1.0_sm_sa_month.csv?t=1709428647
-    2. https://files.zillowstatic.com/research/public_csvs/zhvi/County_zhvi_uc_sfrcondo_tier_0.0_0.33_sm_sa_month.csv?t=1709428647
-  + Note: We downloaded several different types of data but have commented out some of them in our cleaning notebooks because we are ultimately NOT going to use them after exploring it.
-  + High-level description: Monthly average home values from 2000 to 2023 by counties in the U.S.
+    1. https://files.zillowstatic.com/research/public_csvs/zhvi/County_zhvi_uc_sfrcondo_tier_0.67_1.0_sm_sa_month.csv?t=1709428647 (renamed "top_tier.csv" after downloaded)
+    2. https://files.zillowstatic.com/research/public_csvs/zhvi/County_zhvi_uc_sfrcondo_tier_0.0_0.33_sm_sa_month.csv?t=1709428647 (renamed "bottom_tier.csv" after downloaded)
+  + High-level description: Monthly average home values from 2000 to 2023 by counties in the U.S. obtained from Zillow.
   + Format: csv files
   + Variables: County information (name, state, id, size ranking, metro, FIPS) and average home values by date (last day of every month from 2000 to 2023).  
 
 - Climate Data:
   + Link: https://drive.google.com/file/d/174KqWkZTk-vSsGW5gtADxE8OU7L0v8g9/view?usp=drive_link
   + Note: We scraped this data from this [website](https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/mapping/110/tavg/202301/1/value). The code for scraping the data is in the climate_data_gathering branch if you would like to run it. It takes about 15 minutes to run.
-  + High-level description: Monthly average temperatures by counties in the U.S. from 2000 to 2023.
+  + High-level description: Monthly average temperatures by counties in the U.S. from 2000 to 2023 obtained from the NOAA.
   + Format: csv files
   + Variables: Each csv file contains county information (id, name, state) and average temperatures for a specific month. All files were combined and read into a dataframe of monthly temperature in the cleaning notebook.
 
@@ -122,4 +121,19 @@ We have three main datasets, listed below.
 
 ### Running the Project
 
+1. Getting the Data: 
+- For mortgage rates, use this [link](https://www.fhfa.gov/DataTools/Downloads/Documents/Historical-Summary-Tables/Table26-2019-by-Month.xls) to instantly download the .xls file we used.
+- For housing data:
+  + Use this [link](https://files.zillowstatic.com/research/public_csvs/zhvi/County_zhvi_uc_sfrcondo_tier_0.67_1.0_sm_sa_month.csv?t=1709428647) to download the first csv. **Please rename the downloaded file as "top_tier.csv".**
+  + Use this [link](https://files.zillowstatic.com/research/public_csvs/zhvi/County_zhvi_uc_sfrcondo_tier_0.0_0.33_sm_sa_month.csv?t=1709428647) to download the second csv. **Please rename the downloaded file as "bottome_tier.csv".**
+- For climate data: You can either download the scraped dataset on our google drive [here](link) or run all cells in "Climate_Gathering.ipynb" (takes 15 minutes). 
+
+2. Cleaning the Data:
+Please run all cells in the following notebooks in no particular order:
+- Mortgage_Data_Cleaning.ipynb
+- Housing_Data_Cleaning.ipynb
+- Climate_Data_Cleaning.ipynb
+
+3. Merging the Data:
+Please run all cells in "Merging_Data.ipynb".
 
