@@ -99,7 +99,7 @@ We have three main datasets, listed below.
 
 - Climate Data:
   + Link: https://drive.google.com/file/d/174KqWkZTk-vSsGW5gtADxE8OU7L0v8g9/view?usp=drive_link
-  + Note: We scraped this data from this [website](https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/mapping/110/tavg/202301/1/value). The code for scraping the data is in the climate_data_gathering branch if you would like to run it. It takes about 15 minutes to run.
+  + Note: We scraped this data from this [website](https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/mapping/110/tavg/202301/1/value). 
   + High-level description: Monthly average temperatures by counties in the U.S. from 2000 to 2023 obtained from the NOAA.
   + Format: csv files
   + Variables: Each csv file contains county information (id, name, state) and average temperatures for a specific month. All files were combined and read into a dataframe of monthly temperature in the cleaning notebook.
@@ -126,7 +126,7 @@ We have three main datasets, listed below.
 - For housing data:
   + Use this [link](https://files.zillowstatic.com/research/public_csvs/zhvi/County_zhvi_uc_sfrcondo_tier_0.67_1.0_sm_sa_month.csv?t=1709428647) to download the first csv. **Please rename the downloaded file as "top_tier.csv".**
   + Use this [link](https://files.zillowstatic.com/research/public_csvs/zhvi/County_zhvi_uc_sfrcondo_tier_0.0_0.33_sm_sa_month.csv?t=1709428647) to download the second csv. **Please rename the downloaded file as "bottome_tier.csv".**
-- For climate data: You can either download the scraped dataset on our google drive [here](link) or run all cells in "Climate_Gathering.ipynb" (takes 15 minutes). 
+- For climate data: You can either download the scraped dataset on our google drive [here](https://drive.google.com/file/d/174KqWkZTk-vSsGW5gtADxE8OU7L0v8g9/view?usp=drive_link) or run all cells in "Climate_Gathering.ipynb" (takes 15 minutes). 
 
 2. Cleaning the Data:
 Please run all cells in the following notebooks in no particular order:
