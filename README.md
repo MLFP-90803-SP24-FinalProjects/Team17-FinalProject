@@ -63,32 +63,79 @@ We think since we all come from different learning, cultural, and social styles,
 ### Title
 Climate-Driven Housing Price Prediction: Navigating Environmental Displacement in the U.S.
 
-
 ### Authors
 Quintessa Guengerich, qguenger@andrew.cmu.edu
 Jewel Kentilitisca, jkentili@andrew.cmu.edu
 Hannah Nguyen, hieuhann@andrew.cmu.edu
 
 ### Brief Description / Context
-This project predicts housing prices based on data of climate indicators. This is relevant because climate change is reshaping U.S. geography, thus, displacing large communities in areas high risk of environmental disasters. For example, a study published in October 2023 coined the term "climate gentrification" to describe how rising sea levels will force many Floridans to relocate, calling policy makers to start deriving affordable housing incentives and support for displaced residents (Seeteram et al. 10-13). With friends and family living in these high-risk areas, we are motivated to pursue this topic. We are also interested in exploring the intersectionality between housing and environmental policies and proposing holistic interpretations to a complex problem.
 
-Seeteram, Nadia A, et al. "Modes of Climate Mobility under Sea-Level Rise." *Environmental Research Letters*, vol. 18, no. 11, 2023, 114015. DOI: [10.1088/1748-9326/acfe22](https://iopscience.iop.org/article/10.1088/1748-9326/acfe22#erlacfe22s5)
+This project predicts housing prices based on data of climate indicators. This is relevant because climate change is reshaping U.S. geography, thus, displacing large communities in areas that experience a variety of extreme climate events and even higher risk of environmental disasters. 
+
+**- Why is this topic relevant?**<br>
+Prevalent effects of climate change are influencing the decision on individual's real estate investments. Rising global temperature have a domino effect, causing other climate change events like extreme weather and higher sea levels. This could range from higher temperatures to danageraout, destructive storms with wind damage or higher risks of flooding. As temperatures rise and costs go up, it makes sense that people may be relocating to cooler areas to decrease energy costs and to distance themselves from areas prone to heightened air pollution levels and risks of heat-related illnesses and mortality.
+  
+**- Who does this topic affect? Where does it happen? When did it happen?**<br>
+In areas of rising temeratures, more people are using electricity for air-condition or other cooling methods, putting strain on the electrical grid, raising the prices for these utilities. This is even more densely populated areas, "urban heat island", where increases energy costs (e.g., for air conditioning), air pollution levels, and heat-related illness and mortality.
+
+**- What are your motivations for addressing this topic?**<br>
+With friends and family living in these high-risk areas, we are motivated to pursue this topic. We are also interested in exploring the intersectionality between housing and environmental policies and proposing holistic interpretations to a complex problem.
+
 
 ### Variable Description
-A brief description of the dataset/s you chose (e.g., number of variables, year, etc). 
+We have three main datasets, listed below.
 
-- Include an exact link to the dataset (we should be able to download your data directly from this link)
-- DO NOT  include the dataset in your repo! Please put it in your .gitignore, that way you can use the dataset in your local repos but it will not be reflected into your GitHub.
-- Describe the format your data comes in
-- Describe any relevant metadata
-- List the variables (at a high level)
+- Mortgage rates from 1990 to 2019: 
+  + Link: https://www.fhfa.gov/DataTools/Downloads/Documents/Historical-Summary-Tables/Table26-2019-by-Month.xls
+  + High-level description: Fixed-rates for conventional single family mortgages obtained from the Federal Housing Finance Agency
+  + Format: Excel (.xls) file.
+  + Variables: year from 1990 to 2019, month from 1 to 12, contract interest rate (we dropped this column in the cleaning notebook as it is not relevant to our analysis), intial fees and charges, effective rates, term to maturity, loan amount, purchase price, loan-to-price ratio, share of total market.
 
+- Housing Data:
+  + Links:
+    1. https://files.zillowstatic.com/research/public_csvs/zhvi/County_zhvi_uc_sfrcondo_tier_0.67_1.0_sm_sa_month.csv?t=1709428647 (renamed "top_tier.csv" after downloaded)
+    2. https://files.zillowstatic.com/research/public_csvs/zhvi/County_zhvi_uc_sfrcondo_tier_0.0_0.33_sm_sa_month.csv?t=1709428647 (renamed "bottom_tier.csv" after downloaded)
+  + High-level description: Monthly average home values from 2000 to 2023 by counties in the U.S. obtained from Zillow.
+  + Format: csv files
+  + Variables: County information (name, state, id, size ranking, metro, FIPS) and average home values by date (last day of every month from 2000 to 2023).  
+
+- Climate Data:
+  + Link: https://drive.google.com/file/d/174KqWkZTk-vSsGW5gtADxE8OU7L0v8g9/view?usp=drive_link
+  + Note: We scraped this data from this [website](https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/mapping/110/tavg/202301/1/value). 
+  + High-level description: Monthly average temperatures by counties in the U.S. from 2000 to 2023 obtained from the National Oceanic and Atmospheric Administration.
+  + Format: csv files
+  + Variables: Each csv file contains county information (id, name, state) and average temperatures for a specific month. All files were combined and read into a dataframe of monthly temperature in the cleaning notebook.
 
 ### Questions to Answer
-Include 3-5 questions to ask your dataset. These questions are not meant to be technical but about the topic (and dataset/s) you choose. Keep in mind that you will provide answers to these questions by building models. After each question, include a description of the target variable you plan to use (if you are using supervised learning) and the type of task you think this question will require (classification, prediction, etc).
 
+1. How does the frequency and severity of climate indicators correlate with real estate investment patterns in different regions?
+- Target variable: Real estate investment volume and value in specific regions in the United States.
+- Task: Regression analysis to predict investment patterns based on historical weather data.
+
+2. What is the relationship between rising temperatures and changes in property prices in urban heat island areas?
+- Target variable: Property prices or property value indices in urban heat island areas in the United States?
+- Task: Correlation analysis to determine the impact of rising temperatures on property prices.
+
+3. How do changes in temperature and precipitation levels correlate with changes in housing market characteristics, such as listing pricing trends, market duration, and inventory levels?
+- Target variable: Housing market indicators (listing prices, how long houses are on the market, inventory levels).
+- Task: Time-series analysis to examine the impact of weather patterns on housing market dynamics.
 
 
 ### Running the Project
 
-In this section, you can include instructions on how to run your project. Think of them as steps. Include which notebook to run first and what each notebook contains. 
+1. Getting the Data: <br>
+- For mortgage rates, use this [link](https://www.fhfa.gov/DataTools/Downloads/Documents/Historical-Summary-Tables/Table26-2019-by-Month.xls) to instantly download the .xls file we used.
+- For housing data:
+  + Use this [link](https://files.zillowstatic.com/research/public_csvs/zhvi/County_zhvi_uc_sfrcondo_tier_0.67_1.0_sm_sa_month.csv?t=1709428647) to download the first csv. **Please rename the downloaded file as "top_tier.csv".**
+  + Use this [link](https://files.zillowstatic.com/research/public_csvs/zhvi/County_zhvi_uc_sfrcondo_tier_0.0_0.33_sm_sa_month.csv?t=1709428647) to download the second csv. **Please rename the downloaded file as "bottome_tier.csv".**
+- For climate data: You can either download the scraped dataset on our google drive [here](https://drive.google.com/file/d/174KqWkZTk-vSsGW5gtADxE8OU7L0v8g9/view?usp=drive_link) or run all cells in "Climate_Gathering.ipynb" (takes 15 minutes). 
+
+2. Cleaning the Data: <br>
+Please run all cells in the following notebooks in no particular order:
+- Mortgage_Data_Cleaning.ipynb
+- Housing_Data_Cleaning.ipynb
+- Climate_Data_Cleaning.ipynb
+
+3. Merging the Data: <br>
+Please run all cells in "Merging_Data.ipynb".
+
