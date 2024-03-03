@@ -69,6 +69,7 @@ Jewel Kentilitisca, jkentili@andrew.cmu.edu
 Hannah Nguyen, hieuhann@andrew.cmu.edu
 
 ### Brief Description / Context
+
 This project predicts housing prices based on data of climate indicators. This is relevant because climate change is reshaping U.S. geography, thus, displacing large communities in areas that experience a variety of extreme climate events and even higher risk of environmental disasters. 
 
 **- Why is this topic relevant?**<br>
@@ -79,6 +80,7 @@ In areas of rising temeratures, more people are using electricity for air-condit
 
 **- What are your motivations for addressing this topic?**<br>
 With friends and family living in these high-risk areas, we are motivated to pursue this topic. We are also interested in exploring the intersectionality between housing and environmental policies and proposing holistic interpretations to a complex problem.
+
 
 ### Variable Description
 We have three main datasets, listed below.
