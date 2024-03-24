@@ -84,7 +84,7 @@ With friends and family living in these high-risk areas, we are motivated to pur
 
 ### Variable Description
 We have three main datasets, listed below.
-
+ALL DATA HERE: https://drive.google.com/drive/u/1/folders/1zrZRrxCLTGlC9bDl9DJXIw5U_EXbJO7h
 - Mortgage rates from 1990 to 2019: 
   + Link: https://www.fhfa.gov/DataTools/Downloads/Documents/Historical-Summary-Tables/Table26-2019-by-Month.xls
   + High-level description: Fixed-rates for conventional single family mortgages obtained from the Federal Housing Finance Agency
