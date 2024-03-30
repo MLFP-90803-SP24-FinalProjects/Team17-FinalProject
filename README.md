@@ -39,7 +39,7 @@ Quintessa Guengerich, Yoko Kentilitisca, Hannah Nguyen
 We are going to do GitFlow development because that is what we are used to in previous projects. We prefer having a develop branch and several feature/chore branches.
 
 **3.Communication: Outline how the team will communicate — including frequency and methods (e.g., email, WhatsApp, team meetings).  What is the maximum expected response time?**
-Whatsapp and carrier pigeon across the park. Max response time of 2 days, preferred within 4 hrs.
+We will communicate via WhatsApp. Max response time of 2 days, preferred within 4 hrs. If we have trouble, we will pull our TA and/or Prof GS into the loop.
 
 
 **4. Decision-Making: How will decisions be made in this team? How will you stay on track? Do you plan on having meetings or any strategies for working through your final project**
@@ -76,7 +76,7 @@ This project predicts housing prices based on data of climate indicators. This i
 Prevalent effects of climate change are influencing the decision on individual's real estate investments. Rising global temperature have a domino effect, causing other climate change events like extreme weather and higher sea levels. This could range from higher temperatures to danageraout, destructive storms with wind damage or higher risks of flooding. As temperatures rise and costs go up, it makes sense that people may be relocating to cooler areas to decrease energy costs and to distance themselves from areas prone to heightened air pollution levels and risks of heat-related illnesses and mortality.
   
 **- Who does this topic affect? Where does it happen? When did it happen?**<br>
-In areas of rising temeratures, more people are using electricity for air-condition or other cooling methods, putting strain on the electrical grid, raising the prices for these utilities. This is even more densely populated areas, "urban heat island", where increases energy costs (e.g., for air conditioning), air pollution levels, and heat-related illness and mortality.
+In areas of rising temperatures, more people are using electricity for air-condition or other cooling methods, putting strain on the electrical grid, raising the prices for these utilities. This is even more densely populated areas, "urban heat island", where increases energy costs (e.g., for air conditioning), air pollution levels, and heat-related illness and mortality.
 
 **- What are your motivations for addressing this topic?**<br>
 With friends and family living in these high-risk areas, we are motivated to pursue this topic. We are also interested in exploring the intersectionality between housing and environmental policies and proposing holistic interpretations to a complex problem.
