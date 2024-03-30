@@ -108,8 +108,8 @@ ALL DATA HERE: https://drive.google.com/drive/u/1/folders/1zrZRrxCLTGlC9bDl9DJXI
 
 ### Questions to Answer
 
-1. How does the frequency and severity of climate indicators correlate with real estate investment patterns in different regions?
-- Target variable: Real estate investment volume and value in specific regions in the United States.
+1. Can we predict real estate purchase price based on climate indicators?
+- Target variable: Real estate purchase price
 - Task: Regression analysis to predict investment patterns based on historical weather data.
 
 2. What is the relationship between rising temperatures and changes in property prices in urban heat island areas?
