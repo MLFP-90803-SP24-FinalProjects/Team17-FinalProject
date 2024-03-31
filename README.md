@@ -83,8 +83,8 @@ With friends and family living in these high-risk areas, we are motivated to pur
 
 
 ### Variable Description
-We have three main datasets, listed below.
-ALL DATA HERE: https://drive.google.com/drive/u/1/folders/1zrZRrxCLTGlC9bDl9DJXIw5U_EXbJO7h
+We have three main datasets, listed below. All can be downloaded from this Google Drive link: https://drive.google.com/drive/u/1/folders/1zrZRrxCLTGlC9bDl9DJXIw5U_EXbJO7h
+
 - Mortgage rates from 1990 to 2019: 
   + Link: https://www.fhfa.gov/DataTools/Downloads/Documents/Historical-Summary-Tables/Table26-2019-by-Month.xls
   + High-level description: Fixed-rates for conventional single family mortgages obtained from the Federal Housing Finance Agency
@@ -100,8 +100,7 @@ ALL DATA HERE: https://drive.google.com/drive/u/1/folders/1zrZRrxCLTGlC9bDl9DJXI
   + Variables: County information (name, state, id, size ranking, metro, FIPS) and average home values by date (last day of every month from 2000 to 2023).  
 
 - Climate Data:
-  + Link: https://drive.google.com/file/d/174KqWkZTk-vSsGW5gtADxE8OU7L0v8g9/view?usp=drive_link
-  + Note: We scraped this data from this [website](https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/mapping/110/tavg/202301/1/value). 
+  + We scraped this data from this [website](https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/mapping/110/tavg/202301/1/value). 
   + High-level description: Monthly average temperatures by counties in the U.S. from 2000 to 2023 obtained from the National Oceanic and Atmospheric Administration.
   + Format: csv files
   + Variables: Each csv file contains county information (id, name, state) and average temperatures for a specific month. All files were combined and read into a dataframe of monthly temperature in the cleaning notebook.
@@ -116,19 +115,15 @@ ALL DATA HERE: https://drive.google.com/drive/u/1/folders/1zrZRrxCLTGlC9bDl9DJXI
 - Target variable: Property prices or property value indices in urban heat island areas in the United States?
 - Task: Correlation analysis to determine the impact of rising temperatures on property prices.
 
-3. How do changes in temperature and precipitation levels correlate with changes in housing market characteristics, such as listing pricing trends, market duration, and inventory levels?
-- Target variable: Housing market indicators (listing prices, how long houses are on the market, inventory levels).
-- Task: Time-series analysis to examine the impact of weather patterns on housing market dynamics.
+3. Are there any hideen structures or associations in this dataset that is worth exploring?
+- Target variable: None
+- Task: Unsupervised learning to uncover hidden patterns in the dataset that are valuable for classification/grouping.
 
 
 ### Running the Project
 
 1. Getting the Data: <br>
-- For mortgage rates, use this [link](https://www.fhfa.gov/DataTools/Downloads/Documents/Historical-Summary-Tables/Table26-2019-by-Month.xls) to instantly download the .xls file we used.
-- For housing data:
-  + Use this [link](https://files.zillowstatic.com/research/public_csvs/zhvi/County_zhvi_uc_sfrcondo_tier_0.67_1.0_sm_sa_month.csv?t=1709428647) to download the first csv. **Please rename the downloaded file as "top_tier.csv".**
-  + Use this [link](https://files.zillowstatic.com/research/public_csvs/zhvi/County_zhvi_uc_sfrcondo_tier_0.0_0.33_sm_sa_month.csv?t=1709428647) to download the second csv. **Please rename the downloaded file as "bottome_tier.csv".**
-- For climate data: You can either download the scraped dataset on our google drive [here](https://drive.google.com/file/d/174KqWkZTk-vSsGW5gtADxE8OU7L0v8g9/view?usp=drive_link) or run all cells in "Climate_Gathering.ipynb" (takes 15 minutes). 
+Please download all the files here: https://drive.google.com/drive/u/1/folders/1zrZRrxCLTGlC9bDl9DJXIw5U_EXbJO7h
 
 2. Cleaning the Data: <br>
 Please run all cells in the following notebooks in no particular order:
@@ -138,4 +133,9 @@ Please run all cells in the following notebooks in no particular order:
 
 3. Merging the Data: <br>
 Please run all cells in "Merging_Data.ipynb".
+
+4. Answering the Questions: <br>
+- Question 1: Please run "Q1_Regression_Analysis.ipynb"
+- Question 2: Please run
+- Question 3: Please run "Q3_Clustering.ipynb"
 
