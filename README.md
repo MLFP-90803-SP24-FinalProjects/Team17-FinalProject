@@ -39,7 +39,7 @@ Quintessa Guengerich, Yoko Kentilitisca, Hannah Nguyen
 We are going to do GitFlow development because that is what we are used to in previous projects. We prefer having a develop branch and several feature/chore branches.
 
 **3.Communication: Outline how the team will communicate — including frequency and methods (e.g., email, WhatsApp, team meetings).  What is the maximum expected response time?**
-Whatsapp and carrier pigeon across the park. Max response time of 2 days, preferred within 4 hrs.
+We will communicate via WhatsApp. Max response time of 2 days, preferred within 4 hrs. If we have trouble, we will pull our TA and/or Prof GS into the loop.
 
 
 **4. Decision-Making: How will decisions be made in this team? How will you stay on track? Do you plan on having meetings or any strategies for working through your final project**
@@ -76,14 +76,14 @@ This project predicts housing prices based on data of climate indicators. This i
 Prevalent effects of climate change are influencing the decision on individual's real estate investments. Rising global temperature have a domino effect, causing other climate change events like extreme weather and higher sea levels. This could range from higher temperatures to danageraout, destructive storms with wind damage or higher risks of flooding. As temperatures rise and costs go up, it makes sense that people may be relocating to cooler areas to decrease energy costs and to distance themselves from areas prone to heightened air pollution levels and risks of heat-related illnesses and mortality.
   
 **- Who does this topic affect? Where does it happen? When did it happen?**<br>
-In areas of rising temeratures, more people are using electricity for air-condition or other cooling methods, putting strain on the electrical grid, raising the prices for these utilities. This is even more densely populated areas, "urban heat island", where increases energy costs (e.g., for air conditioning), air pollution levels, and heat-related illness and mortality.
+In areas of rising temperatures, more people are using electricity for air-condition or other cooling methods, putting strain on the electrical grid, raising the prices for these utilities. This is even more densely populated areas, "urban heat island", where increases energy costs (e.g., for air conditioning), air pollution levels, and heat-related illness and mortality.
 
 **- What are your motivations for addressing this topic?**<br>
 With friends and family living in these high-risk areas, we are motivated to pursue this topic. We are also interested in exploring the intersectionality between housing and environmental policies and proposing holistic interpretations to a complex problem.
 
 
 ### Variable Description
-We have three main datasets, listed below.
+We have three main datasets, listed below. All can be downloaded from this Google Drive link: https://drive.google.com/drive/u/1/folders/1zrZRrxCLTGlC9bDl9DJXIw5U_EXbJO7h
 
 - Mortgage rates from 1990 to 2019: 
   + Link: https://www.fhfa.gov/DataTools/Downloads/Documents/Historical-Summary-Tables/Table26-2019-by-Month.xls
@@ -100,35 +100,37 @@ We have three main datasets, listed below.
   + Variables: County information (name, state, id, size ranking, metro, FIPS) and average home values by date (last day of every month from 2000 to 2023).  
 
 - Climate Data:
-  + Link: https://drive.google.com/file/d/174KqWkZTk-vSsGW5gtADxE8OU7L0v8g9/view?usp=drive_link
-  + Note: We scraped this data from this [website](https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/mapping/110/tavg/202301/1/value). 
+  + We scraped this data from this [website](https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/mapping/110/tavg/202301/1/value). 
   + High-level description: Monthly average temperatures by counties in the U.S. from 2000 to 2023 obtained from the National Oceanic and Atmospheric Administration.
   + Format: csv files
   + Variables: Each csv file contains county information (id, name, state) and average temperatures for a specific month. All files were combined and read into a dataframe of monthly temperature in the cleaning notebook.
 
 ### Questions to Answer
 
-1. How does the frequency and severity of climate indicators correlate with real estate investment patterns in different regions?
-- Target variable: Real estate investment volume and value in specific regions in the United States.
+1. Can we predict real estate purchase price based on climate indicators?
+- Target variable: Real estate purchase price
 - Task: Regression analysis to predict investment patterns based on historical weather data.
 
-2. What is the relationship between rising temperatures and changes in property prices in urban heat island areas?
-- Target variable: Property prices or property value indices in urban heat island areas in the United States?
-- Task: Correlation analysis to determine the impact of rising temperatures on property prices.
+2. Can we predict the impact of rising temperatures on changes in property prices in areas designated as "climate ready"?
+Reference for "climate ready" states: (https://www.architecturaldigest.com/reviews/solar/most-climate-resilient-cities)
 
-3. How do changes in temperature and precipitation levels correlate with changes in housing market characteristics, such as listing pricing trends, market duration, and inventory levels?
-- Target variable: Housing market indicators (listing prices, how long houses are on the market, inventory levels).
-- Task: Time-series analysis to examine the impact of weather patterns on housing market dynamics.
+Target variable:
+The target variable for this classification problem is the direction of the impact of rising temperatures on property prices in a given area. It is represented as a categorical variable with three levels:
+
+3 - Positive impact: Rising temperatures lead to a significant increase in property prices
+2 - Medium impact: Rising temperatures lead to a moderate increase in property prices
+1 - Negative impact: Rising temperatures lead to a decrease in property prices
+
+
+3. Are there any hideen structures or associations in this dataset that is worth exploring?
+- Target variable: None
+- Task: Unsupervised learning to uncover hidden patterns in the dataset that are valuable for classification/grouping.
 
 
 ### Running the Project
 
 1. Getting the Data: <br>
-- For mortgage rates, use this [link](https://www.fhfa.gov/DataTools/Downloads/Documents/Historical-Summary-Tables/Table26-2019-by-Month.xls) to instantly download the .xls file we used.
-- For housing data:
-  + Use this [link](https://files.zillowstatic.com/research/public_csvs/zhvi/County_zhvi_uc_sfrcondo_tier_0.67_1.0_sm_sa_month.csv?t=1709428647) to download the first csv. **Please rename the downloaded file as "top_tier.csv".**
-  + Use this [link](https://files.zillowstatic.com/research/public_csvs/zhvi/County_zhvi_uc_sfrcondo_tier_0.0_0.33_sm_sa_month.csv?t=1709428647) to download the second csv. **Please rename the downloaded file as "bottom_tier.csv".**
-- For climate data: You can either download the scraped dataset on our google drive [here](https://drive.google.com/file/d/174KqWkZTk-vSsGW5gtADxE8OU7L0v8g9/view?usp=drive_link) or run all cells in "Climate_Gathering.ipynb" (takes 15 minutes). 
+Please download all the files here: https://drive.google.com/drive/u/1/folders/1zrZRrxCLTGlC9bDl9DJXIw5U_EXbJO7h
 
 2. Cleaning the Data: <br>
 Please run all cells in the following notebooks in no particular order:
@@ -139,3 +141,7 @@ Please run all cells in the following notebooks in no particular order:
 3. Merging the Data: <br>
 Please run all cells in "Merging_Data.ipynb".
 
+4. Answering the Questions: <br>
+- Question 1: Please run "Q1_Regression_Analysis.ipynb"
+- Question 2: Please run "Q2_Classification.ipynb"
+- Question 3: Please run "Q3_Clustering.ipynb"
