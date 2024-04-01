@@ -138,4 +138,7 @@ Please run all cells in "Merging_Data.ipynb".
 - Question 1: Please run "Q1_Regression_Analysis.ipynb"
 - Question 2: Please run
 - Question 3: Please run "Q3_Clustering.ipynb"
+<<<<<<< HEAD
 
+=======
+>>>>>>> a2a85d3844068dafbde6247b0a079ca69d1d8089
