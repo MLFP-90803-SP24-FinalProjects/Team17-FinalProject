@@ -111,9 +111,16 @@ We have three main datasets, listed below. All can be downloaded from this Googl
 - Target variable: Real estate purchase price
 - Task: Regression analysis to predict investment patterns based on historical weather data.
 
-2. What is the relationship between rising temperatures and changes in property prices in urban heat island areas?
-- Target variable: Property prices or property value indices in urban heat island areas in the United States?
-- Task: Correlation analysis to determine the impact of rising temperatures on property prices.
+2. Can we predict the impact of rising temperatures on changes in property prices in areas designated as "climate ready"?
+Reference for "climate ready" states: (https://www.architecturaldigest.com/reviews/solar/most-climate-resilient-cities)
+
+Target variable:
+The target variable for this classification problem is the direction of the impact of rising temperatures on property prices in a given area. It is represented as a categorical variable with three levels:
+
+3 - Positive impact: Rising temperatures lead to a significant increase in property prices
+2 - Medium impact: Rising temperatures lead to a moderate increase in property prices
+1 - Negative impact: Rising temperatures lead to a decrease in property prices
+
 
 3. Are there any hideen structures or associations in this dataset that is worth exploring?
 - Target variable: None
