@@ -130,16 +130,16 @@ Classification Problem:
 Before starting, I think it is more harmful to miss labeling an outlier. Given this scenario, since we are trying to look for areas affected by temperature anomalies on housing prices, it would be more harmful in missing labeling an outlier than incorrectly labeling a not outlier as an outlier. Since recall measures the ability of a model to correctly identify all relevant instances (outliers in this case), we would want to reduce the number of false negatives. We would be able to minimize the risk of failing to identify areas affected by temperature anomalies on housing prices. The models that performed that best have been Random Forests Classifier and XGBooster. 
 
 For Random Forests Classifier: 
-n_estimators: This gives us the number of trees in the forest. Increasing the number of trees could possibly improve the model's ability to capture the complex relationships in the data, and in this case is outliers, so we will be trying different ranges of n_estimators. 
-max_depth: Gives the max depth of each tree so that a deeper tree structure allows the model to capture more intricate patterns in the data. This could aid in distinguishing the outliers from normal data points.
-min_samples_split: These parameters control the minimum number of samples required to split an internal node. So we would want to set higher values for these parameters to help prevent the model from overfitting to noise in the data and so preserving the meaning of the outliers.
-max_features: Looks at the number of features to consider when looking for the best split. Putting bounds on the number of features considered at each split can help prevent the model from focusing too much on features that are irrelevant and  could improve its ability to identify meaningful outliers.
+-n_estimators: This gives us the number of trees in the forest. Increasing the number of trees could possibly improve the model's ability to capture the complex relationships in the data, and in this case is outliers, so we will be trying different ranges of n_estimators. 
+-max_depth: Gives the max depth of each tree so that a deeper tree structure allows the model to capture more intricate patterns in the data. This could aid in distinguishing the outliers from normal data points.
+-min_samples_split: These parameters control the minimum number of samples required to split an internal node. So we would want to set higher values for these parameters to help prevent the model from overfitting to noise in the data and so preserving the meaning of the outliers.
+-max_features: Looks at the number of features to consider when looking for the best split. Putting bounds on the number of features considered at each split can help prevent the model from focusing too much on features that are irrelevant and  could improve its ability to identify meaningful outliers.
 
 For XGBooster:
 Parameters we would want to use since XGBooster gives higher accuracy is: 
-scale_pos_weight: since our data is locating outliers, we would want to set scale_pos_weight to a value greater than 1 can give more importance to the minority class (outliers), which in turn would help the model to better capture their patterns
-objective: 'binary:logistic', since we want to detect outliers, we are thinking of using an objective function that penalizes errors differently for outliers and normal instances
-max_depth/min_child_weight: since we want to capture outliers, we want something that can lead to deeper and more complex trees, which may better capture the patterns of outliers
+-scale_pos_weight: since our data is locating outliers, we would want to set scale_pos_weight to a value greater than 1 can give more importance to the minority class (outliers), which in turn would help the model to better capture their patterns
+-objective: 'binary:logistic', since we want to detect outliers, we are thinking of using an objective function that penalizes errors differently for outliers and normal instances
+-max_depth/min_child_weight: since we want to capture outliers, we want something that can lead to deeper and more complex trees, which may better capture the patterns of outliers
 
 
 Question #3: Unsupervised Learning
