@@ -111,14 +111,46 @@ We have three main datasets, listed below. All can be downloaded from this Googl
 - Target variable: Real estate purchase price
 - Task: Regression analysis to predict investment patterns based on historical weather data.
 
-2. What is the relationship between rising temperatures and changes in property prices in urban heat island areas?
-- Target variable: Property prices or property value indices in urban heat island areas in the United States?
-- Task: Correlation analysis to determine the impact of rising temperatures on property prices.
+2. Can counties in states with historically different temperature ranges be classified as outliers or not outliers?<br>
+Note: By Leveraging linear regression, particularly RANSAC, we initially identified outliers among counties. We seek to expand this classification to regions with similar annual temperature averages.
+- Target variable:the classification of counties as outliers or not outliers. We categorized regions into Warm, Moderate, and Cold groups and will assess outliers within each region separately. Outliers = 1, Not outliers = 0
+- Task: Our objective is to investigate whether high temperature anomalies are associated with property price decreases or no increase or vice versa in counties labeled as outliers or if temperature anomalies affected purchase price at any capacity. 
 
-3. Are there any hideen structures or associations in this dataset that is worth exploring?
+3. Are there any hiddeen structures or associations between housing prices and average temperature that is worth exploring?
 - Target variable: None
 - Task: Unsupervised learning to uncover hidden patterns in the dataset that are valuable for classification/grouping.
 
+### Model Evaluation
+
+For Prediction or Classification problems:
+Evaluate (and write) how to gain robust performance metrics for your problem. 
+What metric/s and techniques you will focus on and why. The why must be related to the context of your questions.
+
+Classification Problem: 
+Before starting, I think it is more harmful to miss labeling an outlier. Given this scenario, since we are trying to look for areas affected by temperature anomalies on housing prices, it would be more harmful in missing labeling an outlier than incorrectly labeling a not outlier as an outlier. Since recall measures the ability of a model to correctly identify all relevant instances (outliers in this case), we would want to reduce the number of false negatives. We would be able to minimize the risk of failing to identify areas affected by temperature anomalies on housing prices. The models that performed that best have been Random Forests Classifier and XGBooster. 
+
+For Random Forests Classifier: 
+-n_estimators: This gives us the number of trees in the forest. Increasing the number of trees could possibly improve the model's ability to capture the complex relationships in the data, and in this case is outliers, so we will be trying different ranges of n_estimators. 
+-max_depth: Gives the max depth of each tree so that a deeper tree structure allows the model to capture more intricate patterns in the data. This could aid in distinguishing the outliers from normal data points.
+-min_samples_split: These parameters control the minimum number of samples required to split an internal node. So we would want to set higher values for these parameters to help prevent the model from overfitting to noise in the data and so preserving the meaning of the outliers.
+-max_features: Looks at the number of features to consider when looking for the best split. Putting bounds on the number of features considered at each split can help prevent the model from focusing too much on features that are irrelevant and  could improve its ability to identify meaningful outliers.
+
+For XGBooster:
+Parameters we would want to use since XGBooster gives higher accuracy is: 
+-scale_pos_weight: since our data is locating outliers, we would want to set scale_pos_weight to a value greater than 1 can give more importance to the minority class (outliers), which in turn would help the model to better capture their patterns
+-objective: 'binary:logistic', since we want to detect outliers, we are thinking of using an objective function that penalizes errors differently for outliers and normal instances
+-max_depth/min_child_weight: since we want to capture outliers, we want something that can lead to deeper and more complex trees, which may better capture the patterns of outliers
+
+
+Question #3: Unsupervised Learning
+The patterns learned from unsupervised learning might inform our next steps with this dataset, whether it is to characterize the clusters or put them through a classfication model. We will also be using the Davies-Bouldin Index as a scoring metrics for our unsupervised models. We tried using Silhouette Score as my metric but the program cannot calculate this score with the amount of data we have. When trying to calculate the Silhouette Score for a default KMeans model with the PCA-transformed dataframe, we had to intervene at 52 minutes of runtime. For Davies-Bouldin, it took 8.3 seconds to run the same model.
+
+
+### "Ethical Consideration"
+The ethical consideration of our project is to map out counties that have been largely affected by temperature anomalies and to see if housing prices changed based extreme weather events (like heat). Based on climate studies, global warming is likely to reach 1.5°C between 2030 and 2052 if it continues to increase at the current rate. Therefore, it’s important to gather a better understanding of how temperature affects individual’s ability to buy a home or their hesitancy in buying a home in an area with extreme temperatures. This suggest that people are factoring in how climate risk affects their housing choices, which ultimately influences the housing market. Additionally, we aim to uncover any underlying trends that may not have been captured in the data yet, given the substantial temperature fluctuations, especially during the summer months, which have impacted regions worldwide. It can inform both homebuyers, homeowners, and policy makers on how climate could affect the already housing crisis happening in the United States. 
+
+### "Additional Models"
+This section must include which additional models you plan to use in your projects and how. The how should include a description of which questions will have the specific additional models or if you plan to add an additional question to your project to cover this requirement.
 
 ### Running the Project
 
@@ -136,9 +168,5 @@ Please run all cells in "Merging_Data.ipynb".
 
 4. Answering the Questions: <br>
 - Question 1: Please run "Q1_Regression_Analysis.ipynb"
-- Question 2: Please run
+- Question 2: Please run "Q2_Classification.ipynb"
 - Question 3: Please run "Q3_Clustering.ipynb"
-<<<<<<< HEAD
-
-=======
->>>>>>> a2a85d3844068dafbde6247b0a079ca69d1d8089
