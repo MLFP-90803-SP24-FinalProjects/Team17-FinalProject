@@ -120,6 +120,21 @@ Note: By Leveraging linear regression, particularly RANSAC, we initially identif
 - Target variable: None
 - Task: Unsupervised learning to uncover hidden patterns in the dataset that are valuable for classification/grouping.
 
+### "Model Evaluation"
+
+For Prediction or Classification problems:
+Evaluate (and write) how to gain robust performance metrics for your problem. 
+What metric/s and techniques you will focus on and why. The why must be related to the context of your questions.
+
+For Unsupervised Learning problems
+How will you use and interpret the results for your own question/s.
+Metrics you will use.
+
+### "Ethical Consideration"
+Discuss as a team any ethical considerations related to your specific problem. These can be regarding the data, the model itself, and the results to be presented.
+
+### "Additional Models"
+This section must include which additional models you plan to use in your projects and how. The how should include a description of which questions will have the specific additional models or if you plan to add an additional question to your project to cover this requirement.
 
 ### Running the Project
 
