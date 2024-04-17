@@ -126,6 +126,22 @@ For Prediction or Classification problems:
 Evaluate (and write) how to gain robust performance metrics for your problem. 
 What metric/s and techniques you will focus on and why. The why must be related to the context of your questions.
 
+Classification Problem: 
+Before starting, I think it is more harmful to miss labeling an outlier. Given this scenario, since we are trying to look for areas affected by temperature anomalies on housing prices, it would be more harmful in missing labeling an outlier than incorrectly labeling a not outlier as an outlier. Since recall measures the ability of a model to correctly identify all relevant instances (outliers in this case), we would want to reduce the number of false negatives. We would be able to minimize the risk of failing to identify areas affected by temperature anomalies on housing prices. The models that performed that best have been Random Forests Classifier and XGBooster. 
+
+For Random Forests Classifier: 
+n_estimators: This gives us the number of trees in the forest. Increasing the number of trees could possibly improve the model's ability to capture the complex relationships in the data, and in this case is outliers, so we will be trying different ranges of n_estimators. 
+max_depth: Gives the max depth of each tree so that a deeper tree structure allows the model to capture more intricate patterns in the data. This could aid in distinguishing the outliers from normal data points.
+min_samples_split: These parameters control the minimum number of samples required to split an internal node. So we would want to set higher values for these parameters to help prevent the model from overfitting to noise in the data and so preserving the meaning of the outliers.
+max_features: Looks at the number of features to consider when looking for the best split. Putting bounds on the number of features considered at each split can help prevent the model from focusing too much on features that are irrelevant and  could improve its ability to identify meaningful outliers.
+
+For XGBooster:
+Parameters we would want to use since XGBooster gives higher accuracy is: 
+scale_pos_weight: since our data is locating outliers, we would want to set scale_pos_weight to a value greater than 1 can give more importance to the minority class (outliers), which in turn would help the model to better capture their patterns
+objective: 'binary:logistic', since we want to detect outliers, we are thinking of using an objective function that penalizes errors differently for outliers and normal instances
+max_depth/min_child_weight: since we want to capture outliers, we want something that can lead to deeper and more complex trees, which may better capture the patterns of outliers
+
+
 Question #3: Unsupervised Learning
 The patterns learned from unsupervised learning might inform our next steps with this dataset, whether it is to characterize the clusters or put them through a classfication model. We will also be using the Davies-Bouldin Index as a scoring metrics for our unsupervised models. We tried using Silhouette Score as my metric but the program cannot calculate this score with the amount of data we have. When trying to calculate the Silhouette Score for a default KMeans model with the PCA-transformed dataframe, we had to intervene at 52 minutes of runtime. For Davies-Bouldin, it took 8.3 seconds to run the same model.
 
