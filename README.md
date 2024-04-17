@@ -111,18 +111,12 @@ We have three main datasets, listed below. All can be downloaded from this Googl
 - Target variable: Real estate purchase price
 - Task: Regression analysis to predict investment patterns based on historical weather data.
 
-2. Can we predict the impact of rising temperatures on changes in property prices in areas designated as "climate ready"? <br>
-Reference for "climate ready" states: (https://www.architecturaldigest.com/reviews/solar/most-climate-resilient-cities)<br>
+2. Can counties in states with historically different temperature ranges be classified as outliers or not outliers?
+Note: By Leveraging linear regression, particularly RANSAC, we initially identified outliers among counties. We seek to expand this classification to regions with similar annual temperature averages.
+- Target variable:the classification of counties as outliers or not outliers. We categorized regions into Warm, Moderate, and Cold groups and will assess outliers within each region separately. Outliers = 1, Not outliers = 0
+- Task: Our objective is to investigate whether high temperature anomalies are associated with property price decreases or no increase or vice versa in counties labeled as outliers or if temperature anomalies affected purchase price at any capacity. 
 
-Target variable:
-The target variable for this classification problem is the direction of the impact of rising temperatures on property prices in a given area. It is represented as a categorical variable with three levels:
-
-3 - Positive impact: Rising temperatures lead to a significant increase in property prices<br>
-2 - Medium impact: Rising temperatures lead to a moderate increase in property prices<br>
-1 - Negative impact: Rising temperatures lead to a decrease in property prices<br>
-
-
-3. Are there any hideen structures or associations in this dataset that is worth exploring?
+4. Are there any hiddeen structures or associations in this dataset that is worth exploring?
 - Target variable: None
 - Task: Unsupervised learning to uncover hidden patterns in the dataset that are valuable for classification/grouping.
 
