@@ -111,24 +111,24 @@ We have three main datasets, listed below. All can be downloaded from this Googl
 - Target variable: Real estate purchase price
 - Task: Regression analysis to predict investment patterns based on historical weather data.
 
-2. Can counties in states with historically different temperature ranges be classified as outliers or not outliers?
+2. Can counties in states with historically different temperature ranges be classified as outliers or not outliers?<br>
 Note: By Leveraging linear regression, particularly RANSAC, we initially identified outliers among counties. We seek to expand this classification to regions with similar annual temperature averages.
 - Target variable:the classification of counties as outliers or not outliers. We categorized regions into Warm, Moderate, and Cold groups and will assess outliers within each region separately. Outliers = 1, Not outliers = 0
 - Task: Our objective is to investigate whether high temperature anomalies are associated with property price decreases or no increase or vice versa in counties labeled as outliers or if temperature anomalies affected purchase price at any capacity. 
 
-4. Are there any hiddeen structures or associations in this dataset that is worth exploring?
+3. Are there any hiddeen structures or associations between housing prices and average temperature that is worth exploring?
 - Target variable: None
 - Task: Unsupervised learning to uncover hidden patterns in the dataset that are valuable for classification/grouping.
 
-### "Model Evaluation"
+### Model Evaluation
 
 For Prediction or Classification problems:
 Evaluate (and write) how to gain robust performance metrics for your problem. 
 What metric/s and techniques you will focus on and why. The why must be related to the context of your questions.
 
-For Unsupervised Learning problems
-How will you use and interpret the results for your own question/s.
-Metrics you will use.
+Question #3: Unsupervised Learning
+The patterns learned from unsupervised learning might inform our next steps with this dataset, whether it is to characterize the clusters or put them through a classfication model. We will also be using the Davies-Bouldin Index as a scoring metrics for our unsupervised models. We tried using Silhouette Score as my metric but the program cannot calculate this score with the amount of data we have. When trying to calculate the Silhouette Score for a default KMeans model with the PCA-transformed dataframe, we had to intervene at 52 minutes of runtime. For Davies-Bouldin, it took 8.3 seconds to run the same model.
+
 
 ### "Ethical Consideration"
 Discuss as a team any ethical considerations related to your specific problem. These can be regarding the data, the model itself, and the results to be presented.
