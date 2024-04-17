@@ -131,7 +131,7 @@ How will you use and interpret the results for your own question/s.
 Metrics you will use.
 
 ### "Ethical Consideration"
-Discuss as a team any ethical considerations related to your specific problem. These can be regarding the data, the model itself, and the results to be presented.
+The ethical consideration of our project is to map out counties that have been largely affected by temperature anomalies and to see if housing prices changed based extreme weather events (like heat). Based on climate studies, global warming is likely to reach 1.5°C between 2030 and 2052 if it continues to increase at the current rate. Therefore, it’s important to gather a better understanding of how temperature affects individual’s ability to buy a home or their hesitancy in buying a home in an area with extreme temperatures. This suggest that people are factoring in how climate risk affects their housing choices, which ultimately influences the housing market. Additionally, we aim to uncover any underlying trends that may not have been captured in the data yet, given the substantial temperature fluctuations, especially during the summer months, which have impacted regions worldwide. It can inform both homebuyers, homeowners, and policy makers on how climate could affect the already housing crisis happening in the United States. 
 
 ### "Additional Models"
 This section must include which additional models you plan to use in your projects and how. The how should include a description of which questions will have the specific additional models or if you plan to add an additional question to your project to cover this requirement.
