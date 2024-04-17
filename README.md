@@ -122,9 +122,8 @@ Note: By Leveraging linear regression, particularly RANSAC, we initially identif
 
 ### Model Evaluation
 
-For Prediction or Classification problems:
-Evaluate (and write) how to gain robust performance metrics for your problem. 
-What metric/s and techniques you will focus on and why. The why must be related to the context of your questions.
+Question #1: Regression
+We performed feature engineering (selection, scaling, etc.) and tested different version of the model until we get the best R2 and MSE. We also tried different alpha levels for Ridge and Lasso and will perform cross-validation. We will be using MSE and R2 as our main metrics because of they are standard metrics for evaluating regression models. We will try different regression models until we find the best model, but for now, we are most interested in the RANSAC regression model because it gives us interesting information about the outliers that we can perform more analyses on with different methods.
 
 Question #3: Unsupervised Learning
 The patterns learned from unsupervised learning might inform our next steps with this dataset, whether it is to characterize the clusters or put them through a classfication model. We will also be using the Davies-Bouldin Index as a scoring metrics for our unsupervised models. We tried using Silhouette Score as my metric but the program cannot calculate this score with the amount of data we have. When trying to calculate the Silhouette Score for a default KMeans model with the PCA-transformed dataframe, we had to intervene at 52 minutes of runtime. For Davies-Bouldin, it took 8.3 seconds to run the same model.
@@ -133,7 +132,7 @@ The patterns learned from unsupervised learning might inform our next steps with
 ### "Ethical Consideration"
 The ethical consideration of our project is to map out counties that have been largely affected by temperature anomalies and to see if housing prices changed based extreme weather events (like heat). Based on climate studies, global warming is likely to reach 1.5°C between 2030 and 2052 if it continues to increase at the current rate. Therefore, it’s important to gather a better understanding of how temperature affects individual’s ability to buy a home or their hesitancy in buying a home in an area with extreme temperatures. This suggest that people are factoring in how climate risk affects their housing choices, which ultimately influences the housing market. Additionally, we aim to uncover any underlying trends that may not have been captured in the data yet, given the substantial temperature fluctuations, especially during the summer months, which have impacted regions worldwide. It can inform both homebuyers, homeowners, and policy makers on how climate could affect the already housing crisis happening in the United States. 
 
-### "Additional Models"
+### Additional Models
 This section must include which additional models you plan to use in your projects and how. The how should include a description of which questions will have the specific additional models or if you plan to add an additional question to your project to cover this requirement.
 
 ### Running the Project
