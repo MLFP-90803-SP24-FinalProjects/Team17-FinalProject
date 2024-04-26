@@ -104,3 +104,7 @@ state_to_fips = {
     "WI": "55",
     "WY": "56",
 }
+
+# REFERENCES:
+# state abbreviations: https://gist.github.com/rogerallen/1583593
+# state FPS: https://gist.github.com/aodin/24c30ba793e404a0270f8c8ef2be350b
