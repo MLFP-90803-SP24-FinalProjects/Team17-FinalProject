@@ -171,6 +171,8 @@ Additionally, be sure that geospatial shape files are located in "tl_2022_us_cou
 
 All other CSV files should be in the same directory as the Jupyter notebooks.
 
+**Do not forget to include state_names.py in the same directory as the Jupyter notebooks.**
+
 4. Answering the Questions: <br>
 - Question 1: Please run "Q1_Regression_Analysis.ipynb", "Q1_RANSAC_Regression.ipynb", and "Q1_Per_County_Regressions.ipynb".
 - Question 2: Please run "Q2_Classification.ipynb"
