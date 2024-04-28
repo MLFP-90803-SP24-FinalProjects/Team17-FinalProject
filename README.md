@@ -116,11 +116,11 @@ Note: By Leveraging linear regression, particularly RANSAC, we initially identif
 - Target variable:the classification of counties as outliers or not outliers. We categorized regions into Warm, Moderate, and Cold groups and will assess outliers within each region separately. Outliers = 1, Not outliers = 0
 - Task: Our objective is to investigate whether high temperature anomalies are associated with property price decreases or no increase or vice versa in counties labeled as outliers or if temperature anomalies affected purchase price at any capacity. 
 
-3. Are there any hiddeen structures or associations between housing prices and average temperature that is worth exploring?
+3. Are there any hidden associations between housing prices and average temperature or temperature anomalies that is worth exploring?
 - Target variable: None
-- Task: Unsupervised learning to uncover hidden patterns in the dataset that are valuable for classification/grouping.
+- Task: Unsupervised learning with the entire dataset then analyze the clusters through visualization.
 
-### Model Evaluation
+### Model Evaluation: How We Improved Our Models Performance
 
 Question #1: Regression<br>
 We performed feature engineering (selection, scaling, etc.) and tested different version of the model until we get the best R2 and MSE. We also tried different alpha levels for Ridge and Lasso and will perform cross-validation. We will be using MSE and R2 as our main metrics because of they are standard metrics for evaluating regression models. We will try different regression models until we find the best model, but for now, we are most interested in the RANSAC regression model because it gives us interesting information about the outliers that we can perform more analyses on with different methods.
@@ -129,21 +129,23 @@ Question #2: Classification<br>
 Before starting, we think it is more harmful to miss labeling an outlier. Given this scenario, since we are trying to look for areas affected by temperature anomalies on housing prices, it would be more harmful in missing labeling an outlier than incorrectly labeling a not outlier as an outlier. Since recall measures the ability of a model to correctly identify all relevant instances (outliers in this case), we would want to reduce the number of false negatives. We would be able to minimize the risk of failing to identify areas affected by temperature anomalies on housing prices. The models that performed that best have been Random Forests Classifier and XGBooster. 
 <br>
 For Random Forests Classifier: 
--n_estimators: This gives us the number of trees in the forest. Increasing the number of trees could possibly improve the model's ability to capture the complex relationships in the data, and in this case is outliers, so we will be trying different ranges of n_estimators. 
--max_depth: Gives the max depth of each tree so that a deeper tree structure allows the model to capture more intricate patterns in the data. This could aid in distinguishing the outliers from normal data points.
--min_samples_split: These parameters control the minimum number of samples required to split an internal node. So we would want to set higher values for these parameters to help prevent the model from overfitting to noise in the data and so preserving the meaning of the outliers.
--max_features: Looks at the number of features to consider when looking for the best split. Putting bounds on the number of features considered at each split can help prevent the model from focusing too much on features that are irrelevant and  could improve its ability to identify meaningful outliers.
+- n_estimators: This gives us the number of trees in the forest. Increasing the number of trees could possibly improve the model's ability to capture the complex relationships in the data, and in this case is outliers, so we will be trying different ranges of n_estimators. 
+- max_depth: Gives the max depth of each tree so that a deeper tree structure allows the model to capture more intricate patterns in the data. This could aid in distinguishing the outliers from normal data points.
+- min_samples_split: These parameters control the minimum number of samples required to split an internal node. So we would want to set higher values for these parameters to help prevent the model from overfitting to noise in the data and so preserving the meaning of the outliers.
+- max_features: Looks at the number of features to consider when looking for the best split. Putting bounds on the number of features considered at each split can help prevent the model from focusing too much on features that are irrelevant and  could improve its ability to identify meaningful outliers.
 <br>
 For XGBooster:
 Parameters we would want to use since XGBooster gives higher accuracy is: 
--scale_pos_weight: since our data is locating outliers, we would want to set scale_pos_weight to a value greater than 1 can give more importance to the minority class (outliers), which in turn would help the model to better capture their patterns
--objective: 'binary:logistic', since we want to detect outliers, we are thinking of using an objective function that penalizes errors differently for outliers and normal instances
--max_depth/min_child_weight: since we want to capture outliers, we want something that can lead to deeper and more complex trees, which may better capture the patterns of outliers
+- scale_pos_weight: since our data is locating outliers, we would want to set scale_pos_weight to a value greater than 1 can give more importance to the minority class (outliers), which in turn would help the model to better capture their patterns
+- objective: 'binary:logistic', since we want to detect outliers, we are thinking of using an objective function that penalizes errors differently for outliers and normal instances
+- max_depth/min_child_weight: since we want to capture outliers, we want something that can lead to deeper and more complex trees, which may better capture the patterns of outliers
 
 
 Question #3: Unsupervised Learning<br>
-The patterns learned from unsupervised learning might inform our next steps with this dataset, whether it is to characterize the clusters or put them through a classfication model. We will also be using the Davies-Bouldin Index as a scoring metrics for our unsupervised models. We tried using Silhouette Score as my metric but the program cannot calculate this score with the amount of data we have. When trying to calculate the Silhouette Score for a default KMeans model with the PCA-transformed dataframe, we had to intervene at 52 minutes of runtime. For Davies-Bouldin, it took 8.3 seconds to run the same model.
-
+ We first identified that the dataset is highly correlated so we performed PCA to get the best version of the dataset for unsupervised learning. We used the Davies-Bouldin Index as a scoring metrics for our unsupervised models. We tried using Silhouette Score as a metric, but it resulted in a MemoryError due to the amount of data we have. We performed tuning for all of our unsupervised models:
+ - KMeans: We used the Elbow plot and Calinski-Harabasz plot to find the best number of clusters. We got different results for these plots so we tried KMeans with every values that were recommended. We then picked the value that gave us the best Index.
+ - Hierarchical Clustering: We used a dendogram to identify the best number of clusters. We visually assessed the dendogram and chose a number that made sense. We also tried different linkage style to see which style gave us the most balanced clusters.
+ - DBSCAN: We very systematically tuned min_samples and epsilon. We first identified a relative good min_samples that are appropriate for our dataset as suggested by literature (2*dimension). Then, we used a Nearest Neighbor plot to identify a good range for epsilon with our chosen min_samples. Finally, we iterature through different min_samples, epsilon combinations and chose the combination that gave us the best index. 
 
 ### Ethical Consideration
 The ethical consideration of our project is to map out counties that have been largely affected by temperature anomalies and to see if housing prices changed based extreme weather events (like heat). Based on climate studies, global warming is likely to reach 1.5°C between 2030 and 2052 if it continues to increase at the current rate. Therefore, it’s important to gather a better understanding of how temperature affects individual’s ability to buy a home or their hesitancy in buying a home in an area with extreme temperatures. This suggest that people are factoring in how climate risk affects their housing choices, which ultimately influences the housing market. Additionally, we aim to uncover any underlying trends that may not have been captured in the data yet, given the substantial temperature fluctuations, especially during the summer months, which have impacted regions worldwide. It can inform both homebuyers, homeowners, and policy makers on how climate could affect the already housing crisis happening in the United States. 
@@ -151,7 +153,7 @@ The ethical consideration of our project is to map out counties that have been l
 ### Additional Models
 1. RANSAC for Q1 (Regression): RANSAC sequentially fits a line through our data then returns the samples that are outliers. In the context of this problem, we found that the outliers are located in states that have more volatile climate conditions. We can then use these outliers for more analyses.
 2. XGBooster for Q2 (Classification): 
-3. OPTICS for Q3 (Unsupervised): Optics is simply another clustering model that can handle large datasets. We want to see if another distance-based clustering method aside from KMeans might give us better clusters.  
+3. DBSCAN for Q3 (Unsupervised): DBSCAN clusters by density and is scalable to big dataset. It views clusters as areas of high density separated by areas of low density and able to form clusters in any shape (as opposed to KMeans that assume our clusters are convex). It is quite popular among clusters with high density like our dataset.
 
 ### Running the Project
 
