@@ -4,3 +4,4 @@
 *.csv
 *.xls
 /tl_2022_us_county
+__pycache__/
