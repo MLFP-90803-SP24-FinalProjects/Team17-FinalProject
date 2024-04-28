@@ -167,7 +167,11 @@ Please run all cells in the following notebooks in no particular order:
 3. Merging the Data: <br>
 Please run all cells in "Merging_Data.ipynb".
 
+Additionally, be sure that geospatial shape files are located in "tl_2022_us_county" directory (should be able to unzip from google drive accordingly.)
+
+All other CSV files should be in the same directory as the Jupyter notebooks.
+
 4. Answering the Questions: <br>
-- Question 1: Please run "Q1_Regression_Analysis.ipynb"
+- Question 1: Please run "Q1_Regression_Analysis.ipynb", "Q1_RANSAC_Regression.ipynb", and "Q1_Per_County_Regressions.ipynb".
 - Question 2: Please run "Q2_Classification.ipynb"
 - Question 3: Please run "Q3_Clustering.ipynb"
