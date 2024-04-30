@@ -5,15 +5,14 @@
 Climate-Driven Housing Price Prediction: Navigating Environmental Displacement in the U.S.
 
 ### Authors
-Quintessa Guengerich, qguenger@andrew.cmu.edu
-Jewel Kentilitisca, jkentili@andrew.cmu.edu
-Hannah Nguyen, hieuhann@andrew.cmu.edu
+Quintessa Guengerich, qguenger@andrew.cmu.edu<br>
+Jewel Kentilitisca, jkentili@andrew.cmu.edu<br>
+Hannah Nguyen, hieuhann@andrew.cmu.edu<br>
 
 ### Disclaimer
 This project contains research based on open-source data and is solely for academic purposes. The authors recognize the complexity of climate change and its impact on certain communities. The reliability of our results heavily depend on the quality, completeness, and accuracy of the data used in the analysis. That being said, we approached our conclusions for this research with caution on their meanings for these communities and believe ongoing research should be conducted to derive attainable solutions for uplifting communities affected by climate change. We hope to contribute to efforts towards understanding and supporting these communities through uncovering one aspect of this issue. 
 
 ### Description of Context
-
 This project predicts housing prices based on data of climate indicators. This is relevant because climate change is reshaping U.S. geography, thus, displacing large communities in areas that experience a variety of extreme climate events and even higher risk of environmental disasters. 
 
 **- Why is this topic relevant?**<br>
@@ -26,11 +25,9 @@ In areas of rising temperatures, more people are using electricity for air-condi
 With friends and family living in these high-risk areas, we are motivated to pursue this topic. We are also interested in exploring the intersectionality between housing and environmental policies and proposing holistic interpretations to a complex problem.
 
 ### Ethical Consideration
-
 Our research used open-sourced data to train and test the machine learning algorithms. This means that the quality of our results and conclusions are dependent upon the completeness and accuracy of the data we obtained. We made an effort to frame our findings within the scope of the data and research questions we had so as not to extrapolate beyond our dataset. We also discussed potential next-steps to expand upon our dataset and include more features that would allow for better understanding of the problem at hand. Another ethical consideration is about privacy. Our research involves identifying housing prices by location but at no point did we include specific information that can identify a residence on a map. Our housing price data is averaged by county, as well as our geodata for mapping. 
 
 ### Questions to Answer
-
 1. Can we predict real estate purchase price based on climate indicators?
 - Target variable: Real estate purchase price
 - Task: Regression analysis to predict investment patterns based on historical weather data.
@@ -45,7 +42,6 @@ Note: By Leveraging linear regression, particularly RANSAC, we initially identif
 - Task: Unsupervised learning with the entire dataset then analyze the clusters through visualization.
 
 ### Description of the Dataset
-
 We have three main datasets, listed below. All can be downloaded in our team folder. 
 
 - Mortgage rates from 1990 to 2019: 
@@ -68,7 +64,7 @@ We have three main datasets, listed below. All can be downloaded in our team fol
   + Format: csv files
   + Variables: Each csv file contains county information (id, name, state) and average temperatures for a specific month. All files were combined and read into a dataframe of monthly temperature in the cleaning notebook.
  
-After collecting all the data, we merged them together into all_data.csv. Due to run time problems where extracting a geodataframe into csv takes much more time than performing the merging process, every notebook merged all_data.csv with the 2022 US county shapefile. We also used additional .py files that contains a dictionary of states and their respective FIPS code for this merging process. Everything is further explained in the 'Merging_Data' notebook.
+After collecting all the data, we merged them together into all_data.csv. Due to run time problems where extracting a geodataframe into csv takes much more time than performing the merging process, every notebook merged all_data.csv with the 2022 US county shapefile. Everything is further explained in the 'Merging_Data' notebook. Our RANSAC model also produced all_data_w_outliers.csv which we used in 'Q2_Classification.ipynb'
 
 ### Model Evaluation: How We Interpret Our Models' Performance
 
@@ -125,9 +121,9 @@ You must run step 2 before this step. In order to merge the cleaned raw datasets
 - **Do not forget to include state_names.py in the same directory as the Jupyter notebooks.**
 
 5. Answering the Questions: <br>
-- Question 1: Please run "Q1_Regression_Analysis.ipynb", "Q1_RANSAC_Regression.ipynb", and "Q1_Per_County_Regressions.ipynb".
-- Question 2: Please run "Q2_Classification.ipynb"
-- Question 3: Please run "Q3_Clustering.ipynb"
+- Question 1: Please refer to "Q1_Regression_Analysis.ipynb", "Q1_RANSAC_Regression.ipynb", and "Q1_Per_County_Regressions.ipynb".
+- Question 2: Please refer to  "Q2_Classification.ipynb"
+- Question 3: Please refer to "Q3_Clustering.ipynb"
 
 ### Team Contract
 
