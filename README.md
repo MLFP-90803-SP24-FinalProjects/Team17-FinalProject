@@ -64,7 +64,7 @@ We have three main datasets, listed below. All can be downloaded in our team fol
   + Format: csv files
   + Variables: Each csv file contains county information (id, name, state) and average temperatures for a specific month. All files were combined and read into a dataframe of monthly temperature in the cleaning notebook.
  
-After collecting all the data, we merged them together into all_data.csv. Due to run time problems where extracting a geodataframe into csv takes much more time than performing the merging process, every notebook merged all_data.csv with the 2022 US county shapefile. Everything is further explained in the 'Merging_Data' notebook. Our RANSAC model also produced all_data_w_outliers.csv which we used in 'Q2_Classification.ipynb'
+After collecting all the data, we merged them together into all_data.csv. Due to run time problems where extracting a geodataframe into csv takes much more time than performing the merging process, every notebook merged all_data.csv with the 2022 US county shapefile. Everything is further explained in the 'Merging_Data' notebook. Our cleaning notebooks also produced climate_data.csv and homevalues.csv. These datafiles are the cleaned but pre-merged. Our RANSAC model also produced all_data_w_outliers.csv which we used in 'Q2_Classification.ipynb'
 
 ### Model Evaluation: How We Interpret Our Models' Performance
 
@@ -80,13 +80,13 @@ For Random Forests Classifier:
 - min_samples_split: These parameters control the minimum number of samples required to split an internal node. So we would want to set higher values for these parameters to help prevent the model from overfitting to noise in the data and so preserving the meaning of the outliers.
 - max_features: Looks at the number of features to consider when looking for the best split. Putting bounds on the number of features considered at each split can help prevent the model from focusing too much on features that are irrelevant and  could improve its ability to identify meaningful outliers.
 <br>
-For XGBooster:
+For XGBooster: 
 Parameters we would want to use since XGBooster gives higher accuracy is: 
 - scale_pos_weight: since our data is locating outliers, we would want to set scale_pos_weight to a value greater than 1 can give more importance to the minority class (outliers), which in turn would help the model to better capture their patterns
 - objective: 'binary:logistic', since we want to detect outliers, we are thinking of using an objective function that penalizes errors differently for outliers and normal instances
-- max_depth/min_child_weight: since we want to capture outliers, we want something that can lead to deeper and more complex trees, which may better capture the patterns of outliers
+- max_depth/min_child_weight: since we want to capture outliers, we want something that can lead to deeper and more complex trees, which may better capture the patterns of outliers<br><br>
 
-**Question #3:** Unsupervised Learning<br>
+**Question 3:** Unsupervised Learning<br>
  We first identified that the dataset is highly correlated so we performed PCA to get the best version of the dataset for unsupervised learning. We used the Davies-Bouldin Index as a scoring metrics for our unsupervised models. We tried using Silhouette Score as a metric, but it resulted in a MemoryError due to the amount of data we have. Davies-Bouldin Index is suitable for dataset where we do not know the ground truth and requires less computational power. It also takes into account in its evaluation both the distance within clusters and distance between clusters. To ensure we have the best unsupervised models, we performed tuning for their hyper-parameters:
  - KMeans: We used the Elbow plot and Calinski-Harabasz plot to find the best number of clusters. We got different results for these plots so we tried KMeans with every values that were recommended. We then picked the value that gave us the best Index.
  - Hierarchical Clustering: We used a dendogram to identify the best number of clusters. We visually assessed the dendogram and chose a number that made sense. We also tried different linkage style to see which style gave us the most balanced clusters.
@@ -94,26 +94,32 @@ Parameters we would want to use since XGBooster gives higher accuracy is:
 
 ### Additional Models
 1. RANSAC for Q1 (Regression): RANSAC sequentially fits a line through our data then returns the samples that are outliers. In the context of this problem, we found that the outliers are located in states that have more volatile climate conditions. We can then use these outliers for more analyses.
-2. XGBooster for Q2 (Classification): 
+2. XGBooster for Q2 (Classification): XGBoost uses the gradient boosting decision tree algorithm where it creates new models that predict the residuals or errors of prior models and then added together to make the final prediction. In answering our classification question, it uses county attributes and labeled outlier/inlier status the RANSAC model to distinguish outliers and inliers by building decision trees to minimize errors.
 3. DBSCAN for Q3 (Unsupervised): DBSCAN clusters by density and is scalable to big dataset. It views clusters as areas of high density separated by areas of low density and able to form clusters in any shape (as opposed to KMeans that assume our clusters are convex). It is quite popular among clusters with high density like our dataset.
 
 ### Running the Project
 
 1. Getting the Data: <br>
 In our Drive folder for team17, the minimum you need to download for the models to run are:
-- all_data.csv (the merged dataset)
-- states_name.py (contains necessary dictionaries for merging)
+- all_data.csv (the cleaned, merged dataset)
 - tl_2022_us_county folder (US County shapefiles)
-The remaining data files are the raw data we collected. Unless you plan to run the cleaning notebooks (part 2 and 3 of this section), we do not recommend downloading these files.
+- all_data_w_outliers.csv (a dataset containing outliers, obtained by RANSAC, that is later used in one of the modeling notebooks)
+The other files are either raw data or pre-merge data:
+- climate_data_csv folder: all the raw datasets relating to climate
+- top_tier.csv: one of the raw datasets relating to housing
+- bottom_tier.csv: one of the raw datasets relating to housing
+- Table26-2019-by-Month.xls: one of the raw datasets relating to housing
+- homevalues.csv: cleaned but pre-merge dataset for all housing data
+- climate_cleaned.csv: cleaned but pre-merge dataset for all climate data
 
-1. Cleaning the Data: <br>
-You must have the raw data if you decided to run these cleaning notebooks. Please run all cells in the following notebooks in no particular order:
+2. Cleaning the Data: <br>
+You must have the raw datasets if you decide to run these cleaning notebooks. Please run all cells in the following notebooks in no particular order:
 - Mortgage_Data_Cleaning.ipynb
 - Housing_Data_Cleaning.ipynb
 - Climate_Data_Cleaning.ipynb
 
 3. Merging the Data: <br>
-You must run step 2 before this step. In order to merge the cleaned raw datasets, please run all cells in "Merging_Data.ipynb".
+You must have the cleaned but pre-merge datasets if you decide to run this notebook. Please run all cells in "Merging_Data.ipynb".
 
 4. Important Checks before Running the Models:<br>
 - Be sure that geospatial shape files are located in "tl_2022_us_county" directory (should be able to unzip from google drive accordingly.)
