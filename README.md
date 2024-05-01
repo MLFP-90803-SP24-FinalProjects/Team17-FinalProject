@@ -4,6 +4,10 @@
 ### Title
 Climate-Driven Housing Price Prediction: Navigating Environmental Displacement in the U.S.
 
+### Presentation Link
+This is the link to our presentation on Google Slides: https://docs.google.com/presentation/d/1rO4J3T3Bt6npnWvWx7htCh_njVdzMI45wEdXniRzCTY/edit?usp=sharing<br><br>
+A PDF of these slides is included in this repo as well, but we have an animation that only runs on Google Slides. 
+
 ### Authors
 Quintessa Guengerich, qguenger@andrew.cmu.edu<br>
 Jewel Kentilitisca, jkentili@andrew.cmu.edu<br>
@@ -103,7 +107,7 @@ Parameters we would want to use since XGBooster gives higher accuracy is:
 In our Drive folder for team17, the minimum you need to download for the models to run are:
 - all_data.csv (the cleaned, merged dataset)
 - tl_2022_us_county folder (US County shapefiles)
-- all_data_w_outliers.csv (a dataset containing outliers, obtained by RANSAC, that is later used in one of the modeling notebooks)
+- all_data_w_outliers.csv (a dataset containing outliers, obtained by RANSAC, that is later used in one of the modeling notebooks)<br><br>
 The other files are either raw data or pre-merge data:
 - climate_data_csv folder: all the raw datasets relating to climate
 - top_tier.csv: one of the raw datasets relating to housing
